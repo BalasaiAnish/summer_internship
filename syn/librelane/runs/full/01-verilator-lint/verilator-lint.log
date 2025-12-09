@@ -1,0 +1,52 @@
+%Warning-IMPLICIT: /home/bala/git_stuff/summer_internship/src/mt_reg_file.v:58:11: Signal definition not found, creating implicitly: 'vccd1'
+   58 |     .VPWR(vccd1),
+      |           ^~~~~
+                   ... For warning description see https://verilator.org/warn/IMPLICIT?v=5.018
+                   ... Use "/* verilator lint_off IMPLICIT */" and lint_on around source to disable this message.
+%Warning-IMPLICIT: /home/bala/git_stuff/summer_internship/src/mt_reg_file.v:59:11: Signal definition not found, creating implicitly: 'vssd1'
+   59 |     .VGND(vssd1),
+      |           ^~~~~
+%Warning-WIDTHTRUNC: /home/bala/git_stuff/summer_internship/src/pl_reg_mw.v:36:19: Operator ASSIGNDLY expects 2 bits on the Assign RHS, but Assign RHS's CONST '3'h0' generates 3 bits.
+                                                                                 : ... note: In instance 'mt_cpu.mw'
+   36 |             tid_w <= 3'd0;
+      |                   ^~
+%Warning-WIDTHTRUNC: /home/bala/git_stuff/summer_internship/src/pl_reg_em.v:42:19: Operator ASSIGNDLY expects 2 bits on the Assign RHS, but Assign RHS's CONST '3'h0' generates 3 bits.
+                                                                                 : ... note: In instance 'mt_cpu.em'
+   42 |             tid_m <= 3'd0;
+      |                   ^~
+%Warning-WIDTHTRUNC: /home/bala/git_stuff/summer_internship/src/pl_reg_fd.v:24:9: Operator ASSIGNDLY expects 2 bits on the Assign RHS, but Assign RHS's CONST '3'h0' generates 3 bits.
+                                                                                : ... note: In instance 'mt_cpu.fd'
+   24 |   tid_d <= 3'd0;
+      |         ^~
+%Warning-UNUSEDPARAM: /home/bala/git_stuff/summer_internship/src/tgrp_switcher.v:4:19: Parameter is not used: 'ADDRESS_WIDTH'
+                                                                                     : ... note: In instance 'mt_cpu.tgrp_switch'
+    4 |         parameter ADDRESS_WIDTH=32
+      |                   ^~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/bala/git_stuff/summer_internship/src/tgrp_switcher.v:7:41: Signal is not used: 'tid_stalled'
+                                                                                      : ... note: In instance 'mt_cpu.tgrp_switch'
+    7 |         input [$clog2(NUM_THREADS)-1:0] tid_stalled,
+      |                                         ^~~~~~~~~~~
+%Warning-UNUSEDPARAM: /home/bala/git_stuff/summer_internship/src/mt_pc.v:5:15: Parameter is not used: 'BITS_THREAD_GRPS'
+                                                                             : ... note: In instance 'mt_cpu.fetch_stage.thread_pc'
+    5 |     parameter BITS_THREAD_GRPS = $clog2(NUM_THREAD_GRPS),
+      |               ^~~~~~~~~~~~~~~~
+%Warning-UNUSEDPARAM: /home/bala/git_stuff/summer_internship/src/mt_pc.v:6:15: Parameter is not used: 'BITS_TID'
+                                                                             : ... note: In instance 'mt_cpu.fetch_stage.thread_pc'
+    6 |     parameter BITS_TID = $clog2(NUM_THREADS) + $clog2(NUM_THREAD_GRPS),
+      |               ^~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/bala/git_stuff/summer_internship/src/mt_pc.v:25:9: Signal is not driven, nor used: 'j'
+                                                                              : ... note: In instance 'mt_cpu.fetch_stage.thread_pc'
+   25 | integer j;
+      |         ^
+%Warning-UNUSEDPARAM: /home/bala/git_stuff/summer_internship/src/mt_reg_file.v:5:15: Parameter is not used: 'NUM_REGS'
+                                                                                   : ... note: In instance 'mt_cpu.decode_stage.rf'
+    5 |     parameter NUM_REGS = 32,
+      |               ^~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/bala/git_stuff/summer_internship/src/mt_reg_file.v:8:20: Signal is not used: 'write_enable'
+                                                                                    : ... note: In instance 'mt_cpu.decode_stage.rf'
+    8 |         input clk, write_enable,
+      |                    ^~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/bala/git_stuff/summer_internship/src/mt_reg_file.v:10:34: Bits of signal are not used: 'tid_read'[0]
+                                                                                     : ... note: In instance 'mt_cpu.decode_stage.rf'
+   10 |         input [BITS_THREADS-1:0] tid_read, tid_write,
+      |                                  ^~~~~~~~

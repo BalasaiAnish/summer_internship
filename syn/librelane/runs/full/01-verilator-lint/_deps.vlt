@@ -1,0 +1,7 @@
+`verilator_config
+lint_off -rule DECLFILENAME
+lint_off -rule EOFNEWLINE
+lint_off -rule UNDRIVEN -file "/home/bala/git_stuff/summer_internship/syn/librelane/runs/full/tmp/08f1690db3784446a11bd783579eb8ea.bb.v"
+lint_off -rule UNUSEDSIGNAL -file "/home/bala/git_stuff/summer_internship/syn/librelane/runs/full/tmp/08f1690db3784446a11bd783579eb8ea.bb.v"
+lint_off -rule UNDRIVEN -file "/home/bala/git_stuff/summer_internship/syn/librelane/runs/full/tmp/cc798c70416145c7920140532324a98a.bb.v"
+lint_off -rule UNUSEDSIGNAL -file "/home/bala/git_stuff/summer_internship/syn/librelane/runs/full/tmp/cc798c70416145c7920140532324a98a.bb.v"

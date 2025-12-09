@@ -34,10 +34,12 @@
         "RAM128_1RW1R": {
             "instances": {
                 "decode_stage.rf.tgrp_rf1": {
-                    "orientation": "N"
+                    "orientation": "N",
+                    "location": [0, 0]
                 },
                 "decode_stage.rf.tgrp_rf2": {
-                    "orientation": "N"
+                    "orientation": "N",
+                    "location": [500, 0]
                 }
             },
             "gds": ["dir::../RAM128_1RW1R/gds/RAM128_1RW1R.gds"],

@@ -1,0 +1,14 @@
+Subprocess had a non-zero exit.
+Last 10 line(s):
+Used module:     $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de
+Used module:     $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\decode
+Used module:     $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd
+Used module:     $paramod$8d44bebdd17de9d959a4b7b91e4dac5025de3aa9\fetch
+Parameter \ADDRESS_WIDTH = 32
+Parameter \DATA_WIDTH = 32
+Parameter \MEM_SIZE = 1024
+
+30.13. Executing AST frontend in derive mode using pre-parsed AST for module `\instr_mem'.
+/home/bala/git_stuff/summer_internship/src/instr_mem.v:15: ERROR: Can not open file `/home/bala/git_stuff/internship/src/code.mem` for \$readmemh.
+
+Full log file: 'runs/full/05-yosys-jsonheader/yosys-jsonheader.log'
