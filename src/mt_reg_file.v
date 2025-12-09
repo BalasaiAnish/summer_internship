@@ -51,39 +51,38 @@ module mt_reg_file #(
 wire [31:0] rf1rd1, rf1rd2, rf2rd1, rf2rd2;
 wire rf1_r, rf1_w, rf2_r, rf2_w;
 wire [4+2:0] rf1_index1, rf1_index2, rf2_index1, rf2_index2;
+wire [3:0] rf1_wm, rf2_wm;
 
-sram_128x32 tgrp_rf1(
+RAM128_1RW1R tgrp_rf1(
 `ifdef USE_POWER_PINS
-    .vccd1(vccd1),
-    .vssd1(vssd1),
+    .VPWR(vccd1),
+    .VGND(vssd1),
 `endif
-    .clk0(clk),
-    .csb0(rf1_r | rf1_w),
-    .web0(rf1_w),
-    .addr0(rf1_index1),
-    .din0(wd3),
-    .dout0(rf1rd1),
-    .clk1(clk),
-    .csb1(rf1_r),
-    .addr1(rf1_index2),
-    .dout1(rf1rd2)
+    .CLK(clk),
+    .EN0(rf1_r | rf1_w),
+    .EN1(rf1_r),
+    .A0(rf1_index1),
+    .A1(rf1_index2),
+    .Di0(wd3),
+    .Do0(rf1rd1),
+    .Do1(rf1rd2),
+    .WE0(rf1_wm)
 );
 
-sram_128x32 tgrp_rf2(
+RAM128_1RW1R tgrp_rf2(
 `ifdef USE_POWER_PINS
-    .vccd1(vccd1),
-    .vssd1(vssd1),
+    .VPWR(vccd1),
+    .VGND(vssd1),
 `endif
-    .clk0(clk),
-    .csb0(rf2_r | rf2_w),
-    .web0(rf2_w),
-    .addr0(rf2_index1),
-    .din0(wd3),
-    .dout0(rf2rd1),
-    .clk1(clk),
-    .csb1(rf2_r),
-    .addr1(rf2_index2),
-    .dout1(rf2rd2)
+    .CLK(clk),
+    .EN0(rf2_r | rf2_w),
+    .EN1(rf2_r),
+    .A0(rf2_index1),
+    .A1(rf2_index2),
+    .Di0(wd3),
+    .Do0(rf2rd1),
+    .Do1(rf2rd2),
+    .WE0(rf2_wm)
 );
 
 assign rf1_w = tid_write[0] == 0;
@@ -99,4 +98,6 @@ assign rf2_index2 = (rf2_w) ? 0 : {tgrp,tid_read[1],a2};
 assign rd1 = (rf1_r) ? ((a1 == 0) ? 0 : rf1rd1) : ((a1 == 0) ? 0 : rf2rd1);
 assign rd2 = (rf1_r) ? ((a2 == 0) ? 0 : rf1rd2) : ((a2 == 0) ? 0 : rf2rd2);
 
+assign rf1_wm = rf1_w ? 4'hF: 4'h0;
+assign rf2_wm = rf2_w ? 4'hF: 4'h0;
 endmodule

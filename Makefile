@@ -36,7 +36,7 @@ VERILATOR_FLAGS += --trace
 
 # Input files for Verilator
 SRC_FILES= -y ./src
-TEST_PATH = ./test/$(top)_tb.v
+TEST_PATH = ./test/$(TOP)_tb.sv
 VERILATOR_INPUT = $(TEST_PATH) $(SRC_FILES)
 
 VERILATOR_IGNORE +=  -Wno-UNUSEDSIGNAL -Wno-WIDTHTRUNC -Wno-UNUSEDPARAM
@@ -45,8 +45,8 @@ default: run
 
 run:
 	# VERILATOR_FLAGS += --binary -j 0
-	$(VERILATOR) $(VERILATOR_FLAGS) $(VERILATOR_IGNORE) $(VERILATOR_INPUT)
-	./obj_dir/V$(top)_tb +trace
+	$(VERILATOR) $(VERILATOR_FLAGS) $(VERILATOR_IGNORE) -DBEHAV_SIM=1 $(VERILATOR_INPUT)
+	./obj_dir/V$(TOP)_tb +trace
 	gtkwave dumpfile.vcd
 
 # Other targets

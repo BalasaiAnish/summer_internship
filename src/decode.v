@@ -48,7 +48,8 @@ localparam BITS_THREADS = $clog2(NUM_THREADS);
         .imm_src_d(imm_src_d)
     );
 
-    mt_reg_file #(
+`ifdef BEHAV_SIM
+    mt_reg_file_bhv #(
         .NUM_THREADS(NUM_THREADS),
         .DATA_WIDTH(DATA_WIDTH)
     )
@@ -65,7 +66,25 @@ localparam BITS_THREADS = $clog2(NUM_THREADS);
         .rd1(rd1_d),
         .rd2(rd2_d)
     );
-
+`else
+mt_reg_file #(
+    .NUM_THREADS(NUM_THREADS),
+    .DATA_WIDTH(DATA_WIDTH)
+)
+rf (
+    .clk(clk),
+    .write_enable(reg_write_w),
+    .tgrp(tgrp),
+    .tid_read(tid_f),
+    .tid_write(tid_w),
+    .a1(instr_f[19:15]),
+    .a2(instr_f[24:20]),
+    .a3(rd_w),
+    .wd3(result_w),
+    .rd1(rd1_d),
+    .rd2(rd2_d)
+);
+`endif
     imm_ext imex (
         .instr(instr_f[31:7]),
         .imm_type(imm_src_d),

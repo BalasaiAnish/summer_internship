@@ -1,0 +1,61 @@
+{
+   "creator": "Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 17.0.6 -fPIC -O3)",
+   "invocation": "stat -json -liberty /home/bala/git_stuff/internship/syn/librelane/runs/final/tmp/0c6ad4da2f584451a30c2ef513bc9a4b.lib ",
+   "modules": {
+      "\\mt_cpu": {
+         "num_wires":         10464,
+         "num_wire_bits":     13707,
+         "num_pub_wires":     135,
+         "num_pub_wire_bits": 3237,
+         "num_ports":         5,
+         "num_port_bits":     67,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         13457,
+         "area":              59429.497600,
+         "num_cells_by_type": {
+            "$_ANDNOT_": 1902,
+            "$_AND_": 121,
+            "$_MUX_": 6880,
+            "$_NAND_": 135,
+            "$_NOR_": 158,
+            "$_NOT_": 319,
+            "$_ORNOT_": 185,
+            "$_OR_": 684,
+            "$_XNOR_": 96,
+            "$_XOR_": 181,
+            "RAM128_1RW1R": 2,
+            "sky130_fd_sc_hd__dfxtp_2": 2794
+         }
+      }
+   },
+      "design": {
+         "num_wires":         10464,
+         "num_wire_bits":     13707,
+         "num_pub_wires":     135,
+         "num_pub_wire_bits": 3237,
+         "num_ports":         5,
+         "num_port_bits":     67,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         13457,
+         "area":              59429.497600,
+         "num_cells_by_type": {
+            "$_ANDNOT_": 1902,
+            "$_AND_": 121,
+            "$_MUX_": 6880,
+            "$_NAND_": 135,
+            "$_NOR_": 158,
+            "$_NOT_": 319,
+            "$_ORNOT_": 185,
+            "$_OR_": 684,
+            "$_XNOR_": 96,
+            "$_XOR_": 181,
+            "RAM128_1RW1R": 2,
+            "sky130_fd_sc_hd__dfxtp_2": 2794
+         }
+      }
+}
+

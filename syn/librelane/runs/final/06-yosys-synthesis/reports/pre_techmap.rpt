@@ -1,0 +1,48 @@
+176. Printing statistics.
+
+=== mt_cpu ===
+
+   Number of wires:               7680
+   Number of wire bits:          10923
+   Number of public wires:         135
+   Number of public wire bits:    3237
+   Number of ports:                  5
+   Number of port bits:             67
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              10673
+     $_ANDNOT_                    1902
+     $_AND_                        121
+     $_DFFE_PP_                   2304
+     $_DFF_P_                       11
+     $_MUX_                       4096
+     $_NAND_                       135
+     $_NOR_                        158
+     $_NOT_                        319
+     $_ORNOT_                      185
+     $_OR_                         684
+     $_SDFFE_PP0P_                   1
+     $_SDFF_PN0_                   363
+     $_SDFF_PP0_                   115
+     $_XNOR_                        96
+     $_XOR_                        181
+     RAM128_1RW1R                    2
+
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_OR_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type $_DFF_P_ is unknown!
+   Area for cell type $_DFFE_PP_ is unknown!
+   Area for cell type $_SDFF_PN0_ is unknown!
+   Area for cell type $_SDFF_PP0_ is unknown!
+   Area for cell type $_SDFFE_PP0P_ is unknown!
+   Area for cell type \RAM128_1RW1R is unknown!
+

@@ -1,2 +1,0 @@
-21 Lint warnings found.
-Netlists found for macro sram_128x32, but no parasitics extraction found at corner nom_tt_025C_1v80. The netlist cannot be used for timing on this module.

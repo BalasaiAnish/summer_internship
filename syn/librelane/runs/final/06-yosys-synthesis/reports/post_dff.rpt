@@ -1,0 +1,42 @@
+182. Printing statistics.
+
+=== mt_cpu ===
+
+   Number of wires:              10464
+   Number of wire bits:          13707
+   Number of public wires:         135
+   Number of public wire bits:    3237
+   Number of ports:                  5
+   Number of port bits:             67
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              13457
+     $_ANDNOT_                    1902
+     $_AND_                        121
+     $_MUX_                       6880
+     $_NAND_                       135
+     $_NOR_                        158
+     $_NOT_                        319
+     $_ORNOT_                      185
+     $_OR_                         684
+     $_XNOR_                        96
+     $_XOR_                        181
+     RAM128_1RW1R                    2
+     sky130_fd_sc_hd__dfxtp_2     2794
+
+   Area for cell type $_NOT_ is unknown!
+   Area for cell type $_AND_ is unknown!
+   Area for cell type $_NAND_ is unknown!
+   Area for cell type $_OR_ is unknown!
+   Area for cell type $_NOR_ is unknown!
+   Area for cell type $_XOR_ is unknown!
+   Area for cell type $_XNOR_ is unknown!
+   Area for cell type $_ANDNOT_ is unknown!
+   Area for cell type $_ORNOT_ is unknown!
+   Area for cell type $_MUX_ is unknown!
+   Area for cell type \RAM128_1RW1R is unknown!
+
+   Chip area for module '\mt_cpu': 59429.497600
+     of which used for sequential elements: 59429.497600 (100.00%)
+

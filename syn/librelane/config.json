@@ -28,7 +28,7 @@
         "dir::../../src/writeback.v",
         "dir::../../src/tgrp_switcher.v"
     ],
-    "CLOCK_PERIOD": 20,
+    "CLOCK_PERIOD": 35,
     "CLOCK_PORT": "clk",
     "MACROS": {
         "RAM128_1RW1R": {
@@ -51,6 +51,36 @@
                     "dir::../RAM128_1RW1R/spef/nom/RAM128_1RW1R.nom.spef"
                 ],
                 "max_*": ["dir::../RAM128_1RW1R/spef/max/RAM128_1RW1R.max.spef"]
+            },
+            "pnl": ["dir::../RAM128_1RW1R/pnl/RAM128_1RW1R.pnl.v"],
+            "lib": {
+                "nom_ff_n40C_1v95": [
+                    "dir::../RAM128_1RW1R/lib/nom_ff_n40C_1v95/RAM128_1RW1R__nom_ff_n40C_1v95.lib"
+                ],
+                "nom_tt_025C_1v80": [
+                    "dir::../RAM128_1RW1R/lib/nom_tt_025C_1v80/RAM128_1RW1R__nom_tt_025C_1v80.lib"
+                ],
+                "nom_ss_100C_1v60": [
+                    "dir::../RAM128_1RW1R/lib/nom_ss_100C_1v60/RAM128_1RW1R__nom_ss_100C_1v60.lib"
+                ],
+                "max_ff_n40C_1v95": [
+                    "dir::../RAM128_1RW1R/lib/max_ff_n40C_1v95/RAM128_1RW1R__max_ff_n40C_1v95.lib"
+                ],
+                "max_tt_025C_1v80": [
+                    "dir::../RAM128_1RW1R/lib/max_tt_025C_1v80/RAM128_1RW1R__max_tt_025C_1v80.lib"
+                ],
+                "max_ss_100C_1v60": [
+                    "dir::../RAM128_1RW1R/lib/max_ss_100C_1v60/RAM128_1RW1R__max_ss_100C_1v60.lib"
+                ],
+                "min_ff_n40C_1v95": [
+                    "dir::../RAM128_1RW1R/lib/min_ff_n40C_1v95/RAM128_1RW1R__min_ff_n40C_1v95.lib"
+                ],
+                "min_tt_025C_1v80": [
+                    "dir::../RAM128_1RW1R/lib/min_tt_025C_1v80/RAM128_1RW1R__min_tt_025C_1v80.lib"
+                ],
+                "min_ss_100C_1v60": [
+                    "dir::../RAM128_1RW1R/lib/min_ss_100C_1v60/RAM128_1RW1R__min_ss_100C_1v60.lib"
+                ]
             }
         }
     },
