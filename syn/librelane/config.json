@@ -88,5 +88,6 @@
     },
     "STA_MACRO_PRIORITIZE_NL": "true",
     "PNR_SDC_FILE": "dir::./cons.sdc",
-    "SIGNOFF_SDC_FILE": "dir::./cons.sdc"
+    "SIGNOFF_SDC_FILE": "dir::./cons.sdc",
+    "FP_CORE_UTIL": 40
 }

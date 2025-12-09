@@ -327,7 +327,7 @@
     "STA_THREADS": null,
     "FP_SIZING": "relative",
     "FP_ASPECT_RATIO": 1,
-    "FP_CORE_UTIL": 50,
+    "FP_CORE_UTIL": 40,
     "FP_OBSTRUCTIONS": null,
     "PL_SOFT_OBSTRUCTIONS": null,
     "CORE_AREA": null,
