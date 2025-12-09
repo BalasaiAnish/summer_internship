@@ -1,0 +1,5 @@
+*.vcd
+obj_dir
+veridian.yml
+./scripts/const.py
+tmp*

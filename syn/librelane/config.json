@@ -1,0 +1,60 @@
+{
+    "DESIGN_NAME": "mt_cpu",
+    "VERILOG_FILES": [
+        "dir::../../src/adder.v",
+        "dir::../../src/alu.v",
+        "dir::../../src/branch_unit.v",
+        "dir::../../src/control_unit.v",
+        "dir::../../src/data_memory.v",
+        "dir::../../src/decode.v",
+        "dir::../../src/execute.v",
+        "dir::../../src/fetch.v",
+        "dir::../../src/ff.v",
+        "dir::../../src/hazard.v",
+        "dir::../../src/imm_ext.v",
+        "dir::../../src/instr_mem.v",
+        "dir::../../src/memory.v",
+        "dir::../../src/mt_cpu.v",
+        "dir::../../src/mt_pc.v",
+        "dir::../../src/mt_reg_file.v",
+        "dir::../../src/mux3.v",
+        "dir::../../src/pl_reg_de.v",
+        "dir::../../src/pl_reg_em.v",
+        "dir::../../src/pl_reg_fd.v",
+        "dir::../../src/pl_reg_mw.v",
+        "dir::../../src/reg_file.v",
+        "dir::../../src/reset_ff.v",
+        "dir::../../src/thread_sel.v",
+        "dir::../../src/writeback.v",
+        "dir::../../src/tgrp_switcher.v"
+    ],
+    "CLOCK_PERIOD": 20,
+    "CLOCK_PORT": "clk",
+    "MACROS": {
+        "RAM128_1RW1R": {
+            "instances": {
+                "decode_stage.rf.tgrp_rf1": {
+                    "orientation": "N"
+                },
+                "decode_stage.rf.tgrp_rf2": {
+                    "orientation": "N"
+                }
+            },
+            "gds": ["dir::../RAM128_1RW1R/gds/RAM128_1RW1R.gds"],
+            "lef": ["dir::../RAM128_1RW1R/lef/RAM128_1RW1R.lef"],
+            "nl": ["dir::../RAM128_1RW1R/nl/RAM128_1RW1R.nl.v"],
+            "spef": {
+                "min_*": [
+                    "dir::../RAM128_1RW1R/spef/min/RAM128_1RW1R.min.spef"
+                ],
+                "nom_*": [
+                    "dir::../RAM128_1RW1R/spef/nom/RAM128_1RW1R.nom.spef"
+                ],
+                "max_*": ["dir::../RAM128_1RW1R/spef/max/RAM128_1RW1R.max.spef"]
+            }
+        }
+    },
+    "STA_MACRO_PRIORITIZE_NL": "true",
+    "PNR_SDC_FILE": "dir::./cons.sdc",
+    "SIGNOFF_SDC_FILE": "dir::./cons.sdc"
+}

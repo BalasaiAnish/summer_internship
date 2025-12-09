@@ -1,0 +1,1401 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2024  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 17.0.6 -fPIC -O3)
+Loaded SDC plugin
+
+1. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/syn/librelane/runs/RUN_2025-12-08_17-11-38/tmp/57932da1df6e4158b2f1d65e61a53b02.bb.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/internship/syn/librelane/runs/RUN_2025-12-08_17-11-38/tmp/57932da1df6e4158b2f1d65e61a53b02.bb.v' to AST representation.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__decap_12'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__fill_12'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__fill_4'.
+Generating RTLIL representation for module `\sky130_ef_sc_hd__fill_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111oi_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2111oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a211oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21bo_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21bo_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21bo_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21boi_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21boi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21boi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21boi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a21oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a221oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a222oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a22oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a2bb2oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a311oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a31oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a32oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41o_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41o_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41o_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41oi_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41oi_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__a41oi_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and2b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and3b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4bb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4bb_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__and4bb_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_12'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_6'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__bufbuf_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__bufbuf_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__bufinv_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__bufinv_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkbuf_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s15_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s15_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s18_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s18_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s25_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s25_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s50_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkdlybuf4s50_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinv_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinvlp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__clkinvlp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__conb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_12'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_3'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_6'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__decap_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfbbn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfbbn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfbbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfsbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfsbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfstp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfstp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfstp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfxtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__diode_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlclkp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlclkp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlclkp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrbn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrbn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtn_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlrtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxbn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxbn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxtn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxtn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxtn_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlygate4sd1_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlygate4sd2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlygate4sd3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlymetal6s2s_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlymetal6s4s_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dlymetal6s6s_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ebufn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ebufn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ebufn_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ebufn_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__edfxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__edfxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvn_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__einvp_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fa_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fa_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fa_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fah_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fahcin_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fahcon_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fill_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fill_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fill_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__fill_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ha_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ha_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__ha_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_12'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_6'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_bleeder_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkbufkapwr_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_clkinvkapwr_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_12'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_3'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_6'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_decapkapwr_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputiso0n_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputiso0p_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputiso1n_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputiso1p_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_inputisolatch_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrc_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_isobufsrckapwr_16'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__macro_sparecell'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__maj3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__maj3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__maj3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2i_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2i_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2i_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand2b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand3b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4bb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4bb_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nand4bb_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor2b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor3b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4bb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4bb_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__nor4bb_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2111ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o211ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ai_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ba_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ba_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21ba_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21bai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21bai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o21bai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o221ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o22ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o2bb2ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311ai_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o311ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o31ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o32ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41a_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41a_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41a_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41ai_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41ai_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__o41ai_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_0'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or3b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4b_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4b_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4b_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4bb_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4bb_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or4bb_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__probe_p_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__probec_p_8'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfbbn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfbbn_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfbbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrtn_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfrtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfsbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfsbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfstp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfstp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfstp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdfxtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdlclkp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdlclkp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sdlclkp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxbp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxtp_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__sedfxtp_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tap_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tap_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tapvgnd2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tapvgnd_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__tapvpwrvgnd_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xnor3_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor2_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor3_4'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/syn/librelane/sram/sram_128x32/out/sram_128x32.nl.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/internship/syn/librelane/sram/sram_128x32/out/sram_128x32.nl.v' to AST representation.
+Generating RTLIL representation for module `\sram_128x32'.
+Successfully finished Verilog frontend.
+
+3. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/syn/librelane/src/adder.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/internship/syn/librelane/src/adder.v' to AST representation.
+Storing AST representation for module `$abstract\adder'.
+Successfully finished Verilog frontend.
+
+4. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/syn/librelane/src/alu.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/internship/syn/librelane/src/alu.v' to AST representation.
+Storing AST representation for module `$abstract\alu'.
+Successfully finished Verilog frontend.
+
+5. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/syn/librelane/src/branch_unit.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/internship/syn/librelane/src/branch_unit.v' to AST representation.
+Storing AST representation for module `$abstract\branch_unit'.
+Successfully finished Verilog frontend.
+
+6. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/syn/librelane/src/control_unit.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/internship/syn/librelane/src/control_unit.v' to AST representation.
+Storing AST representation for module `$abstract\control_unit'.
+Successfully finished Verilog frontend.
+
+7. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/syn/librelane/src/data_memory.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v' to AST representation.
+Storing AST representation for module `$abstract\data_memory'.
+Successfully finished Verilog frontend.
+
+8. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/syn/librelane/src/decode.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/internship/syn/librelane/src/decode.v' to AST representation.
+Storing AST representation for module `$abstract\decode'.
+Successfully finished Verilog frontend.
+
+9. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/syn/librelane/src/execute.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/internship/syn/librelane/src/execute.v' to AST representation.
+Storing AST representation for module `$abstract\execute'.
+Successfully finished Verilog frontend.
+
+10. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/syn/librelane/src/fetch.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/internship/syn/librelane/src/fetch.v' to AST representation.
+Storing AST representation for module `$abstract\fetch'.
+Successfully finished Verilog frontend.
+
+11. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/syn/librelane/src/ff.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/internship/syn/librelane/src/ff.v' to AST representation.
+Storing AST representation for module `$abstract\ff'.
+Successfully finished Verilog frontend.
+
+12. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/syn/librelane/src/hazard.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/internship/syn/librelane/src/hazard.v' to AST representation.
+Storing AST representation for module `$abstract\hazard'.
+Successfully finished Verilog frontend.
+
+13. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/syn/librelane/src/imm_ext.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/internship/syn/librelane/src/imm_ext.v' to AST representation.
+Storing AST representation for module `$abstract\imm_ext'.
+Successfully finished Verilog frontend.
+
+14. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/syn/librelane/src/instr_mem.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/internship/syn/librelane/src/instr_mem.v' to AST representation.
+Storing AST representation for module `$abstract\instr_mem'.
+Successfully finished Verilog frontend.
+
+15. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/syn/librelane/src/memory.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/internship/syn/librelane/src/memory.v' to AST representation.
+Storing AST representation for module `$abstract\memory'.
+Successfully finished Verilog frontend.
+
+16. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/syn/librelane/src/mt_cpu.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/internship/syn/librelane/src/mt_cpu.v' to AST representation.
+Storing AST representation for module `$abstract\mt_cpu'.
+Successfully finished Verilog frontend.
+
+17. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v' to AST representation.
+Storing AST representation for module `$abstract\mt_pc'.
+Successfully finished Verilog frontend.
+
+18. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/syn/librelane/src/mt_reg_file.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/internship/syn/librelane/src/mt_reg_file.v' to AST representation.
+Storing AST representation for module `$abstract\mt_reg_file'.
+Successfully finished Verilog frontend.
+
+19. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/syn/librelane/src/mux3.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/internship/syn/librelane/src/mux3.v' to AST representation.
+Storing AST representation for module `$abstract\mux3'.
+Successfully finished Verilog frontend.
+
+20. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/syn/librelane/src/pl_reg_de.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_de.v' to AST representation.
+Storing AST representation for module `$abstract\pl_reg_de'.
+Successfully finished Verilog frontend.
+
+21. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/syn/librelane/src/pl_reg_em.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_em.v' to AST representation.
+Storing AST representation for module `$abstract\pl_reg_em'.
+Successfully finished Verilog frontend.
+
+22. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/syn/librelane/src/pl_reg_fd.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_fd.v' to AST representation.
+Storing AST representation for module `$abstract\pl_reg_fd'.
+Successfully finished Verilog frontend.
+
+23. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/syn/librelane/src/pl_reg_mw.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_mw.v' to AST representation.
+Storing AST representation for module `$abstract\pl_reg_mw'.
+Successfully finished Verilog frontend.
+
+24. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/syn/librelane/src/reg_file.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/internship/syn/librelane/src/reg_file.v' to AST representation.
+Storing AST representation for module `$abstract\reg_file'.
+Successfully finished Verilog frontend.
+
+25. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/syn/librelane/src/reset_ff.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/internship/syn/librelane/src/reset_ff.v' to AST representation.
+Storing AST representation for module `$abstract\reset_ff'.
+Successfully finished Verilog frontend.
+
+26. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/syn/librelane/src/thread_sel.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/internship/syn/librelane/src/thread_sel.v' to AST representation.
+Storing AST representation for module `$abstract\thread_sel'.
+Successfully finished Verilog frontend.
+
+27. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/syn/librelane/src/writeback.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/internship/syn/librelane/src/writeback.v' to AST representation.
+Storing AST representation for module `$abstract\writeback'.
+Successfully finished Verilog frontend.
+
+28. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/syn/librelane/src/tgrp_switcher.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/internship/syn/librelane/src/tgrp_switcher.v' to AST representation.
+Storing AST representation for module `$abstract\tgrp_switcher'.
+Successfully finished Verilog frontend.
+
+29. Executing HIERARCHY pass (managing design hierarchy).
+
+30. Executing AST frontend in derive mode using pre-parsed AST for module `\mt_cpu'.
+Generating RTLIL representation for module `\mt_cpu'.
+
+30.1. Analyzing design hierarchy..
+Top module:  \mt_cpu
+Parameter \NUM_THREADS = 4
+
+30.2. Executing AST frontend in derive mode using pre-parsed AST for module `\tgrp_switcher'.
+Parameter \NUM_THREADS = 4
+Generating RTLIL representation for module `$paramod\tgrp_switcher\NUM_THREADS=s32'00000000000000000000000000000100'.
+Parameter \ADDRESS_WIDTH = 32
+Parameter \DATA_WIDTH = 32
+Parameter \NUM_THREADS = 4
+
+30.3. Executing AST frontend in derive mode using pre-parsed AST for module `\writeback'.
+Parameter \ADDRESS_WIDTH = 32
+Parameter \DATA_WIDTH = 32
+Parameter \NUM_THREADS = 4
+Generating RTLIL representation for module `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\writeback'.
+Parameter \ADDRESS_WIDTH = 32
+Parameter \DATA_WIDTH = 32
+Parameter \NUM_THREADS = 4
+
+30.4. Executing AST frontend in derive mode using pre-parsed AST for module `\pl_reg_mw'.
+Parameter \ADDRESS_WIDTH = 32
+Parameter \DATA_WIDTH = 32
+Parameter \NUM_THREADS = 4
+Generating RTLIL representation for module `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw'.
+Parameter \ADDRESS_WIDTH = 32
+Parameter \DATA_WIDTH = 32
+Parameter \DMEM_SIZE = 64
+Parameter \NUM_THREADS = 4
+
+30.5. Executing AST frontend in derive mode using pre-parsed AST for module `\memory'.
+Parameter \ADDRESS_WIDTH = 32
+Parameter \DATA_WIDTH = 32
+Parameter \DMEM_SIZE = 64
+Parameter \NUM_THREADS = 4
+Generating RTLIL representation for module `$paramod$9bd54d34751587cd62f1f62f651d520dae89b988\memory'.
+Parameter \ADDRESS_WIDTH = 32
+Parameter \DATA_WIDTH = 32
+Parameter \NUM_THREADS = 4
+
+30.6. Executing AST frontend in derive mode using pre-parsed AST for module `\pl_reg_em'.
+Parameter \ADDRESS_WIDTH = 32
+Parameter \DATA_WIDTH = 32
+Parameter \NUM_THREADS = 4
+Generating RTLIL representation for module `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em'.
+Parameter \DATA_WIDTH = 32
+Parameter \ADDRESS_WIDTH = 32
+Parameter \NUM_THREADS = 4
+
+30.7. Executing AST frontend in derive mode using pre-parsed AST for module `\execute'.
+Parameter \DATA_WIDTH = 32
+Parameter \ADDRESS_WIDTH = 32
+Parameter \NUM_THREADS = 4
+Generating RTLIL representation for module `$paramod$9a06a94f5d6d491730ccc224abeb95127ef5a2b5\execute'.
+Parameter \ADDRESS_WIDTH = 32
+Parameter \DATA_WIDTH = 32
+Parameter \NUM_THREADS = 4
+
+30.8. Executing AST frontend in derive mode using pre-parsed AST for module `\pl_reg_de'.
+Parameter \ADDRESS_WIDTH = 32
+Parameter \DATA_WIDTH = 32
+Parameter \NUM_THREADS = 4
+Generating RTLIL representation for module `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de'.
+Parameter \ADDRESS_WIDTH = 32
+Parameter \DATA_WIDTH = 32
+Parameter \NUM_THREADS = 4
+
+30.9. Executing AST frontend in derive mode using pre-parsed AST for module `\decode'.
+Parameter \ADDRESS_WIDTH = 32
+Parameter \DATA_WIDTH = 32
+Parameter \NUM_THREADS = 4
+Generating RTLIL representation for module `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\decode'.
+Parameter \ADDRESS_WIDTH = 32
+Parameter \DATA_WIDTH = 32
+Parameter \NUM_THREADS = 4
+
+30.10. Executing AST frontend in derive mode using pre-parsed AST for module `\pl_reg_fd'.
+Parameter \ADDRESS_WIDTH = 32
+Parameter \DATA_WIDTH = 32
+Parameter \NUM_THREADS = 4
+Generating RTLIL representation for module `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd'.
+Parameter \DATA_WIDTH = 32
+Parameter \ADDRESS_WIDTH = 32
+Parameter \IMEM_SIZE = 1024
+Parameter \NUM_THREADS = 4
+
+30.11. Executing AST frontend in derive mode using pre-parsed AST for module `\fetch'.
+Parameter \DATA_WIDTH = 32
+Parameter \ADDRESS_WIDTH = 32
+Parameter \IMEM_SIZE = 1024
+Parameter \NUM_THREADS = 4
+Generating RTLIL representation for module `$paramod$8d44bebdd17de9d959a4b7b91e4dac5025de3aa9\fetch'.
+
+30.12. Analyzing design hierarchy..
+Top module:  \mt_cpu
+Used module:     $paramod\tgrp_switcher\NUM_THREADS=s32'00000000000000000000000000000100
+Used module:     $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\writeback
+Used module:     $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw
+Used module:     $paramod$9bd54d34751587cd62f1f62f651d520dae89b988\memory
+Used module:     $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em
+Used module:     $paramod$9a06a94f5d6d491730ccc224abeb95127ef5a2b5\execute
+Used module:     $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de
+Used module:     $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\decode
+Used module:     $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd
+Used module:     $paramod$8d44bebdd17de9d959a4b7b91e4dac5025de3aa9\fetch
+Parameter \ADDRESS_WIDTH = 32
+Parameter \DATA_WIDTH = 32
+Parameter \MEM_SIZE = 1024
+
+30.13. Executing AST frontend in derive mode using pre-parsed AST for module `\instr_mem'.
+Parameter \ADDRESS_WIDTH = 32
+Parameter \DATA_WIDTH = 32
+Parameter \MEM_SIZE = 1024
+Generating RTLIL representation for module `$paramod$52593bf02753086e7d14630480121475a488d2f1\instr_mem'.
+Parameter \NUM_THREADS = 4
+Parameter \NUM_THREAD_GRPS = 2
+Parameter \ADDRESS_WIDTH = 32
+
+30.14. Executing AST frontend in derive mode using pre-parsed AST for module `\mt_pc'.
+Parameter \NUM_THREADS = 4
+Parameter \NUM_THREAD_GRPS = 2
+Parameter \ADDRESS_WIDTH = 32
+Generating RTLIL representation for module `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc'.
+Parameter \NUM_THREADS = 4
+
+30.15. Executing AST frontend in derive mode using pre-parsed AST for module `\thread_sel'.
+Parameter \NUM_THREADS = 4
+Generating RTLIL representation for module `$paramod\thread_sel\NUM_THREADS=s32'00000000000000000000000000000100'.
+
+30.16. Executing AST frontend in derive mode using pre-parsed AST for module `\imm_ext'.
+Generating RTLIL representation for module `\imm_ext'.
+Parameter \NUM_THREADS = 4
+Parameter \DATA_WIDTH = 32
+
+30.17. Executing AST frontend in derive mode using pre-parsed AST for module `\mt_reg_file'.
+Parameter \NUM_THREADS = 4
+Parameter \DATA_WIDTH = 32
+Generating RTLIL representation for module `$paramod$943188ca874a7402dfde14ae7640ad1aff1927d6\mt_reg_file'.
+/home/bala/git_stuff/internship/syn/librelane/src/mt_reg_file.v:57: Warning: Identifier `\vccd1' is implicitly declared.
+/home/bala/git_stuff/internship/syn/librelane/src/mt_reg_file.v:58: Warning: Identifier `\vssd1' is implicitly declared.
+
+30.18. Executing AST frontend in derive mode using pre-parsed AST for module `\control_unit'.
+Generating RTLIL representation for module `\control_unit'.
+Parameter \DATA_WIDTH = 32
+
+30.19. Executing AST frontend in derive mode using pre-parsed AST for module `\branch_unit'.
+Parameter \DATA_WIDTH = 32
+Generating RTLIL representation for module `$paramod\branch_unit\DATA_WIDTH=s32'00000000000000000000000000100000'.
+Parameter \DATA_WIDTH = 32
+
+30.20. Executing AST frontend in derive mode using pre-parsed AST for module `\alu'.
+Parameter \DATA_WIDTH = 32
+Generating RTLIL representation for module `$paramod\alu\DATA_WIDTH=s32'00000000000000000000000000100000'.
+Parameter \ADDRESS_WIDTH = 32
+Parameter \DATA_WIDTH = 32
+Parameter \MEM_SIZE = 64
+
+30.21. Executing AST frontend in derive mode using pre-parsed AST for module `\data_memory'.
+Parameter \ADDRESS_WIDTH = 32
+Parameter \DATA_WIDTH = 32
+Parameter \MEM_SIZE = 64
+Generating RTLIL representation for module `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory'.
+Parameter \DATA_WIDTH = 32
+
+30.22. Executing AST frontend in derive mode using pre-parsed AST for module `\mux3'.
+Parameter \DATA_WIDTH = 32
+Generating RTLIL representation for module `$paramod\mux3\DATA_WIDTH=s32'00000000000000000000000000100000'.
+
+30.23. Analyzing design hierarchy..
+Top module:  \mt_cpu
+Used module:     $paramod\tgrp_switcher\NUM_THREADS=s32'00000000000000000000000000000100
+Used module:     $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\writeback
+Used module:         $paramod\mux3\DATA_WIDTH=s32'00000000000000000000000000100000
+Used module:     $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw
+Used module:     $paramod$9bd54d34751587cd62f1f62f651d520dae89b988\memory
+Used module:         $paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory
+Used module:     $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em
+Used module:     $paramod$9a06a94f5d6d491730ccc224abeb95127ef5a2b5\execute
+Used module:         $paramod\branch_unit\DATA_WIDTH=s32'00000000000000000000000000100000
+Used module:         $paramod\alu\DATA_WIDTH=s32'00000000000000000000000000100000
+Used module:     $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de
+Used module:     $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\decode
+Used module:         \imm_ext
+Used module:         $paramod$943188ca874a7402dfde14ae7640ad1aff1927d6\mt_reg_file
+Used module:         \control_unit
+Used module:     $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd
+Used module:     $paramod$8d44bebdd17de9d959a4b7b91e4dac5025de3aa9\fetch
+Used module:         $paramod$52593bf02753086e7d14630480121475a488d2f1\instr_mem
+Used module:         $paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc
+Used module:         $paramod\thread_sel\NUM_THREADS=s32'00000000000000000000000000000100
+
+30.24. Analyzing design hierarchy..
+Top module:  \mt_cpu
+Used module:     $paramod\tgrp_switcher\NUM_THREADS=s32'00000000000000000000000000000100
+Used module:     $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\writeback
+Used module:         $paramod\mux3\DATA_WIDTH=s32'00000000000000000000000000100000
+Used module:     $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw
+Used module:     $paramod$9bd54d34751587cd62f1f62f651d520dae89b988\memory
+Used module:         $paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory
+Used module:     $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em
+Used module:     $paramod$9a06a94f5d6d491730ccc224abeb95127ef5a2b5\execute
+Used module:         $paramod\branch_unit\DATA_WIDTH=s32'00000000000000000000000000100000
+Used module:         $paramod\alu\DATA_WIDTH=s32'00000000000000000000000000100000
+Used module:     $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de
+Used module:     $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\decode
+Used module:         \imm_ext
+Used module:         $paramod$943188ca874a7402dfde14ae7640ad1aff1927d6\mt_reg_file
+Used module:         \control_unit
+Used module:     $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd
+Used module:     $paramod$8d44bebdd17de9d959a4b7b91e4dac5025de3aa9\fetch
+Used module:         $paramod$52593bf02753086e7d14630480121475a488d2f1\instr_mem
+Used module:         $paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc
+Used module:         $paramod\thread_sel\NUM_THREADS=s32'00000000000000000000000000000100
+Removing unused module `$abstract\tgrp_switcher'.
+Removing unused module `$abstract\writeback'.
+Removing unused module `$abstract\thread_sel'.
+Removing unused module `$abstract\reset_ff'.
+Removing unused module `$abstract\reg_file'.
+Removing unused module `$abstract\pl_reg_mw'.
+Removing unused module `$abstract\pl_reg_fd'.
+Removing unused module `$abstract\pl_reg_em'.
+Removing unused module `$abstract\pl_reg_de'.
+Removing unused module `$abstract\mux3'.
+Removing unused module `$abstract\mt_reg_file'.
+Removing unused module `$abstract\mt_pc'.
+Removing unused module `$abstract\mt_cpu'.
+Removing unused module `$abstract\memory'.
+Removing unused module `$abstract\instr_mem'.
+Removing unused module `$abstract\imm_ext'.
+Removing unused module `$abstract\hazard'.
+Removing unused module `$abstract\ff'.
+Removing unused module `$abstract\fetch'.
+Removing unused module `$abstract\execute'.
+Removing unused module `$abstract\decode'.
+Removing unused module `$abstract\data_memory'.
+Removing unused module `$abstract\control_unit'.
+Removing unused module `$abstract\branch_unit'.
+Removing unused module `$abstract\alu'.
+Removing unused module `$abstract\adder'.
+Removed 26 unused modules.
+Warning: Resizing cell port $paramod$943188ca874a7402dfde14ae7640ad1aff1927d6\mt_reg_file.tgrp_rf2.dout1 from 32 bits to 33 bits.
+Warning: Resizing cell port $paramod$943188ca874a7402dfde14ae7640ad1aff1927d6\mt_reg_file.tgrp_rf2.dout0 from 32 bits to 33 bits.
+Warning: Resizing cell port $paramod$943188ca874a7402dfde14ae7640ad1aff1927d6\mt_reg_file.tgrp_rf2.din0 from 32 bits to 33 bits.
+Warning: Resizing cell port $paramod$943188ca874a7402dfde14ae7640ad1aff1927d6\mt_reg_file.tgrp_rf1.dout1 from 32 bits to 33 bits.
+Warning: Resizing cell port $paramod$943188ca874a7402dfde14ae7640ad1aff1927d6\mt_reg_file.tgrp_rf1.dout0 from 32 bits to 33 bits.
+Warning: Resizing cell port $paramod$943188ca874a7402dfde14ae7640ad1aff1927d6\mt_reg_file.tgrp_rf1.din0 from 32 bits to 33 bits.
+Warning: Resizing cell port mt_cpu.tgrp_switch.tid_stalled from 32 bits to 2 bits.
+Warning: Resizing cell port mt_cpu.fetch_stage.tid_stalled from 32 bits to 2 bits.
+Renaming module mt_cpu to mt_cpu.
+
+31. Executing PROC pass (convert processes to netlists).
+
+31.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Removing empty process `$paramod$52593bf02753086e7d14630480121475a488d2f1\instr_mem.$proc$/home/bala/git_stuff/internship/syn/librelane/src/instr_mem.v:0$26'.
+Cleaned up 0 empty switches.
+
+31.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/internship/syn/librelane/src/imm_ext.v:29$120 in module imm_ext.
+Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/internship/syn/librelane/src/thread_sel.v:9$118 in module $paramod\thread_sel\NUM_THREADS=s32'00000000000000000000000000000100.
+Marked 3 switch rules as full_case in process $proc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:32$42 in module $paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.
+Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_fd.v:19$22 in module $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.
+Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_de.v:37$20 in module $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.
+Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_em.v:32$14 in module $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.
+Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_mw.v:28$12 in module $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.
+Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/internship/syn/librelane/src/tgrp_switcher.v:13$10 in module $paramod\tgrp_switcher\NUM_THREADS=s32'00000000000000000000000000000100.
+Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/internship/syn/librelane/src/mux3.v:9$460 in module $paramod\mux3\DATA_WIDTH=s32'00000000000000000000000000100000.
+Removed 1 dead cases from process $proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:69$243 in module $paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.
+Marked 4 switch rules as full_case in process $proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:69$243 in module $paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.
+Removed 2 dead cases from process $proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:30$240 in module $paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.
+Marked 3 switch rules as full_case in process $proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:30$240 in module $paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.
+Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/internship/syn/librelane/src/alu.v:9$153 in module $paramod\alu\DATA_WIDTH=s32'00000000000000000000000000100000.
+Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/internship/syn/librelane/src/branch_unit.v:9$146 in module $paramod\branch_unit\DATA_WIDTH=s32'00000000000000000000000000100000.
+Removed 1 dead cases from process $proc$/home/bala/git_stuff/internship/syn/librelane/src/control_unit.v:49$142 in module control_unit.
+Marked 2 switch rules as full_case in process $proc$/home/bala/git_stuff/internship/syn/librelane/src/control_unit.v:49$142 in module control_unit.
+Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/internship/syn/librelane/src/control_unit.v:23$141 in module control_unit.
+Removed a total of 4 dead cases.
+
+31.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 1 redundant assignment.
+Promoted 120 assignments to connections.
+
+31.4. Executing PROC_INIT pass (extract init attributes).
+
+31.5. Executing PROC_ARST pass (detect async resets in processes).
+
+31.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+<suppressed ~28 debug messages>
+
+31.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\imm_ext.$proc$/home/bala/git_stuff/internship/syn/librelane/src/imm_ext.v:29$120'.
+     1/1: $1\imm_val[31:0]
+Creating decoders for process `$paramod\thread_sel\NUM_THREADS=s32'00000000000000000000000000000100.$proc$/home/bala/git_stuff/internship/syn/librelane/src/thread_sel.v:9$118'.
+     1/1: $0\tid[1:0]
+Creating decoders for process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:32$42'.
+     1/42: $3$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:56$39_EN[31:0]$116
+     2/42: $3$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:56$39_DATA[31:0]$115
+     3/42: $3$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:56$39_ADDR[2:0]$114
+     4/42: $2$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:49$37_EN[31:0]$97
+     5/42: $2$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:49$37_DATA[31:0]$96
+     6/42: $2$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:49$37_ADDR[2:0]$95
+     7/42: $2$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:48$36_EN[31:0]$94
+     8/42: $2$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:48$36_DATA[31:0]$93
+     9/42: $2$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:48$36_ADDR[2:0]$92
+    10/42: $2$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:47$35_EN[31:0]$91
+    11/42: $2$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:47$35_DATA[31:0]$90
+    12/42: $2$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:47$35_ADDR[2:0]$89
+    13/42: $2$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:56$39_EN[31:0]$103
+    14/42: $2$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:56$39_DATA[31:0]$102
+    15/42: $2$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:56$39_ADDR[2:0]$101
+    16/42: $2$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:53$38_EN[31:0]$100
+    17/42: $2$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:53$38_DATA[31:0]$99
+    18/42: $2$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:53$38_ADDR[2:0]$98
+    19/42: $1\i[31:0]
+    20/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:37$34_EN[31:0]$73
+    21/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:37$33_EN[31:0]$72
+    22/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:37$32_EN[31:0]$71
+    23/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:37$31_EN[31:0]$70
+    24/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:37$30_EN[31:0]$69
+    25/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:37$29_EN[31:0]$68
+    26/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:37$28_EN[31:0]$67
+    27/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:37$27_EN[31:0]$66
+    28/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:56$39_EN[31:0]$88
+    29/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:56$39_DATA[31:0]$87
+    30/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:56$39_ADDR[2:0]$86
+    31/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:53$38_EN[31:0]$85
+    32/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:53$38_DATA[31:0]$84
+    33/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:53$38_ADDR[2:0]$83
+    34/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:49$37_EN[31:0]$82
+    35/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:49$37_DATA[31:0]$81
+    36/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:49$37_ADDR[2:0]$80
+    37/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:48$36_EN[31:0]$79
+    38/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:48$36_DATA[31:0]$78
+    39/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:48$36_ADDR[2:0]$77
+    40/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:47$35_EN[31:0]$76
+    41/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:47$35_DATA[31:0]$75
+    42/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:47$35_ADDR[2:0]$74
+Creating decoders for process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:27$40'.
+Creating decoders for process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_fd.v:19$22'.
+     1/4: $0\tid_d[1:0]
+     2/4: $0\instr_d[31:0]
+     3/4: $0\pc_plus4_d[31:0]
+     4/4: $0\pc_d[31:0]
+Creating decoders for process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_de.v:37$20'.
+     1/16: $0\pc_plus4_e[31:0]
+     2/16: $0\imm_val_e[31:0]
+     3/16: $0\rd_e[4:0]
+     4/16: $0\pc_e[31:0]
+     5/16: $0\rd2_e[31:0]
+     6/16: $0\rd1_e[31:0]
+     7/16: $0\alu_src_a_e[0:0]
+     8/16: $0\alu_src_b_e[0:0]
+     9/16: $0\funct3_e[2:0]
+    10/16: $0\alu_control_e[3:0]
+    11/16: $0\branch_e[0:0]
+    12/16: $0\jump_e[0:0]
+    13/16: $0\mem_write_e[0:0]
+    14/16: $0\res_src_e[1:0]
+    15/16: $0\reg_write_e[0:0]
+    16/16: $0\tid_e[1:0]
+Creating decoders for process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_em.v:32$14'.
+     1/9: $0\tid_m[1:0]
+     2/9: $0\pc_plus4_m[31:0]
+     3/9: $0\rd_m[4:0]
+     4/9: $0\write_data_m[31:0]
+     5/9: $0\alu_result_m[31:0]
+     6/9: $0\funct3_m[2:0]
+     7/9: $0\result_src_m[1:0]
+     8/9: $0\mem_write_m[0:0]
+     9/9: $0\reg_write_m[0:0]
+Creating decoders for process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_mw.v:28$12'.
+     1/7: $0\pc_plus4_w[31:0]
+     2/7: $0\read_data_w[31:0]
+     3/7: $0\alu_result_w[31:0]
+     4/7: $0\result_src_w[1:0]
+     5/7: $0\tid_w[1:0]
+     6/7: $0\rd_w[4:0]
+     7/7: $0\reg_write_w[0:0]
+Creating decoders for process `$paramod\tgrp_switcher\NUM_THREADS=s32'00000000000000000000000000000100.$proc$/home/bala/git_stuff/internship/syn/librelane/src/tgrp_switcher.v:13$10'.
+     1/1: $0\tgrp_reg[0:0]
+Creating decoders for process `$paramod\mux3\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mux3.v:9$460'.
+     1/1: $1\out[31:0]
+Creating decoders for process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+Creating decoders for process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:69$243'.
+     1/64: $3$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:84$234_EN[31:0]$327
+     2/64: $3$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:84$234_DATA[31:0]$326
+     3/64: $3$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:84$234_ADDR[31:0]$325
+     4/64: $3$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:85$235_EN[31:0]$330
+     5/64: $3$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:85$235_DATA[31:0]$329
+     6/64: $3$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:85$235_ADDR[31:0]$328
+     7/64: $3$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:75$230_EN[31:0]$315
+     8/64: $3$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:75$230_DATA[31:0]$314
+     9/64: $3$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:75$230_ADDR[31:0]$313
+    10/64: $3$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:78$233_EN[31:0]$324
+    11/64: $3$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:78$233_DATA[31:0]$323
+    12/64: $3$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:78$233_ADDR[31:0]$322
+    13/64: $3$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:77$232_EN[31:0]$321
+    14/64: $3$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:77$232_DATA[31:0]$320
+    15/64: $3$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:77$232_ADDR[31:0]$319
+    16/64: $3$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:76$231_EN[31:0]$318
+    17/64: $3$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:76$231_DATA[31:0]$317
+    18/64: $3$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:76$231_ADDR[31:0]$316
+    19/64: $2$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:78$233_EN[31:0]$301
+    20/64: $2$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:78$233_DATA[31:0]$300
+    21/64: $2$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:78$233_ADDR[31:0]$299
+    22/64: $2$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:77$232_EN[31:0]$298
+    23/64: $2$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:77$232_DATA[31:0]$297
+    24/64: $2$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:77$232_ADDR[31:0]$296
+    25/64: $2$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:76$231_EN[31:0]$295
+    26/64: $2$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:76$231_DATA[31:0]$294
+    27/64: $2$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:76$231_ADDR[31:0]$293
+    28/64: $2$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:75$230_EN[31:0]$292
+    29/64: $2$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:75$230_DATA[31:0]$291
+    30/64: $2$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:75$230_ADDR[31:0]$290
+    31/64: $2$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:93$237_EN[31:0]$312
+    32/64: $2$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:93$237_ADDR[31:0]$311
+    33/64: $2$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:89$236_EN[31:0]$310
+    34/64: $2$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:89$236_DATA[31:0]$309
+    35/64: $2$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:89$236_ADDR[31:0]$308
+    36/64: $2$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:85$235_EN[31:0]$307
+    37/64: $2$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:85$235_DATA[31:0]$306
+    38/64: $2$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:85$235_ADDR[31:0]$305
+    39/64: $2$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:84$234_EN[31:0]$304
+    40/64: $2$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:84$234_DATA[31:0]$303
+    41/64: $2$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:84$234_ADDR[31:0]$302
+    42/64: $1$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:93$237_EN[31:0]$289
+    43/64: $1$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:93$237_ADDR[31:0]$288
+    44/64: $1$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:89$236_EN[31:0]$287
+    45/64: $1$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:89$236_DATA[31:0]$286
+    46/64: $1$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:89$236_ADDR[31:0]$285
+    47/64: $1$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:85$235_EN[31:0]$284
+    48/64: $1$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:85$235_DATA[31:0]$283
+    49/64: $1$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:85$235_ADDR[31:0]$282
+    50/64: $1$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:84$234_EN[31:0]$281
+    51/64: $1$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:84$234_DATA[31:0]$280
+    52/64: $1$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:84$234_ADDR[31:0]$279
+    53/64: $1$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:78$233_EN[31:0]$278
+    54/64: $1$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:78$233_DATA[31:0]$277
+    55/64: $1$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:78$233_ADDR[31:0]$276
+    56/64: $1$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:77$232_EN[31:0]$275
+    57/64: $1$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:77$232_DATA[31:0]$274
+    58/64: $1$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:77$232_ADDR[31:0]$273
+    59/64: $1$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:76$231_EN[31:0]$272
+    60/64: $1$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:76$231_DATA[31:0]$271
+    61/64: $1$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:76$231_ADDR[31:0]$270
+    62/64: $1$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:75$230_EN[31:0]$269
+    63/64: $1$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:75$230_DATA[31:0]$268
+    64/64: $1$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:75$230_ADDR[31:0]$267
+Creating decoders for process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:30$240'.
+     1/3: $3\read_data_m[31:0]
+     2/3: $2\read_data_m[31:0]
+     3/3: $1\read_data_m[31:0]
+Creating decoders for process `$paramod\alu\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/internship/syn/librelane/src/alu.v:9$153'.
+     1/1: $1\res[31:0]
+Creating decoders for process `$paramod\branch_unit\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/internship/syn/librelane/src/branch_unit.v:9$146'.
+     1/1: $1\branch_result[0:0]
+Creating decoders for process `\control_unit.$proc$/home/bala/git_stuff/internship/syn/librelane/src/control_unit.v:49$142'.
+     1/2: $2\alu_controls[3:0]
+     2/2: $1\alu_controls[3:0]
+Creating decoders for process `\control_unit.$proc$/home/bala/git_stuff/internship/syn/librelane/src/control_unit.v:23$141'.
+     1/1: $1\controls[10:0]
+
+31.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\imm_ext.\imm_val' from process `\imm_ext.$proc$/home/bala/git_stuff/internship/syn/librelane/src/imm_ext.v:29$120'.
+No latch inferred for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.\pc' from process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:27$40'.
+No latch inferred for signal `$paramod\mux3\DATA_WIDTH=s32'00000000000000000000000000100000.\out' from process `$paramod\mux3\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mux3.v:9$460'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.\i' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$166_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$167_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$168_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$169_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$170_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$171_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$172_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$173_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$174_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$175_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$176_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$177_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$178_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$179_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$180_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$181_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$182_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$183_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$184_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$185_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$186_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$187_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$188_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$189_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$190_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$191_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$192_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$193_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$194_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$195_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$196_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$197_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$198_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$199_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$200_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$201_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$202_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$203_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$204_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$205_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$206_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$207_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$208_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$209_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$210_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$211_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$212_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$213_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$214_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$215_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$216_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$217_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$218_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$219_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$220_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$221_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$222_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$223_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$224_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$225_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$226_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$227_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$228_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:25$229_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.\read_data_m' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:30$240'.
+No latch inferred for signal `$paramod\alu\DATA_WIDTH=s32'00000000000000000000000000100000.\res' from process `$paramod\alu\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/internship/syn/librelane/src/alu.v:9$153'.
+No latch inferred for signal `$paramod\branch_unit\DATA_WIDTH=s32'00000000000000000000000000100000.\branch_result' from process `$paramod\branch_unit\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/internship/syn/librelane/src/branch_unit.v:9$146'.
+No latch inferred for signal `\control_unit.\alu_controls' from process `\control_unit.$proc$/home/bala/git_stuff/internship/syn/librelane/src/control_unit.v:49$142'.
+No latch inferred for signal `\control_unit.\controls' from process `\control_unit.$proc$/home/bala/git_stuff/internship/syn/librelane/src/control_unit.v:23$141'.
+
+31.9. Executing PROC_DFF pass (convert process syncs to FFs).
+Creating register for signal `$paramod\thread_sel\NUM_THREADS=s32'00000000000000000000000000000100.\tid' using process `$paramod\thread_sel\NUM_THREADS=s32'00000000000000000000000000000100.$proc$/home/bala/git_stuff/internship/syn/librelane/src/thread_sel.v:9$118'.
+  created $dff cell `$procdff$1384' with positive edge clock.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.\i' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:32$42'.
+  created $dff cell `$procdff$1385' with positive edge clock.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:37$27_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:32$42'.
+  created $dff cell `$procdff$1386' with positive edge clock.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:37$28_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:32$42'.
+  created $dff cell `$procdff$1387' with positive edge clock.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:37$29_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:32$42'.
+  created $dff cell `$procdff$1388' with positive edge clock.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:37$30_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:32$42'.
+  created $dff cell `$procdff$1389' with positive edge clock.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:37$31_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:32$42'.
+  created $dff cell `$procdff$1390' with positive edge clock.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:37$32_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:32$42'.
+  created $dff cell `$procdff$1391' with positive edge clock.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:37$33_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:32$42'.
+  created $dff cell `$procdff$1392' with positive edge clock.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:37$34_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:32$42'.
+  created $dff cell `$procdff$1393' with positive edge clock.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:47$35_ADDR' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:32$42'.
+  created $dff cell `$procdff$1394' with positive edge clock.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:47$35_DATA' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:32$42'.
+  created $dff cell `$procdff$1395' with positive edge clock.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:47$35_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:32$42'.
+  created $dff cell `$procdff$1396' with positive edge clock.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:48$36_ADDR' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:32$42'.
+  created $dff cell `$procdff$1397' with positive edge clock.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:48$36_DATA' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:32$42'.
+  created $dff cell `$procdff$1398' with positive edge clock.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:48$36_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:32$42'.
+  created $dff cell `$procdff$1399' with positive edge clock.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:49$37_ADDR' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:32$42'.
+  created $dff cell `$procdff$1400' with positive edge clock.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:49$37_DATA' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:32$42'.
+  created $dff cell `$procdff$1401' with positive edge clock.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:49$37_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:32$42'.
+  created $dff cell `$procdff$1402' with positive edge clock.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:53$38_ADDR' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:32$42'.
+  created $dff cell `$procdff$1403' with positive edge clock.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:53$38_DATA' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:32$42'.
+  created $dff cell `$procdff$1404' with positive edge clock.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:53$38_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:32$42'.
+  created $dff cell `$procdff$1405' with positive edge clock.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:56$39_ADDR' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:32$42'.
+  created $dff cell `$procdff$1406' with positive edge clock.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:56$39_DATA' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:32$42'.
+  created $dff cell `$procdff$1407' with positive edge clock.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:56$39_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:32$42'.
+  created $dff cell `$procdff$1408' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.\pc_d' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_fd.v:19$22'.
+  created $dff cell `$procdff$1409' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.\pc_plus4_d' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_fd.v:19$22'.
+  created $dff cell `$procdff$1410' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.\instr_d' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_fd.v:19$22'.
+  created $dff cell `$procdff$1411' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.\tid_d' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_fd.v:19$22'.
+  created $dff cell `$procdff$1412' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\tid_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_de.v:37$20'.
+  created $dff cell `$procdff$1413' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\reg_write_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_de.v:37$20'.
+  created $dff cell `$procdff$1414' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\res_src_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_de.v:37$20'.
+  created $dff cell `$procdff$1415' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\mem_write_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_de.v:37$20'.
+  created $dff cell `$procdff$1416' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\jump_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_de.v:37$20'.
+  created $dff cell `$procdff$1417' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\branch_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_de.v:37$20'.
+  created $dff cell `$procdff$1418' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\alu_control_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_de.v:37$20'.
+  created $dff cell `$procdff$1419' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\funct3_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_de.v:37$20'.
+  created $dff cell `$procdff$1420' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\alu_src_b_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_de.v:37$20'.
+  created $dff cell `$procdff$1421' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\alu_src_a_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_de.v:37$20'.
+  created $dff cell `$procdff$1422' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\rd1_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_de.v:37$20'.
+  created $dff cell `$procdff$1423' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\rd2_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_de.v:37$20'.
+  created $dff cell `$procdff$1424' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\pc_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_de.v:37$20'.
+  created $dff cell `$procdff$1425' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\rd_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_de.v:37$20'.
+  created $dff cell `$procdff$1426' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\imm_val_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_de.v:37$20'.
+  created $dff cell `$procdff$1427' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\pc_plus4_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_de.v:37$20'.
+  created $dff cell `$procdff$1428' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.\reg_write_m' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_em.v:32$14'.
+  created $dff cell `$procdff$1429' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.\mem_write_m' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_em.v:32$14'.
+  created $dff cell `$procdff$1430' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.\result_src_m' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_em.v:32$14'.
+  created $dff cell `$procdff$1431' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.\funct3_m' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_em.v:32$14'.
+  created $dff cell `$procdff$1432' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.\alu_result_m' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_em.v:32$14'.
+  created $dff cell `$procdff$1433' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.\write_data_m' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_em.v:32$14'.
+  created $dff cell `$procdff$1434' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.\rd_m' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_em.v:32$14'.
+  created $dff cell `$procdff$1435' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.\pc_plus4_m' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_em.v:32$14'.
+  created $dff cell `$procdff$1436' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.\tid_m' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_em.v:32$14'.
+  created $dff cell `$procdff$1437' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.\reg_write_w' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_mw.v:28$12'.
+  created $dff cell `$procdff$1438' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.\rd_w' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_mw.v:28$12'.
+  created $dff cell `$procdff$1439' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.\tid_w' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_mw.v:28$12'.
+  created $dff cell `$procdff$1440' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.\result_src_w' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_mw.v:28$12'.
+  created $dff cell `$procdff$1441' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.\alu_result_w' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_mw.v:28$12'.
+  created $dff cell `$procdff$1442' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.\read_data_w' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_mw.v:28$12'.
+  created $dff cell `$procdff$1443' with positive edge clock.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.\pc_plus4_w' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_mw.v:28$12'.
+  created $dff cell `$procdff$1444' with positive edge clock.
+Creating register for signal `$paramod\tgrp_switcher\NUM_THREADS=s32'00000000000000000000000000000100.\tgrp_reg' using process `$paramod\tgrp_switcher\NUM_THREADS=s32'00000000000000000000000000000100.$proc$/home/bala/git_stuff/internship/syn/librelane/src/tgrp_switcher.v:13$10'.
+  created $dff cell `$procdff$1445' with positive edge clock.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:75$230_ADDR' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:69$243'.
+  created $dff cell `$procdff$1446' with positive edge clock.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:75$230_DATA' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:69$243'.
+  created $dff cell `$procdff$1447' with positive edge clock.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:75$230_EN' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:69$243'.
+  created $dff cell `$procdff$1448' with positive edge clock.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:76$231_ADDR' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:69$243'.
+  created $dff cell `$procdff$1449' with positive edge clock.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:76$231_DATA' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:69$243'.
+  created $dff cell `$procdff$1450' with positive edge clock.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:76$231_EN' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:69$243'.
+  created $dff cell `$procdff$1451' with positive edge clock.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:77$232_ADDR' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:69$243'.
+  created $dff cell `$procdff$1452' with positive edge clock.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:77$232_DATA' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:69$243'.
+  created $dff cell `$procdff$1453' with positive edge clock.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:77$232_EN' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:69$243'.
+  created $dff cell `$procdff$1454' with positive edge clock.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:78$233_ADDR' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:69$243'.
+  created $dff cell `$procdff$1455' with positive edge clock.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:78$233_DATA' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:69$243'.
+  created $dff cell `$procdff$1456' with positive edge clock.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:78$233_EN' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:69$243'.
+  created $dff cell `$procdff$1457' with positive edge clock.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:84$234_ADDR' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:69$243'.
+  created $dff cell `$procdff$1458' with positive edge clock.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:84$234_DATA' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:69$243'.
+  created $dff cell `$procdff$1459' with positive edge clock.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:84$234_EN' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:69$243'.
+  created $dff cell `$procdff$1460' with positive edge clock.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:85$235_ADDR' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:69$243'.
+  created $dff cell `$procdff$1461' with positive edge clock.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:85$235_DATA' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:69$243'.
+  created $dff cell `$procdff$1462' with positive edge clock.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:85$235_EN' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:69$243'.
+  created $dff cell `$procdff$1463' with positive edge clock.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:89$236_ADDR' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:69$243'.
+  created $dff cell `$procdff$1464' with positive edge clock.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:89$236_DATA' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:69$243'.
+  created $dff cell `$procdff$1465' with positive edge clock.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:89$236_EN' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:69$243'.
+  created $dff cell `$procdff$1466' with positive edge clock.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:93$237_ADDR' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:69$243'.
+  created $dff cell `$procdff$1467' with positive edge clock.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:93$237_EN' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:69$243'.
+  created $dff cell `$procdff$1468' with positive edge clock.
+
+31.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+31.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Found and cleaned up 1 empty switch in `\imm_ext.$proc$/home/bala/git_stuff/internship/syn/librelane/src/imm_ext.v:29$120'.
+Removing empty process `imm_ext.$proc$/home/bala/git_stuff/internship/syn/librelane/src/imm_ext.v:29$120'.
+Found and cleaned up 1 empty switch in `$paramod\thread_sel\NUM_THREADS=s32'00000000000000000000000000000100.$proc$/home/bala/git_stuff/internship/syn/librelane/src/thread_sel.v:9$118'.
+Removing empty process `$paramod\thread_sel\NUM_THREADS=s32'00000000000000000000000000000100.$proc$/home/bala/git_stuff/internship/syn/librelane/src/thread_sel.v:9$118'.
+Found and cleaned up 3 empty switches in `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:32$42'.
+Removing empty process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:32$42'.
+Removing empty process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:27$40'.
+Found and cleaned up 2 empty switches in `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_fd.v:19$22'.
+Removing empty process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_fd.v:19$22'.
+Found and cleaned up 2 empty switches in `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_de.v:37$20'.
+Removing empty process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_de.v:37$20'.
+Found and cleaned up 2 empty switches in `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_em.v:32$14'.
+Removing empty process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_em.v:32$14'.
+Found and cleaned up 2 empty switches in `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_mw.v:28$12'.
+Removing empty process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.$proc$/home/bala/git_stuff/internship/syn/librelane/src/pl_reg_mw.v:28$12'.
+Found and cleaned up 2 empty switches in `$paramod\tgrp_switcher\NUM_THREADS=s32'00000000000000000000000000000100.$proc$/home/bala/git_stuff/internship/syn/librelane/src/tgrp_switcher.v:13$10'.
+Removing empty process `$paramod\tgrp_switcher\NUM_THREADS=s32'00000000000000000000000000000100.$proc$/home/bala/git_stuff/internship/syn/librelane/src/tgrp_switcher.v:13$10'.
+Found and cleaned up 1 empty switch in `$paramod\mux3\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mux3.v:9$460'.
+Removing empty process `$paramod\mux3\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/internship/syn/librelane/src/mux3.v:9$460'.
+Removing empty process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:0$395'.
+Found and cleaned up 4 empty switches in `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:69$243'.
+Removing empty process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:69$243'.
+Found and cleaned up 3 empty switches in `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:30$240'.
+Removing empty process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/syn/librelane/src/data_memory.v:30$240'.
+Found and cleaned up 1 empty switch in `$paramod\alu\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/internship/syn/librelane/src/alu.v:9$153'.
+Removing empty process `$paramod\alu\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/internship/syn/librelane/src/alu.v:9$153'.
+Found and cleaned up 1 empty switch in `$paramod\branch_unit\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/internship/syn/librelane/src/branch_unit.v:9$146'.
+Removing empty process `$paramod\branch_unit\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/internship/syn/librelane/src/branch_unit.v:9$146'.
+Found and cleaned up 2 empty switches in `\control_unit.$proc$/home/bala/git_stuff/internship/syn/librelane/src/control_unit.v:49$142'.
+Removing empty process `control_unit.$proc$/home/bala/git_stuff/internship/syn/librelane/src/control_unit.v:49$142'.
+Found and cleaned up 1 empty switch in `\control_unit.$proc$/home/bala/git_stuff/internship/syn/librelane/src/control_unit.v:23$141'.
+Removing empty process `control_unit.$proc$/home/bala/git_stuff/internship/syn/librelane/src/control_unit.v:23$141'.
+Cleaned up 28 empty switches.
+
+31.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module mt_cpu.
+Optimizing module imm_ext.
+<suppressed ~1 debug messages>
+Optimizing module $paramod\thread_sel\NUM_THREADS=s32'00000000000000000000000000000100.
+Optimizing module $paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.
+Optimizing module $paramod$52593bf02753086e7d14630480121475a488d2f1\instr_mem.
+Optimizing module $paramod$8d44bebdd17de9d959a4b7b91e4dac5025de3aa9\fetch.
+Optimizing module $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.
+<suppressed ~4 debug messages>
+Optimizing module $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\decode.
+Optimizing module $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.
+<suppressed ~16 debug messages>
+Optimizing module $paramod$9a06a94f5d6d491730ccc224abeb95127ef5a2b5\execute.
+Optimizing module $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.
+<suppressed ~9 debug messages>
+Optimizing module $paramod$9bd54d34751587cd62f1f62f651d520dae89b988\memory.
+Optimizing module $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.
+<suppressed ~7 debug messages>
+Optimizing module $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\writeback.
+Optimizing module $paramod\tgrp_switcher\NUM_THREADS=s32'00000000000000000000000000000100.
+Optimizing module $paramod$943188ca874a7402dfde14ae7640ad1aff1927d6\mt_reg_file.
+<suppressed ~12 debug messages>
+Optimizing module $paramod\mux3\DATA_WIDTH=s32'00000000000000000000000000100000.
+<suppressed ~1 debug messages>
+Optimizing module $paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.
+<suppressed ~36 debug messages>
+Optimizing module $paramod\alu\DATA_WIDTH=s32'00000000000000000000000000100000.
+<suppressed ~1 debug messages>
+Optimizing module $paramod\branch_unit\DATA_WIDTH=s32'00000000000000000000000000100000.
+<suppressed ~1 debug messages>
+Optimizing module control_unit.
+<suppressed ~1 debug messages>
+
+32. Executing FLATTEN pass (flatten design).
+Deleting now unused module imm_ext.
+Deleting now unused module $paramod\thread_sel\NUM_THREADS=s32'00000000000000000000000000000100.
+Deleting now unused module $paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.
+Deleting now unused module $paramod$52593bf02753086e7d14630480121475a488d2f1\instr_mem.
+Deleting now unused module $paramod$8d44bebdd17de9d959a4b7b91e4dac5025de3aa9\fetch.
+Deleting now unused module $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.
+Deleting now unused module $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\decode.
+Deleting now unused module $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.
+Deleting now unused module $paramod$9a06a94f5d6d491730ccc224abeb95127ef5a2b5\execute.
+Deleting now unused module $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.
+Deleting now unused module $paramod$9bd54d34751587cd62f1f62f651d520dae89b988\memory.
+Deleting now unused module $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.
+Deleting now unused module $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\writeback.
+Deleting now unused module $paramod\tgrp_switcher\NUM_THREADS=s32'00000000000000000000000000000100.
+Deleting now unused module $paramod$943188ca874a7402dfde14ae7640ad1aff1927d6\mt_reg_file.
+Deleting now unused module $paramod\mux3\DATA_WIDTH=s32'00000000000000000000000000100000.
+Deleting now unused module $paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.
+Deleting now unused module $paramod\alu\DATA_WIDTH=s32'00000000000000000000000000100000.
+Deleting now unused module $paramod\branch_unit\DATA_WIDTH=s32'00000000000000000000000000100000.
+Deleting now unused module control_unit.
+<suppressed ~20 debug messages>
+
+33. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \mt_cpu..
+Removed 82 unused cells and 920 unused wires.
+<suppressed ~372 debug messages>

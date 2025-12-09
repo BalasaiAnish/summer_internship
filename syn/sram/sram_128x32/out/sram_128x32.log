@@ -1,0 +1,58 @@
+[2025-11-16 12:08:54.272365] |==============================================================================|
+[2025-11-16 12:08:54.272501] |=========                      OpenRAM v1.2.49                       =========|
+[2025-11-16 12:08:54.272554] |=========                                                            =========|
+[2025-11-16 12:08:54.272596] |=========               VLSI Design and Automation Lab               =========|
+[2025-11-16 12:08:54.272645] |=========        Computer Science and Engineering Department         =========|
+[2025-11-16 12:08:54.272683] |=========            University of California Santa Cruz             =========|
+[2025-11-16 12:08:54.272719] |=========                                                            =========|
+[2025-11-16 12:08:54.272751] |=========          Usage help: openram-user-group@ucsc.edu           =========|
+[2025-11-16 12:08:54.272784] |=========        Development help: openram-dev-group@ucsc.edu        =========|
+[2025-11-16 12:08:54.272817] |=========                See LICENSE for license info                =========|
+[2025-11-16 12:08:54.272849] |==============================================================================|
+[2025-11-16 12:08:54.272892] ** Start: 11/16/2025 12:08:54
+[2025-11-16 12:08:54.272931] Technology: sky130
+[2025-11-16 12:08:54.272967] Total size: 4096 bits
+[2025-11-16 12:08:54.273004] Word size: 32
+Words: 128
+Banks: 1
+[2025-11-16 12:08:54.273042] RW ports: 1
+R-only ports: 1
+W-only ports: 0
+[2025-11-16 12:08:54.273078] DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+[2025-11-16 12:08:54.273112] DRC/LVS/PEX is disabled (check_lvsdrc=True to enable).
+[2025-11-16 12:08:54.273145] Characterization is disabled (using analytical delay models) (analytical_delay=False to simulate).
+[2025-11-16 12:08:54.273181] Words per row: None
+[2025-11-16 12:08:54.273221] Output files are: 
+[2025-11-16 12:08:54.273257] /home/bala/git_stuff/internship/syn/sram/sram_128x32/out_final/sram_128x32.lvs
+[2025-11-16 12:08:54.273290] /home/bala/git_stuff/internship/syn/sram/sram_128x32/out_final/sram_128x32.sp
+[2025-11-16 12:08:54.273326] /home/bala/git_stuff/internship/syn/sram/sram_128x32/out_final/sram_128x32.v
+[2025-11-16 12:08:54.273361] /home/bala/git_stuff/internship/syn/sram/sram_128x32/out_final/sram_128x32.lib
+[2025-11-16 12:08:54.273396] /home/bala/git_stuff/internship/syn/sram/sram_128x32/out_final/sram_128x32.py
+[2025-11-16 12:08:54.273431] /home/bala/git_stuff/internship/syn/sram/sram_128x32/out_final/sram_128x32.html
+[2025-11-16 12:08:54.273471] /home/bala/git_stuff/internship/syn/sram/sram_128x32/out_final/sram_128x32.log
+[2025-11-16 12:08:54.273507] /home/bala/git_stuff/internship/syn/sram/sram_128x32/out_final/sram_128x32.lef
+[2025-11-16 12:08:54.273541] /home/bala/git_stuff/internship/syn/sram/sram_128x32/out_final/sram_128x32.gds
+[2025-11-16 12:09:10.151176] ** Submodules: 15.9 seconds
+[2025-11-16 12:09:10.205544] ** Placement: 0.1 seconds
+[2025-11-16 12:27:10.758541] ** Routing: 1080.6 seconds
+[2025-11-16 12:27:10.819090] ** Verification: 0.0 seconds
+[2025-11-16 12:27:10.819189] ** SRAM creation: 1096.5 seconds
+[2025-11-16 12:27:10.819243] SP: Writing to /home/bala/git_stuff/internship/syn/sram/sram_128x32/out_final/sram_128x32.sp
+[2025-11-16 12:27:10.998203] ** Spice writing: 0.2 seconds
+[2025-11-16 12:27:10.998292] DELAY: Writing stimulus...
+[2025-11-16 12:27:11.959239] ** DELAY: 1.0 seconds
+[2025-11-16 12:27:12.063886] GDS: Writing to /home/bala/git_stuff/internship/syn/sram/sram_128x32/out_final/sram_128x32.gds
+[2025-11-16 12:27:12.669031] ** GDS: 0.6 seconds
+[2025-11-16 12:27:12.669131] LEF: Writing to /home/bala/git_stuff/internship/syn/sram/sram_128x32/out_final/sram_128x32.lef
+[2025-11-16 12:27:12.707928] ** LEF: 0.0 seconds
+[2025-11-16 12:27:12.708021] LVS: Writing to /home/bala/git_stuff/internship/syn/sram/sram_128x32/out_final/sram_128x32.lvs.sp
+[2025-11-16 12:27:12.814888] ** LVS writing: 0.1 seconds
+[2025-11-16 12:27:12.814979] LIB: Characterizing... 
+[2025-11-16 12:27:15.373336] ** Characterization: 2.6 seconds
+[2025-11-16 12:27:15.373560] Config: Writing to /home/bala/git_stuff/internship/syn/sram/sram_128x32/out_final/sram_128x32.py
+[2025-11-16 12:27:15.373624] ** Config: 0.0 seconds
+[2025-11-16 12:27:15.374478] Datasheet: Writing to /home/bala/git_stuff/internship/syn/sram/sram_128x32/out_final/sram_128x32.html
+[2025-11-16 12:27:15.376149] ** Datasheet: 0.0 seconds
+[2025-11-16 12:27:15.376266] Verilog: Writing to /home/bala/git_stuff/internship/syn/sram/sram_128x32/out_final/sram_128x32.v
+[2025-11-16 12:27:15.376462] ** Verilog: 0.0 seconds
+[2025-11-16 12:27:15.378453] ** End: 1101.1 seconds

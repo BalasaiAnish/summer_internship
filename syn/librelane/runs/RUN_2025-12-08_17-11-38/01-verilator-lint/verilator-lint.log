@@ -1,0 +1,101 @@
+%Warning-PINMISSING: /home/bala/git_stuff/internship/syn/librelane/src/mt_reg_file.v:55:13: Instance has missing pin: 'spare_wen0'
+   55 | sram_128x32 tgrp_rf1(
+      |             ^~~~~~~~
+                     /home/bala/git_stuff/internship/syn/librelane/runs/RUN_2025-12-08_17-11-38/tmp/8dc373a211cf42cb9478b2590dea7328.bb.v:3:52: ... Location of port declaration
+    3 | module sram_128x32(vccd1, vssd1, clk0, csb0, web0, spare_wen0, addr0, din0, dout0, clk1, csb1, addr1, dout1);
+      |                                                    ^~~~~~~~~~
+                     ... For warning description see https://verilator.org/warn/PINMISSING?v=5.043
+                     ... Use "/* verilator lint_off PINMISSING */" and lint_on around source to disable this message.
+%Warning-PINMISSING: /home/bala/git_stuff/internship/syn/librelane/src/mt_reg_file.v:72:13: Instance has missing pin: 'spare_wen0'
+   72 | sram_128x32 tgrp_rf2(
+      |             ^~~~~~~~
+                     /home/bala/git_stuff/internship/syn/librelane/runs/RUN_2025-12-08_17-11-38/tmp/8dc373a211cf42cb9478b2590dea7328.bb.v:3:52: ... Location of port declaration
+    3 | module sram_128x32(vccd1, vssd1, clk0, csb0, web0, spare_wen0, addr0, din0, dout0, clk1, csb1, addr1, dout1);
+      |                                                    ^~~~~~~~~~
+%Warning-IMPLICIT: /home/bala/git_stuff/internship/syn/librelane/src/mt_reg_file.v:57:12: Signal definition not found, creating implicitly: 'vccd1'
+   57 |     .vccd1(vccd1),
+      |            ^~~~~
+                   ... For warning description see https://verilator.org/warn/IMPLICIT?v=5.043
+                   ... Use "/* verilator lint_off IMPLICIT */" and lint_on around source to disable this message.
+%Warning-IMPLICIT: /home/bala/git_stuff/internship/syn/librelane/src/mt_reg_file.v:58:12: Signal definition not found, creating implicitly: 'vssd1'
+   58 |     .vssd1(vssd1),
+      |            ^~~~~
+%Warning-WIDTHEXPAND: /home/bala/git_stuff/internship/syn/librelane/src/mt_reg_file.v:64:6: Input port connection 'din0' expects 33 bits on the pin connection, but pin connection's VARREF 'wd3' generates 32 bits.
+                                                                                          : ... note: In instance 'mt_cpu.decode_stage.rf'
+   64 |     .din0(wd3),
+      |      ^~~~
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.043
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-WIDTHEXPAND: /home/bala/git_stuff/internship/syn/librelane/src/mt_reg_file.v:65:6: Output port connection 'dout0' expects 33 bits on the pin connection, but pin connection's VARREF 'rf1rd1' generates 32 bits.
+                                                                                          : ... note: In instance 'mt_cpu.decode_stage.rf'
+   65 |     .dout0(rf1rd1),
+      |      ^~~~~
+%Warning-WIDTHEXPAND: /home/bala/git_stuff/internship/syn/librelane/src/mt_reg_file.v:69:6: Output port connection 'dout1' expects 33 bits on the pin connection, but pin connection's VARREF 'rf1rd2' generates 32 bits.
+                                                                                          : ... note: In instance 'mt_cpu.decode_stage.rf'
+   69 |     .dout1(rf1rd2)
+      |      ^~~~~
+%Warning-WIDTHEXPAND: /home/bala/git_stuff/internship/syn/librelane/src/mt_reg_file.v:81:6: Input port connection 'din0' expects 33 bits on the pin connection, but pin connection's VARREF 'wd3' generates 32 bits.
+                                                                                          : ... note: In instance 'mt_cpu.decode_stage.rf'
+   81 |     .din0(wd3),
+      |      ^~~~
+%Warning-WIDTHEXPAND: /home/bala/git_stuff/internship/syn/librelane/src/mt_reg_file.v:82:6: Output port connection 'dout0' expects 33 bits on the pin connection, but pin connection's VARREF 'rf2rd1' generates 32 bits.
+                                                                                          : ... note: In instance 'mt_cpu.decode_stage.rf'
+   82 |     .dout0(rf2rd1),
+      |      ^~~~~
+%Warning-WIDTHEXPAND: /home/bala/git_stuff/internship/syn/librelane/src/mt_reg_file.v:86:6: Output port connection 'dout1' expects 33 bits on the pin connection, but pin connection's VARREF 'rf2rd2' generates 32 bits.
+                                                                                          : ... note: In instance 'mt_cpu.decode_stage.rf'
+   86 |     .dout1(rf2rd2)
+      |      ^~~~~
+%Warning-WIDTHTRUNC: /home/bala/git_stuff/internship/syn/librelane/src/pl_reg_mw.v:36:19: Operator ASSIGNDLY expects 2 bits on the Assign RHS, but Assign RHS's CONST '3'h0' generates 3 bits.
+                                                                                        : ... note: In instance 'mt_cpu.mw'
+   36 |             tid_w <= 3'd0;
+      |                   ^~
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.043
+                     ... Use "/* verilator lint_off WIDTHTRUNC */" and lint_on around source to disable this message.
+%Warning-WIDTHTRUNC: /home/bala/git_stuff/internship/syn/librelane/src/pl_reg_em.v:42:19: Operator ASSIGNDLY expects 2 bits on the Assign RHS, but Assign RHS's CONST '3'h0' generates 3 bits.
+                                                                                        : ... note: In instance 'mt_cpu.em'
+   42 |             tid_m <= 3'd0;
+      |                   ^~
+%Warning-WIDTHTRUNC: /home/bala/git_stuff/internship/syn/librelane/src/pl_reg_fd.v:24:9: Operator ASSIGNDLY expects 2 bits on the Assign RHS, but Assign RHS's CONST '3'h0' generates 3 bits.
+                                                                                       : ... note: In instance 'mt_cpu.fd'
+   24 |   tid_d <= 3'd0;
+      |         ^~
+%Warning-UNUSEDPARAM: /home/bala/git_stuff/internship/syn/librelane/src/tgrp_switcher.v:4:9: Parameter is not used: 'ADDRESS_WIDTH'
+                                                                                           : ... note: In instance 'mt_cpu.tgrp_switch'
+    4 |         ADDRESS_WIDTH=32
+      |         ^~~~~~~~~~~~~
+                      ... For warning description see https://verilator.org/warn/UNUSEDPARAM?v=5.043
+                      ... Use "/* verilator lint_off UNUSEDPARAM */" and lint_on around source to disable this message.
+%Warning-UNUSEDSIGNAL: /home/bala/git_stuff/internship/syn/librelane/src/tgrp_switcher.v:7:41: Signal is not used: 'tid_stalled'
+                                                                                             : ... note: In instance 'mt_cpu.tgrp_switch'
+    7 |         input [$clog2(NUM_THREADS)-1:0] tid_stalled,
+      |                                         ^~~~~~~~~~~
+                       ... For warning description see https://verilator.org/warn/UNUSEDSIGNAL?v=5.043
+                       ... Use "/* verilator lint_off UNUSEDSIGNAL */" and lint_on around source to disable this message.
+%Warning-UNUSEDPARAM: /home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:5:15: Parameter is not used: 'BITS_THREAD_GRPS'
+                                                                                    : ... note: In instance 'mt_cpu.fetch_stage.thread_pc'
+    5 |     parameter BITS_THREAD_GRPS = $clog2(NUM_THREAD_GRPS),
+      |               ^~~~~~~~~~~~~~~~
+%Warning-UNUSEDPARAM: /home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:6:15: Parameter is not used: 'BITS_TID'
+                                                                                    : ... note: In instance 'mt_cpu.fetch_stage.thread_pc'
+    6 |     parameter BITS_TID = $clog2(NUM_THREADS) + $clog2(NUM_THREAD_GRPS),
+      |               ^~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/bala/git_stuff/internship/syn/librelane/src/mt_pc.v:25:9: Signal is not driven, nor used: 'j'
+                                                                                     : ... note: In instance 'mt_cpu.fetch_stage.thread_pc'
+   25 | integer j;
+      |         ^
+%Warning-UNUSEDPARAM: /home/bala/git_stuff/internship/syn/librelane/src/mt_reg_file.v:5:15: Parameter is not used: 'NUM_REGS'
+                                                                                          : ... note: In instance 'mt_cpu.decode_stage.rf'
+    5 |     parameter NUM_REGS = 32,
+      |               ^~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/bala/git_stuff/internship/syn/librelane/src/mt_reg_file.v:8:20: Signal is not used: 'write_enable'
+                                                                                           : ... note: In instance 'mt_cpu.decode_stage.rf'
+    8 |         input clk, write_enable,
+      |                    ^~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/bala/git_stuff/internship/syn/librelane/src/mt_reg_file.v:10:34: Bits of signal are not used: 'tid_read'[0]
+                                                                                            : ... note: In instance 'mt_cpu.decode_stage.rf'
+   10 |         input [BITS_THREADS-1:0] tid_read, tid_write,
+      |                                  ^~~~~~~~
+- V e r i l a t i o n   R e p o r t: Verilator 5.043 devel rev v5.042-72-g7edf6d474
+- Verilator: Built from 5.975 MB sources in 469 modules, into 0.072 MB in 3 C++ files needing 0.000 MB
+- Verilator: Walltime 0.131 s (elab=0.031, cvt=0.036, bld=0.000); cpu 0.130 s on 1 threads; alloced 30.961 MB
