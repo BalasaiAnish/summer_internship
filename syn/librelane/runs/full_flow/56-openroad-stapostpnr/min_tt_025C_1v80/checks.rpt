@@ -1,0 +1,524 @@
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= min_tt_025C_1v80 Corner ===================================
+
+Startpoint: _16813_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _17010_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                                  0.000000    0.000000   clock clk (rise edge)
+                                  0.000000    0.000000   clock source latency
+     4    0.319066    0.000000    0.000000    0.000000 ^ clk (in)
+                                                         clk (net)
+                      0.169291    0.084646    0.084646 ^ clkbuf_regs_0_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     1    0.008279    0.033230    0.156743    0.241389 ^ clkbuf_regs_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         delaynet_0_clk (net)
+                      0.033231    0.000077    0.241466 ^ delaybuf_0_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     1    0.008529    0.032072    0.110183    0.351649 ^ delaybuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         delaynet_1_clk (net)
+                      0.032072    0.000062    0.351711 ^ delaybuf_1_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     1    0.008433    0.031991    0.109665    0.461376 ^ delaybuf_1_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         delaynet_2_clk (net)
+                      0.031991    0.000088    0.461464 ^ delaybuf_2_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     1    0.009541    0.032945    0.110697    0.572161 ^ delaybuf_2_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         delaynet_3_clk (net)
+                      0.032945    0.000106    0.572267 ^ delaybuf_3_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     1    0.009191    0.032643    0.110704    0.682971 ^ delaybuf_3_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         delaynet_4_clk (net)
+                      0.032644    0.000119    0.683090 ^ delaybuf_4_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     3    0.044007    0.063318    0.138916    0.822006 ^ delaybuf_4_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         clk_regs (net)
+                      0.064034    0.005212    0.827218 ^ clkbuf_0_clk_regs/A (sky130_fd_sc_hd__clkbuf_16)
+     9    0.075967    0.093440    0.173661    1.000879 ^ clkbuf_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         clknet_0_clk_regs (net)
+                      0.093820    0.004750    1.005629 ^ clkbuf_2_3_0_clk_regs/A (sky130_fd_sc_hd__clkbuf_8)
+     9    0.102777    0.181476    0.247954    1.253583 ^ clkbuf_2_3_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
+                                                         clknet_2_3_0_clk_regs (net)
+                      0.181543    0.002865    1.256448 ^ clkbuf_4_14_0_clk_regs/A (sky130_fd_sc_hd__clkbuf_8)
+    21    0.135488    0.235717    0.315630    1.572078 ^ clkbuf_4_14_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
+                                                         clknet_4_14_0_clk_regs (net)
+                      0.235833    0.002389    1.574467 ^ clkbuf_leaf_157_clk_regs/A (sky130_fd_sc_hd__clkbuf_8)
+    15    0.044375    0.090357    0.226377    1.800844 ^ clkbuf_leaf_157_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
+                                                         clknet_leaf_157_clk_regs (net)
+                      0.090362    0.000725    1.801569 ^ _16813_/CLK (sky130_fd_sc_hd__dfxtp_4)
+    29    0.101213    0.287005    0.538016    2.339584 ^ _16813_/Q (sky130_fd_sc_hd__dfxtp_4)
+                                                         decode_stage.rf.rf1_r (net)
+                      0.287005    0.001094    2.340679 ^ max_cap236/A (sky130_fd_sc_hd__buf_12)
+    85    0.295601    0.334299    0.341855    2.682534 ^ max_cap236/X (sky130_fd_sc_hd__buf_12)
+                                                         net236 (net)
+                      0.341097    0.038135    2.720669 ^ _09137_/S (sky130_fd_sc_hd__mux2_1)
+     2    0.005949    0.070477    0.379998    3.100666 v _09137_/X (sky130_fd_sc_hd__mux2_1)
+                                                         _05625_ (net)
+                      0.070477    0.000071    3.100738 v _09184_/A3 (sky130_fd_sc_hd__mux4_2)
+    11    0.040104    0.173412    0.616774    3.717512 v _09184_/X (sky130_fd_sc_hd__mux4_2)
+                                                         _05671_ (net)
+                      0.173413    0.000806    3.718318 v _09251_/A (sky130_fd_sc_hd__nor2_2)
+     3    0.024399    0.277328    0.303224    4.021542 ^ _09251_/Y (sky130_fd_sc_hd__nor2_2)
+                                                         _05736_ (net)
+                      0.277329    0.000312    4.021854 ^ _09379_/D_N (sky130_fd_sc_hd__or4b_2)
+     4    0.016114    0.147903    0.694401    4.716255 v _09379_/X (sky130_fd_sc_hd__or4b_2)
+                                                         _05860_ (net)
+                      0.147903    0.000363    4.716619 v _09498_/A (sky130_fd_sc_hd__or3_2)
+     4    0.015326    0.115440    0.565152    5.281770 v _09498_/X (sky130_fd_sc_hd__or3_2)
+                                                         _05975_ (net)
+                      0.115443    0.000235    5.282005 v _09615_/A (sky130_fd_sc_hd__or3_4)
+     4    0.028277    0.100717    0.462897    5.744902 v _09615_/X (sky130_fd_sc_hd__or3_4)
+                                                         _06087_ (net)
+                      0.100717    0.000400    5.745302 v _09725_/A (sky130_fd_sc_hd__or3_2)
+     4    0.018974    0.124359    0.562385    6.307687 v _09725_/X (sky130_fd_sc_hd__or3_2)
+                                                         _06193_ (net)
+                      0.124359    0.000497    6.308184 v _09832_/A (sky130_fd_sc_hd__or3_2)
+     4    0.016729    0.118771    0.562191    6.870375 v _09832_/X (sky130_fd_sc_hd__or3_2)
+                                                         _06296_ (net)
+                      0.118771    0.000445    6.870820 v _09933_/A (sky130_fd_sc_hd__or3_2)
+     4    0.014589    0.113850    0.552841    7.423661 v _09933_/X (sky130_fd_sc_hd__or3_2)
+                                                         _06393_ (net)
+                      0.113850    0.000276    7.423937 v _10038_/A (sky130_fd_sc_hd__or3_2)
+     4    0.020984    0.129800    0.573489    7.997426 v _10038_/X (sky130_fd_sc_hd__or3_2)
+                                                         _06494_ (net)
+                      0.129805    0.001040    7.998466 v _10210_/A_N (sky130_fd_sc_hd__and3b_2)
+     3    0.030527    0.166534    0.365134    8.363600 ^ _10210_/X (sky130_fd_sc_hd__and3b_2)
+                                                         _06659_ (net)
+                      0.166534    0.000705    8.364305 ^ _10417_/C (sky130_fd_sc_hd__and4bb_4)
+     5    0.044012    0.173447    0.359616    8.723922 ^ _10417_/X (sky130_fd_sc_hd__and4bb_4)
+                                                         _06858_ (net)
+                      0.173453    0.001214    8.725136 ^ _10599_/A (sky130_fd_sc_hd__and3_2)
+     4    0.031724    0.172359    0.310924    9.036059 ^ _10599_/X (sky130_fd_sc_hd__and3_2)
+                                                         _07034_ (net)
+                      0.172363    0.001035    9.037094 ^ _10690_/C_N (sky130_fd_sc_hd__or3b_4)
+     7    0.039894    0.122258    0.482018    9.519112 v _10690_/X (sky130_fd_sc_hd__or3b_4)
+                                                         _07120_ (net)
+                      0.122259    0.000687    9.519798 v _10760_/A (sky130_fd_sc_hd__xnor2_4)
+     8    0.026185    0.096245    0.206470    9.726268 v _10760_/Y (sky130_fd_sc_hd__xnor2_4)
+                                                         _07186_ (net)
+                      0.096247    0.000583    9.726851 v _13971_/A1 (sky130_fd_sc_hd__a221o_1)
+     1    0.003860    0.057849    0.332760   10.059610 v _13971_/X (sky130_fd_sc_hd__a221o_1)
+                                                         _01913_ (net)
+                      0.057849    0.000058   10.059668 v _17010_/D (sky130_fd_sc_hd__dfxtp_1)
+                                             10.059668   data arrival time
+
+                                 24.000000   24.000000   clock clk (rise edge)
+                                  0.000000   24.000000   clock source latency
+     4    0.319066    0.000000    0.000000   24.000000 ^ clk (in)
+                                                         clk (net)
+                      0.169291    0.084645   24.084644 ^ clkbuf_regs_0_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     1    0.008279    0.033230    0.156744   24.241388 ^ clkbuf_regs_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         delaynet_0_clk (net)
+                      0.033231    0.000076   24.241465 ^ delaybuf_0_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     1    0.008529    0.032072    0.110184   24.351648 ^ delaybuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         delaynet_1_clk (net)
+                      0.032072    0.000062   24.351711 ^ delaybuf_1_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     1    0.008433    0.031991    0.109663   24.461374 ^ delaybuf_1_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         delaynet_2_clk (net)
+                      0.031991    0.000089   24.461462 ^ delaybuf_2_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     1    0.009541    0.032945    0.110697   24.572161 ^ delaybuf_2_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         delaynet_3_clk (net)
+                      0.032945    0.000107   24.572268 ^ delaybuf_3_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     1    0.009191    0.032643    0.110704   24.682972 ^ delaybuf_3_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         delaynet_4_clk (net)
+                      0.032644    0.000119   24.683090 ^ delaybuf_4_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     3    0.044007    0.063318    0.138915   24.822004 ^ delaybuf_4_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         clk_regs (net)
+                      0.064034    0.005214   24.827219 ^ clkbuf_0_clk_regs/A (sky130_fd_sc_hd__clkbuf_16)
+     9    0.075967    0.093440    0.173660   25.000879 ^ clkbuf_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         clknet_0_clk_regs (net)
+                      0.093820    0.004750   25.005629 ^ clkbuf_2_3_0_clk_regs/A (sky130_fd_sc_hd__clkbuf_8)
+     9    0.102777    0.181476    0.247953   25.253582 ^ clkbuf_2_3_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
+                                                         clknet_2_3_0_clk_regs (net)
+                      0.181543    0.002867   25.256449 ^ clkbuf_4_14_0_clk_regs/A (sky130_fd_sc_hd__clkbuf_8)
+    21    0.135488    0.235717    0.315628   25.572077 ^ clkbuf_4_14_0_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
+                                                         clknet_4_14_0_clk_regs (net)
+                      0.235866    0.003331   25.575407 ^ clkbuf_leaf_160_clk_regs/A (sky130_fd_sc_hd__clkbuf_8)
+     9    0.042813    0.087922    0.224556   25.799963 ^ clkbuf_leaf_160_clk_regs/X (sky130_fd_sc_hd__clkbuf_8)
+                                                         clknet_leaf_160_clk_regs (net)
+                      0.087922    0.000284   25.800247 ^ _17010_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                                  0.000000   25.800247   clock reconvergence pessimism
+                                 -0.106132   25.694117   library setup time
+                                             25.694117   data required time
+---------------------------------------------------------------------------------------------
+                                             25.694117   data required time
+                                            -10.059668   data arrival time
+---------------------------------------------------------------------------------------------
+                                             15.634449   slack (MET)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= min_tt_025C_1v80 Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= min_tt_025C_1v80 Corner ===================================
+
+
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 274 unannotated drivers.
+ clkload0/X
+ clkload1/Y
+ clkload10/Y
+ clkload100/Y
+ clkload101/Y
+ clkload102/Y
+ clkload103/X
+ clkload104/Y
+ clkload105/X
+ clkload106/Y
+ clkload107/X
+ clkload108/X
+ clkload109/X
+ clkload11/Y
+ clkload110/Y
+ clkload111/X
+ clkload112/X
+ clkload113/X
+ clkload114/X
+ clkload115/X
+ clkload116/X
+ clkload117/X
+ clkload118/Y
+ clkload119/Y
+ clkload12/Y
+ clkload120/Y
+ clkload121/Y
+ clkload122/X
+ clkload123/Y
+ clkload124/Y
+ clkload125/Y
+ clkload126/Y
+ clkload127/Y
+ clkload128/Y
+ clkload129/X
+ clkload13/Y
+ clkload130/Y
+ clkload131/Y
+ clkload132/Y
+ clkload133/Y
+ clkload134/Y
+ clkload135/Y
+ clkload136/Y
+ clkload137/Y
+ clkload138/Y
+ clkload139/Y
+ clkload14/Y
+ clkload140/Y
+ clkload141/Y
+ clkload142/Y
+ clkload143/Y
+ clkload144/X
+ clkload145/Y
+ clkload146/Y
+ clkload147/Y
+ clkload148/Y
+ clkload149/X
+ clkload15/Y
+ clkload150/Y
+ clkload151/Y
+ clkload152/Y
+ clkload153/Y
+ clkload154/Y
+ clkload155/Y
+ clkload156/Y
+ clkload157/Y
+ clkload16/Y
+ clkload17/Y
+ clkload18/Y
+ clkload19/X
+ clkload2/Y
+ clkload20/X
+ clkload21/Y
+ clkload22/Y
+ clkload23/Y
+ clkload24/Y
+ clkload25/Y
+ clkload26/Y
+ clkload27/Y
+ clkload28/Y
+ clkload29/Y
+ clkload3/X
+ clkload30/Y
+ clkload31/X
+ clkload32/X
+ clkload33/Y
+ clkload34/Y
+ clkload35/Y
+ clkload36/Y
+ clkload37/Y
+ clkload38/Y
+ clkload39/Y
+ clkload4/Y
+ clkload40/Y
+ clkload41/Y
+ clkload42/Y
+ clkload43/Y
+ clkload44/Y
+ clkload45/Y
+ clkload46/Y
+ clkload47/Y
+ clkload48/Y
+ clkload49/Y
+ clkload5/Y
+ clkload50/X
+ clkload51/Y
+ clkload52/Y
+ clkload53/X
+ clkload54/Y
+ clkload55/Y
+ clkload56/X
+ clkload57/Y
+ clkload58/Y
+ clkload59/Y
+ clkload6/Y
+ clkload60/Y
+ clkload61/Y
+ clkload62/Y
+ clkload63/X
+ clkload64/X
+ clkload65/Y
+ clkload66/Y
+ clkload67/Y
+ clkload68/Y
+ clkload69/Y
+ clkload7/Y
+ clkload70/Y
+ clkload71/Y
+ clkload72/Y
+ clkload73/Y
+ clkload74/Y
+ clkload75/Y
+ clkload76/Y
+ clkload77/Y
+ clkload78/Y
+ clkload79/Y
+ clkload8/X
+ clkload80/Y
+ clkload81/Y
+ clkload82/Y
+ clkload83/X
+ clkload84/X
+ clkload85/Y
+ clkload86/Y
+ clkload87/Y
+ clkload88/Y
+ clkload89/Y
+ clkload9/X
+ clkload90/Y
+ clkload91/Y
+ clkload92/Y
+ clkload93/Y
+ clkload94/Y
+ clkload95/Y
+ clkload96/Y
+ clkload97/Y
+ clkload98/Y
+ clkload99/Y
+ decode_stage.rf.tgrp_rf1/BLOCK\[0\].RAM32.A1BUF\[0\].__cell__/X
+ decode_stage.rf.tgrp_rf1/BLOCK\[0\].RAM32.A1BUF\[1\].__cell__/X
+ decode_stage.rf.tgrp_rf1/BLOCK\[0\].RAM32.A1BUF\[2\].__cell__/X
+ decode_stage.rf.tgrp_rf1/BLOCK\[0\].RAM32.A1BUF\[3\].__cell__/X
+ decode_stage.rf.tgrp_rf1/BLOCK\[0\].RAM32.DEC1.AND0/X
+ decode_stage.rf.tgrp_rf1/BLOCK\[0\].RAM32.DEC1.AND1/X
+ decode_stage.rf.tgrp_rf1/BLOCK\[0\].RAM32.SLICE_16\[0\].RAM16.TIE0\[0\].__cell__/HI
+ decode_stage.rf.tgrp_rf1/BLOCK\[0\].RAM32.SLICE_16\[0\].RAM16.TIE0\[1\].__cell__/HI
+ decode_stage.rf.tgrp_rf1/BLOCK\[0\].RAM32.SLICE_16\[0\].RAM16.TIE0\[2\].__cell__/HI
+ decode_stage.rf.tgrp_rf1/BLOCK\[0\].RAM32.SLICE_16\[0\].RAM16.TIE0\[3\].__cell__/HI
+ decode_stage.rf.tgrp_rf1/BLOCK\[0\].RAM32.SLICE_16\[1\].RAM16.TIE0\[0\].__cell__/HI
+ decode_stage.rf.tgrp_rf1/BLOCK\[0\].RAM32.SLICE_16\[1\].RAM16.TIE0\[1\].__cell__/HI
+ decode_stage.rf.tgrp_rf1/BLOCK\[0\].RAM32.SLICE_16\[1\].RAM16.TIE0\[2\].__cell__/HI
+ decode_stage.rf.tgrp_rf1/BLOCK\[0\].RAM32.SLICE_16\[1\].RAM16.TIE0\[3\].__cell__/HI
+ decode_stage.rf.tgrp_rf1/BLOCK\[1\].RAM32.A1BUF\[0\].__cell__/X
+ decode_stage.rf.tgrp_rf1/BLOCK\[1\].RAM32.A1BUF\[1\].__cell__/X
+ decode_stage.rf.tgrp_rf1/BLOCK\[1\].RAM32.A1BUF\[2\].__cell__/X
+ decode_stage.rf.tgrp_rf1/BLOCK\[1\].RAM32.A1BUF\[3\].__cell__/X
+ decode_stage.rf.tgrp_rf1/BLOCK\[1\].RAM32.DEC1.AND0/X
+ decode_stage.rf.tgrp_rf1/BLOCK\[1\].RAM32.DEC1.AND1/X
+ decode_stage.rf.tgrp_rf1/BLOCK\[1\].RAM32.SLICE_16\[0\].RAM16.TIE0\[0\].__cell__/HI
+ decode_stage.rf.tgrp_rf1/BLOCK\[1\].RAM32.SLICE_16\[0\].RAM16.TIE0\[1\].__cell__/HI
+ decode_stage.rf.tgrp_rf1/BLOCK\[1\].RAM32.SLICE_16\[0\].RAM16.TIE0\[2\].__cell__/HI
+ decode_stage.rf.tgrp_rf1/BLOCK\[1\].RAM32.SLICE_16\[0\].RAM16.TIE0\[3\].__cell__/HI
+ decode_stage.rf.tgrp_rf1/BLOCK\[1\].RAM32.SLICE_16\[1\].RAM16.TIE0\[0\].__cell__/HI
+ decode_stage.rf.tgrp_rf1/BLOCK\[1\].RAM32.SLICE_16\[1\].RAM16.TIE0\[1\].__cell__/HI
+ decode_stage.rf.tgrp_rf1/BLOCK\[1\].RAM32.SLICE_16\[1\].RAM16.TIE0\[2\].__cell__/HI
+ decode_stage.rf.tgrp_rf1/BLOCK\[1\].RAM32.SLICE_16\[1\].RAM16.TIE0\[3\].__cell__/HI
+ decode_stage.rf.tgrp_rf1/BLOCK\[2\].RAM32.A1BUF\[0\].__cell__/X
+ decode_stage.rf.tgrp_rf1/BLOCK\[2\].RAM32.A1BUF\[1\].__cell__/X
+ decode_stage.rf.tgrp_rf1/BLOCK\[2\].RAM32.A1BUF\[2\].__cell__/X
+ decode_stage.rf.tgrp_rf1/BLOCK\[2\].RAM32.A1BUF\[3\].__cell__/X
+ decode_stage.rf.tgrp_rf1/BLOCK\[2\].RAM32.DEC1.AND0/X
+ decode_stage.rf.tgrp_rf1/BLOCK\[2\].RAM32.DEC1.AND1/X
+ decode_stage.rf.tgrp_rf1/BLOCK\[2\].RAM32.SLICE_16\[0\].RAM16.TIE0\[0\].__cell__/HI
+ decode_stage.rf.tgrp_rf1/BLOCK\[2\].RAM32.SLICE_16\[0\].RAM16.TIE0\[1\].__cell__/HI
+ decode_stage.rf.tgrp_rf1/BLOCK\[2\].RAM32.SLICE_16\[0\].RAM16.TIE0\[2\].__cell__/HI
+ decode_stage.rf.tgrp_rf1/BLOCK\[2\].RAM32.SLICE_16\[0\].RAM16.TIE0\[3\].__cell__/HI
+ decode_stage.rf.tgrp_rf1/BLOCK\[2\].RAM32.SLICE_16\[1\].RAM16.TIE0\[0\].__cell__/HI
+ decode_stage.rf.tgrp_rf1/BLOCK\[2\].RAM32.SLICE_16\[1\].RAM16.TIE0\[1\].__cell__/HI
+ decode_stage.rf.tgrp_rf1/BLOCK\[2\].RAM32.SLICE_16\[1\].RAM16.TIE0\[2\].__cell__/HI
+ decode_stage.rf.tgrp_rf1/BLOCK\[2\].RAM32.SLICE_16\[1\].RAM16.TIE0\[3\].__cell__/HI
+ decode_stage.rf.tgrp_rf1/BLOCK\[3\].RAM32.A1BUF\[0\].__cell__/X
+ decode_stage.rf.tgrp_rf1/BLOCK\[3\].RAM32.A1BUF\[1\].__cell__/X
+ decode_stage.rf.tgrp_rf1/BLOCK\[3\].RAM32.A1BUF\[2\].__cell__/X
+ decode_stage.rf.tgrp_rf1/BLOCK\[3\].RAM32.A1BUF\[3\].__cell__/X
+ decode_stage.rf.tgrp_rf1/BLOCK\[3\].RAM32.DEC1.AND0/X
+ decode_stage.rf.tgrp_rf1/BLOCK\[3\].RAM32.DEC1.AND1/X
+ decode_stage.rf.tgrp_rf1/BLOCK\[3\].RAM32.SLICE_16\[0\].RAM16.TIE0\[0\].__cell__/HI
+ decode_stage.rf.tgrp_rf1/BLOCK\[3\].RAM32.SLICE_16\[0\].RAM16.TIE0\[1\].__cell__/HI
+ decode_stage.rf.tgrp_rf1/BLOCK\[3\].RAM32.SLICE_16\[0\].RAM16.TIE0\[2\].__cell__/HI
+ decode_stage.rf.tgrp_rf1/BLOCK\[3\].RAM32.SLICE_16\[0\].RAM16.TIE0\[3\].__cell__/HI
+ decode_stage.rf.tgrp_rf1/BLOCK\[3\].RAM32.SLICE_16\[1\].RAM16.TIE0\[0\].__cell__/HI
+ decode_stage.rf.tgrp_rf1/BLOCK\[3\].RAM32.SLICE_16\[1\].RAM16.TIE0\[1\].__cell__/HI
+ decode_stage.rf.tgrp_rf1/BLOCK\[3\].RAM32.SLICE_16\[1\].RAM16.TIE0\[2\].__cell__/HI
+ decode_stage.rf.tgrp_rf1/BLOCK\[3\].RAM32.SLICE_16\[1\].RAM16.TIE0\[3\].__cell__/HI
+ decode_stage.rf.tgrp_rf1/TIE_ZERO_zero_/HI
+ decode_stage.rf.tgrp_rf1_259/LO
+ decode_stage.rf.tgrp_rf2/BLOCK\[0\].RAM32.A1BUF\[0\].__cell__/X
+ decode_stage.rf.tgrp_rf2/BLOCK\[0\].RAM32.A1BUF\[1\].__cell__/X
+ decode_stage.rf.tgrp_rf2/BLOCK\[0\].RAM32.A1BUF\[2\].__cell__/X
+ decode_stage.rf.tgrp_rf2/BLOCK\[0\].RAM32.A1BUF\[3\].__cell__/X
+ decode_stage.rf.tgrp_rf2/BLOCK\[0\].RAM32.DEC1.AND0/X
+ decode_stage.rf.tgrp_rf2/BLOCK\[0\].RAM32.DEC1.AND1/X
+ decode_stage.rf.tgrp_rf2/BLOCK\[0\].RAM32.SLICE_16\[0\].RAM16.TIE0\[0\].__cell__/HI
+ decode_stage.rf.tgrp_rf2/BLOCK\[0\].RAM32.SLICE_16\[0\].RAM16.TIE0\[1\].__cell__/HI
+ decode_stage.rf.tgrp_rf2/BLOCK\[0\].RAM32.SLICE_16\[0\].RAM16.TIE0\[2\].__cell__/HI
+ decode_stage.rf.tgrp_rf2/BLOCK\[0\].RAM32.SLICE_16\[0\].RAM16.TIE0\[3\].__cell__/HI
+ decode_stage.rf.tgrp_rf2/BLOCK\[0\].RAM32.SLICE_16\[1\].RAM16.TIE0\[0\].__cell__/HI
+ decode_stage.rf.tgrp_rf2/BLOCK\[0\].RAM32.SLICE_16\[1\].RAM16.TIE0\[1\].__cell__/HI
+ decode_stage.rf.tgrp_rf2/BLOCK\[0\].RAM32.SLICE_16\[1\].RAM16.TIE0\[2\].__cell__/HI
+ decode_stage.rf.tgrp_rf2/BLOCK\[0\].RAM32.SLICE_16\[1\].RAM16.TIE0\[3\].__cell__/HI
+ decode_stage.rf.tgrp_rf2/BLOCK\[1\].RAM32.A1BUF\[0\].__cell__/X
+ decode_stage.rf.tgrp_rf2/BLOCK\[1\].RAM32.A1BUF\[1\].__cell__/X
+ decode_stage.rf.tgrp_rf2/BLOCK\[1\].RAM32.A1BUF\[2\].__cell__/X
+ decode_stage.rf.tgrp_rf2/BLOCK\[1\].RAM32.A1BUF\[3\].__cell__/X
+ decode_stage.rf.tgrp_rf2/BLOCK\[1\].RAM32.DEC1.AND0/X
+ decode_stage.rf.tgrp_rf2/BLOCK\[1\].RAM32.DEC1.AND1/X
+ decode_stage.rf.tgrp_rf2/BLOCK\[1\].RAM32.SLICE_16\[0\].RAM16.TIE0\[0\].__cell__/HI
+ decode_stage.rf.tgrp_rf2/BLOCK\[1\].RAM32.SLICE_16\[0\].RAM16.TIE0\[1\].__cell__/HI
+ decode_stage.rf.tgrp_rf2/BLOCK\[1\].RAM32.SLICE_16\[0\].RAM16.TIE0\[2\].__cell__/HI
+ decode_stage.rf.tgrp_rf2/BLOCK\[1\].RAM32.SLICE_16\[0\].RAM16.TIE0\[3\].__cell__/HI
+ decode_stage.rf.tgrp_rf2/BLOCK\[1\].RAM32.SLICE_16\[1\].RAM16.TIE0\[0\].__cell__/HI
+ decode_stage.rf.tgrp_rf2/BLOCK\[1\].RAM32.SLICE_16\[1\].RAM16.TIE0\[1\].__cell__/HI
+ decode_stage.rf.tgrp_rf2/BLOCK\[1\].RAM32.SLICE_16\[1\].RAM16.TIE0\[2\].__cell__/HI
+ decode_stage.rf.tgrp_rf2/BLOCK\[1\].RAM32.SLICE_16\[1\].RAM16.TIE0\[3\].__cell__/HI
+ decode_stage.rf.tgrp_rf2/BLOCK\[2\].RAM32.A1BUF\[0\].__cell__/X
+ decode_stage.rf.tgrp_rf2/BLOCK\[2\].RAM32.A1BUF\[1\].__cell__/X
+ decode_stage.rf.tgrp_rf2/BLOCK\[2\].RAM32.A1BUF\[2\].__cell__/X
+ decode_stage.rf.tgrp_rf2/BLOCK\[2\].RAM32.A1BUF\[3\].__cell__/X
+ decode_stage.rf.tgrp_rf2/BLOCK\[2\].RAM32.DEC1.AND0/X
+ decode_stage.rf.tgrp_rf2/BLOCK\[2\].RAM32.DEC1.AND1/X
+ decode_stage.rf.tgrp_rf2/BLOCK\[2\].RAM32.SLICE_16\[0\].RAM16.TIE0\[0\].__cell__/HI
+ decode_stage.rf.tgrp_rf2/BLOCK\[2\].RAM32.SLICE_16\[0\].RAM16.TIE0\[1\].__cell__/HI
+ decode_stage.rf.tgrp_rf2/BLOCK\[2\].RAM32.SLICE_16\[0\].RAM16.TIE0\[2\].__cell__/HI
+ decode_stage.rf.tgrp_rf2/BLOCK\[2\].RAM32.SLICE_16\[0\].RAM16.TIE0\[3\].__cell__/HI
+ decode_stage.rf.tgrp_rf2/BLOCK\[2\].RAM32.SLICE_16\[1\].RAM16.TIE0\[0\].__cell__/HI
+ decode_stage.rf.tgrp_rf2/BLOCK\[2\].RAM32.SLICE_16\[1\].RAM16.TIE0\[1\].__cell__/HI
+ decode_stage.rf.tgrp_rf2/BLOCK\[2\].RAM32.SLICE_16\[1\].RAM16.TIE0\[2\].__cell__/HI
+ decode_stage.rf.tgrp_rf2/BLOCK\[2\].RAM32.SLICE_16\[1\].RAM16.TIE0\[3\].__cell__/HI
+ decode_stage.rf.tgrp_rf2/BLOCK\[3\].RAM32.A1BUF\[0\].__cell__/X
+ decode_stage.rf.tgrp_rf2/BLOCK\[3\].RAM32.A1BUF\[1\].__cell__/X
+ decode_stage.rf.tgrp_rf2/BLOCK\[3\].RAM32.A1BUF\[2\].__cell__/X
+ decode_stage.rf.tgrp_rf2/BLOCK\[3\].RAM32.A1BUF\[3\].__cell__/X
+ decode_stage.rf.tgrp_rf2/BLOCK\[3\].RAM32.DEC1.AND0/X
+ decode_stage.rf.tgrp_rf2/BLOCK\[3\].RAM32.DEC1.AND1/X
+ decode_stage.rf.tgrp_rf2/BLOCK\[3\].RAM32.SLICE_16\[0\].RAM16.TIE0\[0\].__cell__/HI
+ decode_stage.rf.tgrp_rf2/BLOCK\[3\].RAM32.SLICE_16\[0\].RAM16.TIE0\[1\].__cell__/HI
+ decode_stage.rf.tgrp_rf2/BLOCK\[3\].RAM32.SLICE_16\[0\].RAM16.TIE0\[2\].__cell__/HI
+ decode_stage.rf.tgrp_rf2/BLOCK\[3\].RAM32.SLICE_16\[0\].RAM16.TIE0\[3\].__cell__/HI
+ decode_stage.rf.tgrp_rf2/BLOCK\[3\].RAM32.SLICE_16\[1\].RAM16.TIE0\[0\].__cell__/HI
+ decode_stage.rf.tgrp_rf2/BLOCK\[3\].RAM32.SLICE_16\[1\].RAM16.TIE0\[1\].__cell__/HI
+ decode_stage.rf.tgrp_rf2/BLOCK\[3\].RAM32.SLICE_16\[1\].RAM16.TIE0\[2\].__cell__/HI
+ decode_stage.rf.tgrp_rf2/BLOCK\[3\].RAM32.SLICE_16\[1\].RAM16.TIE0\[3\].__cell__/HI
+ decode_stage.rf.tgrp_rf2/TIE_ZERO_zero_/HI
+ decode_stage.rf.tgrp_rf2_260/LO
+Found 0 partially unannotated drivers.
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 0
+max cap violation count 0
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================
+Warning: There are 2 input ports missing set_input_delay.
+  rst
+  swap_tgrp
+Warning: There are 65 unconstrained endpoints.
+  pcw[0]
+  pcw[10]
+  pcw[11]
+  pcw[12]
+  pcw[13]
+  pcw[14]
+  pcw[15]
+  pcw[16]
+  pcw[17]
+  pcw[18]
+  pcw[19]
+  pcw[1]
+  pcw[20]
+  pcw[21]
+  pcw[22]
+  pcw[23]
+  pcw[24]
+  pcw[25]
+  pcw[26]
+  pcw[27]
+  pcw[28]
+  pcw[29]
+  pcw[2]
+  pcw[30]
+  pcw[31]
+  pcw[3]
+  pcw[4]
+  pcw[5]
+  pcw[6]
+  pcw[7]
+  pcw[8]
+  pcw[9]
+  result[0]
+  result[10]
+  result[11]
+  result[12]
+  result[13]
+  result[14]
+  result[15]
+  result[16]
+  result[17]
+  result[18]
+  result[19]
+  result[1]
+  result[20]
+  result[21]
+  result[22]
+  result[23]
+  result[24]
+  result[25]
+  result[26]
+  result[27]
+  result[28]
+  result[29]
+  result[2]
+  result[30]
+  result[31]
+  result[3]
+  result[4]
+  result[5]
+  result[6]
+  result[7]
+  result[8]
+  result[9]
+  _16770_/D

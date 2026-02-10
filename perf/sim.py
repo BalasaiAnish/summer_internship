@@ -1,47 +1,10 @@
 import random
 
+import matplotlib.pyplot as plt
+import model
 import pandas as pd
-import sys_cfg
-import wkld_cfg
+import seaborn as sns
 
-
-def regular_model():
-    cycles = 0
-    instrs = wkld_cfg.instr_count
-    cycles += wkld_cfg.instr_count*wkld_cfg.normal_fraction
-    cycles += wkld_cfg.instr_count*wkld_cfg.lw_stall*wkld_cfg.lw_cycles
-    cycles += wkld_cfg.instr_count*wkld_cfg.branch*wkld_cfg.branch_mispredict
-    cycles += wkld_cfg.instr_count*wkld_cfg.mem*((1-wkld_cfg.mem_miss_rate)+wkld_cfg.mem_miss_rate*wkld_cfg.mem_miss_penalty)
-    return cycles
-
-def mt_model():
-    cycles = 0
-    instrs = wkld_cfg.instr_count
-    cycles += wkld_cfg.instr_count*(1-wkld_cfg.mem)
-    cycles += wkld_cfg.instr_count*wkld_cfg.mem*((1-wkld_cfg.mt_mem_miss_rate)+wkld_cfg.mt_mem_miss_rate*wkld_cfg.mt_mem_miss_penalty)
-    return cycles
-
-def regular_metrics(cycles):
-    metrics = dict()
-    ops_per_second = wkld_cfg.instr_count/(cycles*sys_cfg.cycle_time)
-    ops_per_joule = ops_per_second/sys_cfg.power
-    exec_time = cycles*sys_cfg.cycle_time
-    metrics["cycles"] = cycles
-    metrics["exec_time"] = exec_time
-    metrics["ops_p_s"] = ops_per_second
-    metrics["ops_p_j"] = ops_per_joule
-    return metrics
-
-def mt_metrics(cycles):
-    metrics = dict()
-    ops_per_second = wkld_cfg.instr_count/(cycles*sys_cfg.mt_cycle_time)
-    ops_per_joule = ops_per_second/sys_cfg.mt_power
-    exec_time = cycles*sys_cfg.mt_cycle_time
-    metrics["cycles"] = cycles
-    metrics["exec_time"] = exec_time
-    metrics["ops_p_s"] = ops_per_second
-    metrics["ops_p_j"] = ops_per_joule
-    return metrics
 
 def print_metrics(metrics):
     for i in metrics.keys():
@@ -51,38 +14,181 @@ def print_diffs(orig_metrics, new_metrics):
     for i in orig_metrics:
         diff = ((new_metrics[i]-orig_metrics[i])/orig_metrics[i])*100
         print(f"{i}: {diff:0.2f}%")
+
 if __name__ == "__main__":
+    workload_params = [
+        ("instr_count", 1000000),
+        ("mem_fraction", 0.0),
+        ("mem_miss_rate", 0.1),
+        ("mem_penalty", 100),
+    ]
+    system_params = [
+        ("power",1.407473e-02),
+        ("cycle_time",24e-9)
+    ]
+    workload_cfg = model.Config(workload_params)
+    system_cfg = model.Config(system_params)
+    metrics = model.Metrics()
 
-    # Regular model
-    regular = regular_model()
+    mt_cpu = model.MT_CPU(workload_cfg,system_cfg,metrics)
 
-    # MT model
-    mt = mt_model()
+    mt_in1 = mt_cpu.sweep_mem_frac(0,1,100,workload_cfg)
 
-    rmet = regular_metrics(regular)
-    mtmet = mt_metrics(mt)
+    workload_params = [
+        ("instr_count", 1000000),
+        ("mem_fraction", 0.2),
+        ("mem_miss_rate", 0.1),
+        ("mem_penalty", 100),
+    ]
+    system_params = [
+        ("power",1.407473e-02),
+        ("cycle_time",24e-9)
+    ]
+    workload_cfg = model.Config(workload_params)
+    system_cfg = model.Config(system_params)
+    metrics = model.Metrics()
 
-    # print("Regular Core")
-    # print_metrics(rmet)
+    mt_cpu = model.MT_CPU(workload_cfg,system_cfg,metrics)
+    mt_in2 = mt_cpu.sweep_branch_frac(0,1,100,workload_cfg)
 
-    # print("MT Core")
-    # print_metrics(mtmet)
+    workload_params = [
+        ("instr_count", 1000000),
+        ("mem_fraction", 0.2),
+        ("mem_miss_rate", 0.0),
+        ("mem_penalty", 100),
+    ]
+    system_params = [
+        ("power",1.407473e-02),
+        ("cycle_time",24e-9)
+    ]
+    workload_cfg = model.Config(workload_params)
+    system_cfg = model.Config(system_params)
+    metrics = model.Metrics()
 
-    # print("Diff")
-    # print_diffs(rmet,mtmet)
+    mt_cpu = model.MT_CPU(workload_cfg,system_cfg,metrics)
 
-    rdata = ["regular"]
-    mtdata = ["mt"]
-    diffs_data = ["diff (%)"]
-    cols = ["type"]
+    mt_in3 = mt_cpu.sweep_mem_miss(0,1,100,workload_cfg)
 
-    for i in rmet.keys():
-        rdata.append(rmet[i])
-        mtdata.append(mtmet[i])
-        diffs_data.append((100*(mtmet[i]-rmet[i])/rmet[i]))
-        cols.append(i)
+    workload_params = [
+        ("instr_count", 1000000),
+        ("normal_fraction", 1-0.2),
+        ("mem_fraction", 0.0),
+        ("mem_miss_rate", 0.05),
+        ("mem_penalty", 100),
+        ("lw_stall_fraction", 0.0),
+        ("lw_stall_cycles", 1),
+        ("branch_fraction", 0.2),
+        ("branch_penalty", 2),
+        ("branch_mispredict_rate", 0.7),
+    ]
+    system_params = [
+        ("power",1.207269e-02),
+        ("cycle_time",21e-9)
+    ]
 
-    data = [rdata, mtdata, diffs_data]
-    tbl = pd.DataFrame(data,columns=cols)
-    print(tbl)
-    tbl.to_csv("metrics.csv")
+    workload_cfg = model.Config(workload_params)
+    system_cfg = model.Config(system_params)
+    metrics = model.Metrics()
+
+    cpu = model.CPU(workload_cfg,system_cfg,metrics)
+
+    st_in1 = cpu.sweep_mem_frac(0,1,100,workload_cfg)
+
+
+    workload_params = [
+        ("instr_count", 1000000),
+        ("normal_fraction", 1-0.2),
+        ("mem_fraction", 0.2),
+        ("mem_miss_rate", 0.05),
+        ("mem_penalty", 100),
+        ("lw_stall_fraction", 0.25*0.2),
+        ("lw_stall_cycles", 1),
+        ("branch_fraction", 0.0),
+        ("branch_penalty", 2),
+        ("branch_mispredict_rate", 0.7),
+    ]
+    system_params = [
+        ("power",1.207269e-02),
+        ("cycle_time",21e-9)
+    ]
+
+    workload_cfg = model.Config(workload_params)
+    system_cfg = model.Config(system_params)
+    metrics = model.Metrics()
+
+    cpu = model.CPU(workload_cfg,system_cfg,metrics)
+    st_in2 = cpu.sweep_branch_frac(0,1,100,workload_cfg)
+
+    workload_params = [
+        ("instr_count", 1000000),
+        ("normal_fraction", 1-0.2-0.2),
+        ("mem_fraction", 0.2),
+        ("mem_miss_rate", 0.0),
+        ("mem_penalty", 100),
+        ("lw_stall_fraction", 0.25*0.2),
+        ("lw_stall_cycles", 1),
+        ("branch_fraction", 0.2),
+        ("branch_penalty", 2),
+        ("branch_mispredict_rate", 0.7),
+    ]
+    system_params = [
+        ("power",1.207269e-02),
+        ("cycle_time",21e-9)
+    ]
+
+    workload_cfg = model.Config(workload_params)
+    system_cfg = model.Config(system_params)
+    metrics = model.Metrics()
+
+    cpu = model.CPU(workload_cfg,system_cfg,metrics)
+
+    st_in3 = cpu.sweep_mem_miss(0,1,100,workload_cfg)
+
+    model.compare_all("mem_fraction",st_in1,mt_in1)
+    model.compare_all("branch_fraction",st_in2,mt_in2)
+    model.compare_all("mem_miss_rate",st_in3,mt_in3)
+
+    workload_params = [
+        ("instr_count", 1000000),
+        ("mem_fraction", 0.2),
+        ("mem_miss_rate", 0.1),
+        ("mem_penalty", 100),
+    ]
+    system_params = [
+        ("power",1.407473e-02),
+        ("cycle_time",24e-9)
+    ]
+    workload_cfg = model.Config(workload_params)
+    system_cfg = model.Config(system_params)
+    metrics = model.Metrics()
+
+    mt_cpu = model.MT_CPU(workload_cfg,system_cfg,metrics)
+    mt_cpu.sim()
+
+    workload_params = [
+        ("instr_count", 1000000),
+        ("normal_fraction", 1-0.2-0.2),
+        ("mem_fraction", 0.2),
+        ("mem_miss_rate", 0.05),
+        ("mem_penalty", 100),
+        ("lw_stall_fraction", 0.25*0.2),
+        ("lw_stall_cycles", 1),
+        ("branch_fraction", 0.2),
+        ("branch_penalty", 2),
+        ("branch_mispredict_rate", 0.7),
+    ]
+    system_params = [
+        ("power",1.207269e-02),
+        ("cycle_time",21e-9)
+    ]
+    workload_cfg = model.Config(workload_params)
+    system_cfg = model.Config(system_params)
+    metrics = model.Metrics()
+
+    cpu = model.CPU(workload_cfg,system_cfg,metrics)
+    cpu.sim()
+
+    print_metrics(cpu.metrics.metrics)
+    print_metrics(mt_cpu.metrics.metrics)
+    print_diffs(cpu.metrics.metrics,mt_cpu.metrics.metrics)
+    plt.show()

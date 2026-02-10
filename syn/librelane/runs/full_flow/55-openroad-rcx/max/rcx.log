@@ -1,0 +1,48 @@
+Reading technology LEF file at '/home/bala/OpenRAM/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__max.tlef'…
+[INFO ODB-0227] LEF file: /home/bala/OpenRAM/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__max.tlef, created 14 layers, 25 vias
+Reading cell LEF file at '/home/bala/OpenRAM/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef'…
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/bala/OpenRAM/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef at line 2.
+
+[INFO ODB-0227] LEF file: /home/bala/OpenRAM/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef, created 437 library cells
+Reading cell LEF file at '/home/bala/OpenRAM/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef'…
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/bala/OpenRAM/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef at line 2.
+
+[INFO ODB-0227] LEF file: /home/bala/OpenRAM/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef, created 4 library cells
+Reading macro LEF file at '/home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/lef/RAM128_1RW1R.lef'…
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/lef/RAM128_1RW1R.lef at line 2.
+
+[INFO ODB-0227] LEF file: /home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/lef/RAM128_1RW1R.lef, created 1 library cells
+[INFO ODB-0127] Reading DEF file: /home/bala/git_stuff/summer_internship/syn/librelane/runs/full_flow/54-odb-cellfrequencytables/mt_cpu.def
+[INFO ODB-0128] Design: mt_cpu
+[INFO ODB-0130]     Created 69 pins.
+[INFO ODB-0131]     Created 89439 components and 391565 component-terminals.
+[INFO ODB-0132]     Created 4 special nets and 336774 connections.
+[INFO ODB-0133]     Created 10992 nets and 54631 connections.
+[INFO ODB-0134] Finished DEF file: /home/bala/git_stuff/summer_internship/syn/librelane/runs/full_flow/54-odb-cellfrequencytables/mt_cpu.def
+Using RCX ruleset '/home/bala/OpenRAM/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/openlane/rules.openrcx.sky130A.max.calibre'…
+[INFO RCX-0431] Defined process_corner CURRENT_CORNER with ext_model_index 0
+[INFO RCX-0029] Defined extraction corner CURRENT_CORNER
+[INFO RCX-0435] Reading extraction model file /home/bala/OpenRAM/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/openlane/rules.openrcx.sky130A.max.calibre ...
+[INFO RCX-0436] RC segment generation mt_cpu (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 95818 rc segments
+[INFO RCX-0439] Coupling Cap extraction mt_cpu ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0442] 49% of 136647 wires extracted
+[INFO RCX-0442] 56% of 136647 wires extracted
+[INFO RCX-0442] 100% of 136647 wires extracted
+[INFO RCX-0045] Extract 10994 nets, 106809 rsegs, 106809 caps, 175305 ccs
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+Updating metrics…
+Cell type report:                       Count       Area
+  Macro                                     2  516115.00
+  Fill cell                             55478  558161.57
+  Tap cell                              10489   13123.84
+  Antenna cell                          12451   31157.38
+  Standard cell                         11019  138013.62
+  Total                                 89439 1256571.40
+Writing extracted parasitics to '/home/bala/git_stuff/summer_internship/syn/librelane/runs/full_flow/55-openroad-rcx/max/mt_cpu.max.spef'…
+[INFO RCX-0443] 10992 nets finished

@@ -28,18 +28,18 @@
         "dir::../../src/writeback.v",
         "dir::../../src/tgrp_switcher.v"
     ],
-    "CLOCK_PERIOD": 35,
+    "CLOCK_PERIOD": 24,
     "CLOCK_PORT": "clk",
     "MACROS": {
         "RAM128_1RW1R": {
             "instances": {
                 "decode_stage.rf.tgrp_rf1": {
                     "orientation": "N",
-                    "location": [0, 0]
+                    "location": [100, 500]
                 },
                 "decode_stage.rf.tgrp_rf2": {
                     "orientation": "N",
-                    "location": [500, 0]
+                    "location": [600, 500]
                 }
             },
             "gds": ["dir::../RAM128_1RW1R/gds/RAM128_1RW1R.gds"],
@@ -89,5 +89,15 @@
     "STA_MACRO_PRIORITIZE_NL": "true",
     "PNR_SDC_FILE": "dir::./cons.sdc",
     "SIGNOFF_SDC_FILE": "dir::./cons.sdc",
-    "FP_CORE_UTIL": 40
+    "DIE_AREA": [0, 0, 10000, 10000],
+    "CORE_AREA": [0, 0, 11000, 11000],
+    "GRT_ANTENNA_ITERS": 10,
+    "GRT_ANTENNA_MARGIN": 15,
+    "RUN_HEURISTIC_DIODE_INSERTION": true,
+    "DESIGN_REPAIR_MAX_WIRE_LENGTH": 800,
+    "PL_WIRE_LENGTH_COEF": 0.05,
+    "MAX_TRANSITION_CONSTRAINT": 1.5,
+    "DESIGN_REPAIR_MAX_SLEW_PCT": 30,
+    "DESIGN_REPAIR_MAX_CAP_PCT": 30,
+    "RUN_POST_GRT_DESIGN_REPAIR": true
 }

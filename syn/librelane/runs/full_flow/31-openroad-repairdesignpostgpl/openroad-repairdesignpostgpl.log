@@ -1,0 +1,196 @@
+Reading timing models for corner max_tt_025C_1v80…
+Reading timing library for the 'max_tt_025C_1v80' corner at '/home/bala/OpenRAM/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading timing library for the 'max_tt_025C_1v80' corner at '/home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/lib/max_tt_025C_1v80/RAM128_1RW1R__max_tt_025C_1v80.lib'…
+Reading timing models for corner min_ss_100C_1v60…
+Reading timing library for the 'min_ss_100C_1v60' corner at '/home/bala/OpenRAM/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib'…
+Reading timing library for the 'min_ss_100C_1v60' corner at '/home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/lib/min_ss_100C_1v60/RAM128_1RW1R__min_ss_100C_1v60.lib'…
+[WARNING STA-1140] /home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/lib/min_ss_100C_1v60/RAM128_1RW1R__min_ss_100C_1v60.lib line 1, library RAM128_1RW1R already exists.
+Reading timing models for corner nom_tt_025C_1v80…
+Reading timing library for the 'nom_tt_025C_1v80' corner at '/home/bala/OpenRAM/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+[WARNING STA-1140] /home/bala/OpenRAM/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib line 1, library sky130_fd_sc_hd__tt_025C_1v80 already exists.
+Reading timing library for the 'nom_tt_025C_1v80' corner at '/home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/lib/nom_tt_025C_1v80/RAM128_1RW1R__nom_tt_025C_1v80.lib'…
+[WARNING STA-1140] /home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/lib/nom_tt_025C_1v80/RAM128_1RW1R__nom_tt_025C_1v80.lib line 1, library RAM128_1RW1R already exists.
+Reading timing models for corner max_ff_n40C_1v95…
+Reading timing library for the 'max_ff_n40C_1v95' corner at '/home/bala/OpenRAM/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib'…
+Reading timing library for the 'max_ff_n40C_1v95' corner at '/home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/lib/max_ff_n40C_1v95/RAM128_1RW1R__max_ff_n40C_1v95.lib'…
+[WARNING STA-1140] /home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/lib/max_ff_n40C_1v95/RAM128_1RW1R__max_ff_n40C_1v95.lib line 1, library RAM128_1RW1R already exists.
+Reading timing models for corner nom_ff_n40C_1v95…
+Reading timing library for the 'nom_ff_n40C_1v95' corner at '/home/bala/OpenRAM/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib'…
+[WARNING STA-1140] /home/bala/OpenRAM/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1, library sky130_fd_sc_hd__ff_n40C_1v95 already exists.
+Reading timing library for the 'nom_ff_n40C_1v95' corner at '/home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/lib/nom_ff_n40C_1v95/RAM128_1RW1R__nom_ff_n40C_1v95.lib'…
+[WARNING STA-1140] /home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/lib/nom_ff_n40C_1v95/RAM128_1RW1R__nom_ff_n40C_1v95.lib line 1, library RAM128_1RW1R already exists.
+Reading timing models for corner max_ss_100C_1v60…
+Reading timing library for the 'max_ss_100C_1v60' corner at '/home/bala/OpenRAM/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib'…
+[WARNING STA-1140] /home/bala/OpenRAM/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib line 1, library sky130_fd_sc_hd__ss_100C_1v60 already exists.
+Reading timing library for the 'max_ss_100C_1v60' corner at '/home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/lib/max_ss_100C_1v60/RAM128_1RW1R__max_ss_100C_1v60.lib'…
+[WARNING STA-1140] /home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/lib/max_ss_100C_1v60/RAM128_1RW1R__max_ss_100C_1v60.lib line 1, library RAM128_1RW1R already exists.
+Reading timing models for corner min_tt_025C_1v80…
+Reading timing library for the 'min_tt_025C_1v80' corner at '/home/bala/OpenRAM/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+[WARNING STA-1140] /home/bala/OpenRAM/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib line 1, library sky130_fd_sc_hd__tt_025C_1v80 already exists.
+Reading timing library for the 'min_tt_025C_1v80' corner at '/home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/lib/min_tt_025C_1v80/RAM128_1RW1R__min_tt_025C_1v80.lib'…
+[WARNING STA-1140] /home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/lib/min_tt_025C_1v80/RAM128_1RW1R__min_tt_025C_1v80.lib line 1, library RAM128_1RW1R already exists.
+Reading timing models for corner nom_ss_100C_1v60…
+Reading timing library for the 'nom_ss_100C_1v60' corner at '/home/bala/OpenRAM/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib'…
+[WARNING STA-1140] /home/bala/OpenRAM/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib line 1, library sky130_fd_sc_hd__ss_100C_1v60 already exists.
+Reading timing library for the 'nom_ss_100C_1v60' corner at '/home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/lib/nom_ss_100C_1v60/RAM128_1RW1R__nom_ss_100C_1v60.lib'…
+[WARNING STA-1140] /home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/lib/nom_ss_100C_1v60/RAM128_1RW1R__nom_ss_100C_1v60.lib line 1, library RAM128_1RW1R already exists.
+Reading timing models for corner min_ff_n40C_1v95…
+Reading timing library for the 'min_ff_n40C_1v95' corner at '/home/bala/OpenRAM/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib'…
+[WARNING STA-1140] /home/bala/OpenRAM/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1, library sky130_fd_sc_hd__ff_n40C_1v95 already exists.
+Reading timing library for the 'min_ff_n40C_1v95' corner at '/home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/lib/min_ff_n40C_1v95/RAM128_1RW1R__min_ff_n40C_1v95.lib'…
+[WARNING STA-1140] /home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/lib/min_ff_n40C_1v95/RAM128_1RW1R__min_ff_n40C_1v95.lib line 1, library RAM128_1RW1R already exists.
+Reading OpenROAD database at '/home/bala/git_stuff/summer_internship/syn/librelane/runs/full_flow/27-openroad-globalplacement/mt_cpu.odb'…
+Reading design constraints file at '/home/bala/git_stuff/summer_internship/syn/librelane/cons.sdc'…
+[INFO] No information on clock propagation in input SDC file-- propagating all clocks.
+[INFO] Setting RC values…
+[INFO RSZ-0027] Inserted 2 input buffers.
+[INFO RSZ-0028] Inserted 64 output buffers.
+[WARNING RSZ-0065] max wire length less than 6335u increases wire delays.
+Iteration | Resized | Buffers | Nets repaired | Remaining
+---------------------------------------------------------
+        0 |       0 |       0 |             0 |     10589
+      100 |      59 |       0 |             0 |     10489
+      200 |     137 |       0 |             0 |     10389
+      300 |     234 |       0 |             0 |     10289
+      400 |     332 |       0 |             0 |     10189
+      500 |     427 |       0 |             0 |     10089
+      600 |     526 |       0 |             0 |      9989
+      700 |     617 |       0 |             0 |      9889
+      800 |     704 |       2 |             2 |      9789
+      900 |     792 |       8 |             5 |      9689
+     1000 |     885 |       8 |             5 |      9589
+     1100 |     967 |       8 |             5 |      9489
+     1200 |    1047 |       8 |             5 |      9389
+     1300 |    1135 |       8 |             5 |      9289
+     1400 |    1219 |      11 |             6 |      9189
+     1500 |    1279 |      11 |             6 |      9089
+     1600 |    1279 |      11 |             6 |      8989
+     1700 |    1279 |      11 |             6 |      8889
+     1800 |    1279 |      11 |             6 |      8789
+     1900 |    1279 |      11 |             6 |      8689
+     2000 |    1279 |      11 |             6 |      8589
+     2100 |    1299 |      11 |             6 |      8489
+     2200 |    1344 |      11 |             6 |      8389
+     2300 |    1344 |      11 |             6 |      8289
+     2400 |    1344 |      11 |             6 |      8189
+     2500 |    1345 |      11 |             6 |      8089
+     2600 |    1425 |      11 |             6 |      7989
+     2700 |    1432 |      11 |             6 |      7889
+     2800 |    1432 |      11 |             6 |      7789
+     2900 |    1432 |      11 |             6 |      7689
+     3000 |    1432 |      11 |             6 |      7589
+     3100 |    1432 |      11 |             6 |      7489
+     3200 |    1446 |      11 |             6 |      7389
+     3300 |    1476 |      11 |             6 |      7289
+     3400 |    1483 |      11 |             6 |      7189
+     3500 |    1494 |      11 |             6 |      7089
+     3600 |    1565 |      11 |             6 |      6989
+     3700 |    1628 |      11 |             6 |      6889
+     3800 |    1648 |      11 |             6 |      6789
+     3900 |    1714 |      11 |             6 |      6689
+     4000 |    1750 |      11 |             6 |      6589
+     4100 |    1788 |      11 |             6 |      6489
+     4200 |    1868 |      11 |             6 |      6389
+     4300 |    1959 |      11 |             6 |      6289
+     4400 |    2050 |      11 |             6 |      6189
+     4500 |    2130 |      11 |             6 |      6089
+     4600 |    2184 |      12 |             7 |      5989
+     4700 |    2258 |      12 |             9 |      5889
+     4800 |    2357 |      12 |             9 |      5789
+     4900 |    2451 |      12 |             9 |      5689
+     5000 |    2536 |      12 |             9 |      5589
+     5100 |    2617 |      12 |             9 |      5489
+     5200 |    2683 |      12 |             9 |      5389
+     5300 |    2713 |      12 |            21 |      5289
+     5400 |    2813 |      12 |            21 |      5189
+     5500 |    2913 |      12 |            21 |      5089
+     5600 |    3013 |      12 |            21 |      4989
+     5700 |    3113 |      12 |            21 |      4889
+     5800 |    3209 |      12 |            21 |      4789
+     5900 |    3284 |      12 |            21 |      4689
+     6000 |    3349 |      12 |            21 |      4589
+     6100 |    3417 |      12 |            21 |      4489
+     6200 |    3514 |      12 |            21 |      4389
+     6300 |    3613 |      12 |            21 |      4289
+     6400 |    3713 |      12 |            21 |      4189
+     6500 |    3813 |      12 |            21 |      4089
+     6600 |    3913 |      12 |            21 |      3989
+     6700 |    4009 |      12 |            22 |      3889
+     6800 |    4104 |      15 |            24 |      3789
+     6900 |    4180 |      15 |            24 |      3689
+     7000 |    4244 |      15 |            28 |      3589
+     7100 |    4327 |      16 |            29 |      3489
+     7200 |    4417 |      17 |            32 |      3389
+     7300 |    4495 |      17 |            32 |      3289
+     7400 |    4536 |      17 |            32 |      3189
+     7500 |    4574 |      17 |            32 |      3089
+     7600 |    4626 |      19 |            34 |      2989
+     7700 |    4715 |     151 |            52 |      2889
+     7800 |    4744 |     159 |            55 |      2789
+     7900 |    4844 |     159 |            55 |      2689
+     8000 |    4944 |     159 |            55 |      2589
+     8100 |    5044 |     159 |            55 |      2489
+     8200 |    5144 |     159 |            55 |      2389
+     8300 |    5244 |     159 |            55 |      2289
+     8400 |    5344 |     159 |            55 |      2189
+     8500 |    5444 |     159 |            55 |      2089
+     8600 |    5544 |     159 |            55 |      1989
+     8700 |    5644 |     159 |            55 |      1889
+     8800 |    5733 |     159 |            55 |      1789
+     8900 |    5802 |     176 |            60 |      1689
+     9000 |    5895 |     176 |            60 |      1589
+     9100 |    5983 |     176 |            60 |      1489
+     9200 |    6085 |     179 |            63 |      1389
+     9300 |    6191 |     187 |            71 |      1289
+     9400 |    6290 |     187 |            71 |      1189
+     9500 |    6389 |     187 |            71 |      1089
+     9600 |    6489 |     187 |            71 |       989
+     9700 |    6589 |     187 |            71 |       889
+     9800 |    6689 |     187 |            71 |       789
+     9900 |    6789 |     187 |            71 |       689
+    10000 |    6889 |     187 |            71 |       589
+    10100 |    6989 |     187 |            71 |       489
+    10200 |    7089 |     187 |            71 |       389
+    10300 |    7189 |     187 |            71 |       289
+    10400 |    7289 |     187 |            71 |       189
+    10500 |    7389 |     187 |            71 |        89
+    final |    7473 |     192 |            73 |         0
+---------------------------------------------------------
+[INFO RSZ-0034] Found 58 slew violations.
+[INFO RSZ-0036] Found 30 capacitance violations.
+[INFO RSZ-0037] Found 19 long wires.
+[INFO RSZ-0038] Inserted 192 buffers in 73 nets.
+[INFO RSZ-0039] Resized 7473 instances.
+[INFO RSZ-0042] Inserted 2 tie sky130_fd_sc_hd__conb_1 instances.
+Placement Analysis
+---------------------------------
+total displacement      34251.9 u
+average displacement        1.5 u
+max displacement          499.2 u
+original HPWL          450051.0 u
+legalized HPWL         474494.8 u
+delta HPWL                    5 %
+
+[INFO DPL-0020] Mirrored 3273 instances
+[INFO DPL-0021] HPWL before          474494.8 u
+[INFO DPL-0022] HPWL after           465863.8 u
+[INFO DPL-0023] HPWL delta               -1.8 %
+[INFO] Setting RC values…
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+Updating metrics…
+Cell type report:                       Count       Area
+  Macro                                     2  516115.00
+  Fill cell                              1682    6313.56
+  Tap cell                              10489   13123.84
+  Buffer                                    2      10.01
+  Timing Repair Buffer                    258    2751.39
+  Inverter                                116     563.04
+  Sequential cell                        2794   56370.31
+  Multi-Input combinational cell         7478   73170.18
+  Total                                 22821  668417.32
+Writing OpenROAD database to '/home/bala/git_stuff/summer_internship/syn/librelane/runs/full_flow/31-openroad-repairdesignpostgpl/mt_cpu.odb'…
+Writing netlist to '/home/bala/git_stuff/summer_internship/syn/librelane/runs/full_flow/31-openroad-repairdesignpostgpl/mt_cpu.nl.v'…
+Writing powered netlist to '/home/bala/git_stuff/summer_internship/syn/librelane/runs/full_flow/31-openroad-repairdesignpostgpl/mt_cpu.pnl.v'…
+Writing layout to '/home/bala/git_stuff/summer_internship/syn/librelane/runs/full_flow/31-openroad-repairdesignpostgpl/mt_cpu.def'…
+Writing timing constraints to '/home/bala/git_stuff/summer_internship/syn/librelane/runs/full_flow/31-openroad-repairdesignpostgpl/mt_cpu.sdc'…

@@ -2,3 +2,4 @@ obj_dir
 veridian.yml
 ./scripts/const.py
 tmp*
+syn/librelane/runs/full_flow

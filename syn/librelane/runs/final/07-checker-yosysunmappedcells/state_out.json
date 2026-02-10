@@ -1,5 +1,5 @@
 {
-    "nl": "/home/bala/git_stuff/internship/syn/librelane/runs/final/06-yosys-synthesis/mt_cpu.nl.v",
+    "nl": "/home/bala/git_stuff/summer_internship/syn/librelane/runs/final/06-yosys-synthesis/mt_cpu.nl.v",
     "pnl": null,
     "pnl-sdf-friendly": null,
     "pnl-npc": null,
@@ -16,7 +16,7 @@
     "gds": null,
     "mag_gds": null,
     "klayout_gds": null,
-    "json_h": "/home/bala/git_stuff/internship/syn/librelane/runs/final/05-yosys-jsonheader/mt_cpu.h.json",
+    "json_h": "/home/bala/git_stuff/summer_internship/syn/librelane/runs/final/05-yosys-jsonheader/mt_cpu.h.json",
     "vh": null,
     "metrics": {
         "design__lint_error__count": 0,

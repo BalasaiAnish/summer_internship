@@ -67,7 +67,7 @@ localparam BITS_THREADS = $clog2(NUM_THREADS);
         .rd2(rd2_d)
     );
 `else
-mt_reg_file #(
+    mt_reg_file #(
     .NUM_THREADS(NUM_THREADS),
     .DATA_WIDTH(DATA_WIDTH)
 )

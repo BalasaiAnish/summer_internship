@@ -125,11 +125,11 @@
         "sky130_fd_sc_hd__fill*"
     ],
     "DIODE_CELL": "sky130_fd_sc_hd__diode_2/DIODE",
-    "DESIGN_DIR": "/home/bala/git_stuff/internship/syn/librelane",
+    "DESIGN_DIR": "/home/bala/git_stuff/summer_internship/syn/librelane",
     "PDK_ROOT": "/home/bala/OpenRAM/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af",
     "DESIGN_NAME": "mt_cpu",
     "PDK": "sky130A",
-    "CLOCK_PERIOD": 35,
+    "CLOCK_PERIOD": 24,
     "CLOCK_PORT": "clk",
     "CLOCK_NET": null,
     "VDD_NETS": null,
@@ -139,66 +139,72 @@
     "MACROS": {
         "RAM128_1RW1R": {
             "gds": [
-                "/home/bala/git_stuff/internship/syn/RAM128_1RW1R/gds/RAM128_1RW1R.gds"
+                "/home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/gds/RAM128_1RW1R.gds"
             ],
             "lef": [
-                "/home/bala/git_stuff/internship/syn/RAM128_1RW1R/lef/RAM128_1RW1R.lef"
+                "/home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/lef/RAM128_1RW1R.lef"
             ],
             "instances": {
                 "decode_stage.rf.tgrp_rf1": {
-                    "location": null,
+                    "location": [
+                        10,
+                        10
+                    ],
                     "orientation": "N"
                 },
                 "decode_stage.rf.tgrp_rf2": {
-                    "location": null,
+                    "location": [
+                        1010,
+                        10
+                    ],
                     "orientation": "N"
                 }
             },
             "vh": [],
             "nl": [
-                "/home/bala/git_stuff/internship/syn/RAM128_1RW1R/nl/RAM128_1RW1R.nl.v"
+                "/home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/nl/RAM128_1RW1R.nl.v"
             ],
             "pnl": [
-                "/home/bala/git_stuff/internship/syn/RAM128_1RW1R/pnl/RAM128_1RW1R.pnl.v"
+                "/home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/pnl/RAM128_1RW1R.pnl.v"
             ],
             "spef": {
                 "min_*": [
-                    "/home/bala/git_stuff/internship/syn/RAM128_1RW1R/spef/min/RAM128_1RW1R.min.spef"
+                    "/home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/spef/min/RAM128_1RW1R.min.spef"
                 ],
                 "nom_*": [
-                    "/home/bala/git_stuff/internship/syn/RAM128_1RW1R/spef/nom/RAM128_1RW1R.nom.spef"
+                    "/home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/spef/nom/RAM128_1RW1R.nom.spef"
                 ],
                 "max_*": [
-                    "/home/bala/git_stuff/internship/syn/RAM128_1RW1R/spef/max/RAM128_1RW1R.max.spef"
+                    "/home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/spef/max/RAM128_1RW1R.max.spef"
                 ]
             },
             "lib": {
                 "nom_ff_n40C_1v95": [
-                    "/home/bala/git_stuff/internship/syn/RAM128_1RW1R/lib/nom_ff_n40C_1v95/RAM128_1RW1R__nom_ff_n40C_1v95.lib"
+                    "/home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/lib/nom_ff_n40C_1v95/RAM128_1RW1R__nom_ff_n40C_1v95.lib"
                 ],
                 "nom_tt_025C_1v80": [
-                    "/home/bala/git_stuff/internship/syn/RAM128_1RW1R/lib/nom_tt_025C_1v80/RAM128_1RW1R__nom_tt_025C_1v80.lib"
+                    "/home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/lib/nom_tt_025C_1v80/RAM128_1RW1R__nom_tt_025C_1v80.lib"
                 ],
                 "nom_ss_100C_1v60": [
-                    "/home/bala/git_stuff/internship/syn/RAM128_1RW1R/lib/nom_ss_100C_1v60/RAM128_1RW1R__nom_ss_100C_1v60.lib"
+                    "/home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/lib/nom_ss_100C_1v60/RAM128_1RW1R__nom_ss_100C_1v60.lib"
                 ],
                 "max_ff_n40C_1v95": [
-                    "/home/bala/git_stuff/internship/syn/RAM128_1RW1R/lib/max_ff_n40C_1v95/RAM128_1RW1R__max_ff_n40C_1v95.lib"
+                    "/home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/lib/max_ff_n40C_1v95/RAM128_1RW1R__max_ff_n40C_1v95.lib"
                 ],
                 "max_tt_025C_1v80": [
-                    "/home/bala/git_stuff/internship/syn/RAM128_1RW1R/lib/max_tt_025C_1v80/RAM128_1RW1R__max_tt_025C_1v80.lib"
+                    "/home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/lib/max_tt_025C_1v80/RAM128_1RW1R__max_tt_025C_1v80.lib"
                 ],
                 "max_ss_100C_1v60": [
-                    "/home/bala/git_stuff/internship/syn/RAM128_1RW1R/lib/max_ss_100C_1v60/RAM128_1RW1R__max_ss_100C_1v60.lib"
+                    "/home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/lib/max_ss_100C_1v60/RAM128_1RW1R__max_ss_100C_1v60.lib"
                 ],
                 "min_ff_n40C_1v95": [
-                    "/home/bala/git_stuff/internship/syn/RAM128_1RW1R/lib/min_ff_n40C_1v95/RAM128_1RW1R__min_ff_n40C_1v95.lib"
+                    "/home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/lib/min_ff_n40C_1v95/RAM128_1RW1R__min_ff_n40C_1v95.lib"
                 ],
                 "min_tt_025C_1v80": [
-                    "/home/bala/git_stuff/internship/syn/RAM128_1RW1R/lib/min_tt_025C_1v80/RAM128_1RW1R__min_tt_025C_1v80.lib"
+                    "/home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/lib/min_tt_025C_1v80/RAM128_1RW1R__min_tt_025C_1v80.lib"
                 ],
                 "min_ss_100C_1v60": [
-                    "/home/bala/git_stuff/internship/syn/RAM128_1RW1R/lib/min_ss_100C_1v60/RAM128_1RW1R__min_ss_100C_1v60.lib"
+                    "/home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/lib/min_ss_100C_1v60/RAM128_1RW1R__min_ss_100C_1v60.lib"
                 ]
             },
             "spice": [],
@@ -244,32 +250,32 @@
     "SYNTH_TIE_UNDEFINED": "low",
     "SYNTH_WRITE_NOATTR": true,
     "VERILOG_FILES": [
-        "/home/bala/git_stuff/internship/src/adder.v",
-        "/home/bala/git_stuff/internship/src/alu.v",
-        "/home/bala/git_stuff/internship/src/branch_unit.v",
-        "/home/bala/git_stuff/internship/src/control_unit.v",
-        "/home/bala/git_stuff/internship/src/data_memory.v",
-        "/home/bala/git_stuff/internship/src/decode.v",
-        "/home/bala/git_stuff/internship/src/execute.v",
-        "/home/bala/git_stuff/internship/src/fetch.v",
-        "/home/bala/git_stuff/internship/src/ff.v",
-        "/home/bala/git_stuff/internship/src/hazard.v",
-        "/home/bala/git_stuff/internship/src/imm_ext.v",
-        "/home/bala/git_stuff/internship/src/instr_mem.v",
-        "/home/bala/git_stuff/internship/src/memory.v",
-        "/home/bala/git_stuff/internship/src/mt_cpu.v",
-        "/home/bala/git_stuff/internship/src/mt_pc.v",
-        "/home/bala/git_stuff/internship/src/mt_reg_file.v",
-        "/home/bala/git_stuff/internship/src/mux3.v",
-        "/home/bala/git_stuff/internship/src/pl_reg_de.v",
-        "/home/bala/git_stuff/internship/src/pl_reg_em.v",
-        "/home/bala/git_stuff/internship/src/pl_reg_fd.v",
-        "/home/bala/git_stuff/internship/src/pl_reg_mw.v",
-        "/home/bala/git_stuff/internship/src/reg_file.v",
-        "/home/bala/git_stuff/internship/src/reset_ff.v",
-        "/home/bala/git_stuff/internship/src/thread_sel.v",
-        "/home/bala/git_stuff/internship/src/writeback.v",
-        "/home/bala/git_stuff/internship/src/tgrp_switcher.v"
+        "/home/bala/git_stuff/summer_internship/src/adder.v",
+        "/home/bala/git_stuff/summer_internship/src/alu.v",
+        "/home/bala/git_stuff/summer_internship/src/branch_unit.v",
+        "/home/bala/git_stuff/summer_internship/src/control_unit.v",
+        "/home/bala/git_stuff/summer_internship/src/data_memory.v",
+        "/home/bala/git_stuff/summer_internship/src/decode.v",
+        "/home/bala/git_stuff/summer_internship/src/execute.v",
+        "/home/bala/git_stuff/summer_internship/src/fetch.v",
+        "/home/bala/git_stuff/summer_internship/src/ff.v",
+        "/home/bala/git_stuff/summer_internship/src/hazard.v",
+        "/home/bala/git_stuff/summer_internship/src/imm_ext.v",
+        "/home/bala/git_stuff/summer_internship/src/instr_mem.v",
+        "/home/bala/git_stuff/summer_internship/src/memory.v",
+        "/home/bala/git_stuff/summer_internship/src/mt_cpu.v",
+        "/home/bala/git_stuff/summer_internship/src/mt_pc.v",
+        "/home/bala/git_stuff/summer_internship/src/mt_reg_file.v",
+        "/home/bala/git_stuff/summer_internship/src/mux3.v",
+        "/home/bala/git_stuff/summer_internship/src/pl_reg_de.v",
+        "/home/bala/git_stuff/summer_internship/src/pl_reg_em.v",
+        "/home/bala/git_stuff/summer_internship/src/pl_reg_fd.v",
+        "/home/bala/git_stuff/summer_internship/src/pl_reg_mw.v",
+        "/home/bala/git_stuff/summer_internship/src/reg_file.v",
+        "/home/bala/git_stuff/summer_internship/src/reset_ff.v",
+        "/home/bala/git_stuff/summer_internship/src/thread_sel.v",
+        "/home/bala/git_stuff/summer_internship/src/writeback.v",
+        "/home/bala/git_stuff/summer_internship/src/tgrp_switcher.v"
     ],
     "VERILOG_DEFINES": null,
     "VERILOG_POWER_DEFINE": "USE_POWER_PINS",

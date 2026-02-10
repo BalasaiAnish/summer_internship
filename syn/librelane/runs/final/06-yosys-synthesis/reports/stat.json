@@ -1,6 +1,6 @@
 {
    "creator": "Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 17.0.6 -fPIC -O3)",
-   "invocation": "stat -json -liberty /home/bala/git_stuff/internship/syn/librelane/runs/final/tmp/0c6ad4da2f584451a30c2ef513bc9a4b.lib ",
+   "invocation": "stat -json -liberty /home/bala/git_stuff/summer_internship/syn/librelane/runs/final/tmp/00bb25740e3b4f9391d922f4acf2ccb3.lib ",
    "modules": {
       "\\mt_cpu": {
          "num_wires":         10459,

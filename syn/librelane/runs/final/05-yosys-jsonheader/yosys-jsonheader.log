@@ -7,8 +7,8 @@
  Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 17.0.6 -fPIC -O3)
 Loaded SDC plugin
 
-1. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/syn/librelane/runs/final/tmp/817839111ca74be79d616575f566b039.bb.v
-Parsing SystemVerilog input from `/home/bala/git_stuff/internship/syn/librelane/runs/final/tmp/817839111ca74be79d616575f566b039.bb.v' to AST representation.
+1. Executing Verilog-2005 frontend: /home/bala/git_stuff/summer_internship/syn/librelane/runs/final/tmp/2f111ef00a344ee8868fa85976a143ef.bb.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/summer_internship/syn/librelane/runs/final/tmp/2f111ef00a344ee8868fa85976a143ef.bb.v' to AST representation.
 Generating RTLIL representation for module `\sky130_ef_sc_hd__decap_12'.
 Generating RTLIL representation for module `\sky130_ef_sc_hd__fill_12'.
 Generating RTLIL representation for module `\sky130_ef_sc_hd__fill_4'.
@@ -452,138 +452,138 @@ Generating RTLIL representation for module `\sky130_fd_sc_hd__xor3_2'.
 Generating RTLIL representation for module `\sky130_fd_sc_hd__xor3_4'.
 Successfully finished Verilog frontend.
 
-2. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/syn/RAM128_1RW1R/pnl/RAM128_1RW1R.pnl.v
-Parsing SystemVerilog input from `/home/bala/git_stuff/internship/syn/RAM128_1RW1R/pnl/RAM128_1RW1R.pnl.v' to AST representation.
+2. Executing Verilog-2005 frontend: /home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/pnl/RAM128_1RW1R.pnl.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/summer_internship/syn/RAM128_1RW1R/pnl/RAM128_1RW1R.pnl.v' to AST representation.
 Generating RTLIL representation for module `\RAM128_1RW1R'.
 Successfully finished Verilog frontend.
 
-3. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/src/adder.v
-Parsing SystemVerilog input from `/home/bala/git_stuff/internship/src/adder.v' to AST representation.
+3. Executing Verilog-2005 frontend: /home/bala/git_stuff/summer_internship/src/adder.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/summer_internship/src/adder.v' to AST representation.
 Storing AST representation for module `$abstract\adder'.
 Successfully finished Verilog frontend.
 
-4. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/src/alu.v
-Parsing SystemVerilog input from `/home/bala/git_stuff/internship/src/alu.v' to AST representation.
+4. Executing Verilog-2005 frontend: /home/bala/git_stuff/summer_internship/src/alu.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/summer_internship/src/alu.v' to AST representation.
 Storing AST representation for module `$abstract\alu'.
 Successfully finished Verilog frontend.
 
-5. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/src/branch_unit.v
-Parsing SystemVerilog input from `/home/bala/git_stuff/internship/src/branch_unit.v' to AST representation.
+5. Executing Verilog-2005 frontend: /home/bala/git_stuff/summer_internship/src/branch_unit.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/summer_internship/src/branch_unit.v' to AST representation.
 Storing AST representation for module `$abstract\branch_unit'.
 Successfully finished Verilog frontend.
 
-6. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/src/control_unit.v
-Parsing SystemVerilog input from `/home/bala/git_stuff/internship/src/control_unit.v' to AST representation.
+6. Executing Verilog-2005 frontend: /home/bala/git_stuff/summer_internship/src/control_unit.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/summer_internship/src/control_unit.v' to AST representation.
 Storing AST representation for module `$abstract\control_unit'.
 Successfully finished Verilog frontend.
 
-7. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/src/data_memory.v
-Parsing SystemVerilog input from `/home/bala/git_stuff/internship/src/data_memory.v' to AST representation.
+7. Executing Verilog-2005 frontend: /home/bala/git_stuff/summer_internship/src/data_memory.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/summer_internship/src/data_memory.v' to AST representation.
 Storing AST representation for module `$abstract\data_memory'.
 Successfully finished Verilog frontend.
 
-8. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/src/decode.v
-Parsing SystemVerilog input from `/home/bala/git_stuff/internship/src/decode.v' to AST representation.
+8. Executing Verilog-2005 frontend: /home/bala/git_stuff/summer_internship/src/decode.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/summer_internship/src/decode.v' to AST representation.
 Storing AST representation for module `$abstract\decode'.
 Successfully finished Verilog frontend.
 
-9. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/src/execute.v
-Parsing SystemVerilog input from `/home/bala/git_stuff/internship/src/execute.v' to AST representation.
+9. Executing Verilog-2005 frontend: /home/bala/git_stuff/summer_internship/src/execute.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/summer_internship/src/execute.v' to AST representation.
 Storing AST representation for module `$abstract\execute'.
 Successfully finished Verilog frontend.
 
-10. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/src/fetch.v
-Parsing SystemVerilog input from `/home/bala/git_stuff/internship/src/fetch.v' to AST representation.
+10. Executing Verilog-2005 frontend: /home/bala/git_stuff/summer_internship/src/fetch.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/summer_internship/src/fetch.v' to AST representation.
 Storing AST representation for module `$abstract\fetch'.
 Successfully finished Verilog frontend.
 
-11. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/src/ff.v
-Parsing SystemVerilog input from `/home/bala/git_stuff/internship/src/ff.v' to AST representation.
+11. Executing Verilog-2005 frontend: /home/bala/git_stuff/summer_internship/src/ff.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/summer_internship/src/ff.v' to AST representation.
 Storing AST representation for module `$abstract\ff'.
 Successfully finished Verilog frontend.
 
-12. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/src/hazard.v
-Parsing SystemVerilog input from `/home/bala/git_stuff/internship/src/hazard.v' to AST representation.
+12. Executing Verilog-2005 frontend: /home/bala/git_stuff/summer_internship/src/hazard.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/summer_internship/src/hazard.v' to AST representation.
 Storing AST representation for module `$abstract\hazard'.
 Successfully finished Verilog frontend.
 
-13. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/src/imm_ext.v
-Parsing SystemVerilog input from `/home/bala/git_stuff/internship/src/imm_ext.v' to AST representation.
+13. Executing Verilog-2005 frontend: /home/bala/git_stuff/summer_internship/src/imm_ext.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/summer_internship/src/imm_ext.v' to AST representation.
 Storing AST representation for module `$abstract\imm_ext'.
 Successfully finished Verilog frontend.
 
-14. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/src/instr_mem.v
-Parsing SystemVerilog input from `/home/bala/git_stuff/internship/src/instr_mem.v' to AST representation.
+14. Executing Verilog-2005 frontend: /home/bala/git_stuff/summer_internship/src/instr_mem.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/summer_internship/src/instr_mem.v' to AST representation.
 Storing AST representation for module `$abstract\instr_mem'.
 Successfully finished Verilog frontend.
 
-15. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/src/memory.v
-Parsing SystemVerilog input from `/home/bala/git_stuff/internship/src/memory.v' to AST representation.
+15. Executing Verilog-2005 frontend: /home/bala/git_stuff/summer_internship/src/memory.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/summer_internship/src/memory.v' to AST representation.
 Storing AST representation for module `$abstract\memory'.
 Successfully finished Verilog frontend.
 
-16. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/src/mt_cpu.v
-Parsing SystemVerilog input from `/home/bala/git_stuff/internship/src/mt_cpu.v' to AST representation.
+16. Executing Verilog-2005 frontend: /home/bala/git_stuff/summer_internship/src/mt_cpu.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/summer_internship/src/mt_cpu.v' to AST representation.
 Storing AST representation for module `$abstract\mt_cpu'.
 Successfully finished Verilog frontend.
 
-17. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/src/mt_pc.v
-Parsing SystemVerilog input from `/home/bala/git_stuff/internship/src/mt_pc.v' to AST representation.
+17. Executing Verilog-2005 frontend: /home/bala/git_stuff/summer_internship/src/mt_pc.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/summer_internship/src/mt_pc.v' to AST representation.
 Storing AST representation for module `$abstract\mt_pc'.
 Successfully finished Verilog frontend.
 
-18. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/src/mt_reg_file.v
-Parsing SystemVerilog input from `/home/bala/git_stuff/internship/src/mt_reg_file.v' to AST representation.
+18. Executing Verilog-2005 frontend: /home/bala/git_stuff/summer_internship/src/mt_reg_file.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/summer_internship/src/mt_reg_file.v' to AST representation.
 Storing AST representation for module `$abstract\mt_reg_file'.
 Successfully finished Verilog frontend.
 
-19. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/src/mux3.v
-Parsing SystemVerilog input from `/home/bala/git_stuff/internship/src/mux3.v' to AST representation.
+19. Executing Verilog-2005 frontend: /home/bala/git_stuff/summer_internship/src/mux3.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/summer_internship/src/mux3.v' to AST representation.
 Storing AST representation for module `$abstract\mux3'.
 Successfully finished Verilog frontend.
 
-20. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/src/pl_reg_de.v
-Parsing SystemVerilog input from `/home/bala/git_stuff/internship/src/pl_reg_de.v' to AST representation.
+20. Executing Verilog-2005 frontend: /home/bala/git_stuff/summer_internship/src/pl_reg_de.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/summer_internship/src/pl_reg_de.v' to AST representation.
 Storing AST representation for module `$abstract\pl_reg_de'.
 Successfully finished Verilog frontend.
 
-21. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/src/pl_reg_em.v
-Parsing SystemVerilog input from `/home/bala/git_stuff/internship/src/pl_reg_em.v' to AST representation.
+21. Executing Verilog-2005 frontend: /home/bala/git_stuff/summer_internship/src/pl_reg_em.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/summer_internship/src/pl_reg_em.v' to AST representation.
 Storing AST representation for module `$abstract\pl_reg_em'.
 Successfully finished Verilog frontend.
 
-22. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/src/pl_reg_fd.v
-Parsing SystemVerilog input from `/home/bala/git_stuff/internship/src/pl_reg_fd.v' to AST representation.
+22. Executing Verilog-2005 frontend: /home/bala/git_stuff/summer_internship/src/pl_reg_fd.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/summer_internship/src/pl_reg_fd.v' to AST representation.
 Storing AST representation for module `$abstract\pl_reg_fd'.
 Successfully finished Verilog frontend.
 
-23. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/src/pl_reg_mw.v
-Parsing SystemVerilog input from `/home/bala/git_stuff/internship/src/pl_reg_mw.v' to AST representation.
+23. Executing Verilog-2005 frontend: /home/bala/git_stuff/summer_internship/src/pl_reg_mw.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/summer_internship/src/pl_reg_mw.v' to AST representation.
 Storing AST representation for module `$abstract\pl_reg_mw'.
 Successfully finished Verilog frontend.
 
-24. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/src/reg_file.v
-Parsing SystemVerilog input from `/home/bala/git_stuff/internship/src/reg_file.v' to AST representation.
+24. Executing Verilog-2005 frontend: /home/bala/git_stuff/summer_internship/src/reg_file.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/summer_internship/src/reg_file.v' to AST representation.
 Storing AST representation for module `$abstract\reg_file'.
 Successfully finished Verilog frontend.
 
-25. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/src/reset_ff.v
-Parsing SystemVerilog input from `/home/bala/git_stuff/internship/src/reset_ff.v' to AST representation.
+25. Executing Verilog-2005 frontend: /home/bala/git_stuff/summer_internship/src/reset_ff.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/summer_internship/src/reset_ff.v' to AST representation.
 Storing AST representation for module `$abstract\reset_ff'.
 Successfully finished Verilog frontend.
 
-26. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/src/thread_sel.v
-Parsing SystemVerilog input from `/home/bala/git_stuff/internship/src/thread_sel.v' to AST representation.
+26. Executing Verilog-2005 frontend: /home/bala/git_stuff/summer_internship/src/thread_sel.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/summer_internship/src/thread_sel.v' to AST representation.
 Storing AST representation for module `$abstract\thread_sel'.
 Successfully finished Verilog frontend.
 
-27. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/src/writeback.v
-Parsing SystemVerilog input from `/home/bala/git_stuff/internship/src/writeback.v' to AST representation.
+27. Executing Verilog-2005 frontend: /home/bala/git_stuff/summer_internship/src/writeback.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/summer_internship/src/writeback.v' to AST representation.
 Storing AST representation for module `$abstract\writeback'.
 Successfully finished Verilog frontend.
 
-28. Executing Verilog-2005 frontend: /home/bala/git_stuff/internship/src/tgrp_switcher.v
-Parsing SystemVerilog input from `/home/bala/git_stuff/internship/src/tgrp_switcher.v' to AST representation.
+28. Executing Verilog-2005 frontend: /home/bala/git_stuff/summer_internship/src/tgrp_switcher.v
+Parsing SystemVerilog input from `/home/bala/git_stuff/summer_internship/src/tgrp_switcher.v' to AST representation.
 Storing AST representation for module `$abstract\tgrp_switcher'.
 Successfully finished Verilog frontend.
 
@@ -730,8 +730,8 @@ Parameter \DATA_WIDTH = 32
 Parameter \NUM_THREADS = 4
 Parameter \DATA_WIDTH = 32
 Generating RTLIL representation for module `$paramod$943188ca874a7402dfde14ae7640ad1aff1927d6\mt_reg_file'.
-/home/bala/git_stuff/internship/src/mt_reg_file.v:58: Warning: Identifier `\vccd1' is implicitly declared.
-/home/bala/git_stuff/internship/src/mt_reg_file.v:59: Warning: Identifier `\vssd1' is implicitly declared.
+/home/bala/git_stuff/summer_internship/src/mt_reg_file.v:58: Warning: Identifier `\vccd1' is implicitly declared.
+/home/bala/git_stuff/summer_internship/src/mt_reg_file.v:59: Warning: Identifier `\vssd1' is implicitly declared.
 
 30.18. Executing AST frontend in derive mode using pre-parsed AST for module `\control_unit'.
 Generating RTLIL representation for module `\control_unit'.
@@ -839,28 +839,28 @@ Renaming module mt_cpu to mt_cpu.
 31. Executing PROC pass (convert processes to netlists).
 
 31.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
-Removing empty process `$paramod$52593bf02753086e7d14630480121475a488d2f1\instr_mem.$proc$/home/bala/git_stuff/internship/src/instr_mem.v:0$24'.
+Removing empty process `$paramod$52593bf02753086e7d14630480121475a488d2f1\instr_mem.$proc$/home/bala/git_stuff/summer_internship/src/instr_mem.v:0$24'.
 Cleaned up 0 empty switches.
 
 31.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
-Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/internship/src/imm_ext.v:29$118 in module imm_ext.
-Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/internship/src/thread_sel.v:9$116 in module $paramod\thread_sel\NUM_THREADS=s32'00000000000000000000000000000100.
-Marked 3 switch rules as full_case in process $proc$/home/bala/git_stuff/internship/src/mt_pc.v:32$40 in module $paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.
-Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/internship/src/pl_reg_fd.v:19$20 in module $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.
-Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/internship/src/pl_reg_de.v:37$18 in module $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.
-Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/internship/src/pl_reg_em.v:32$12 in module $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.
-Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/internship/src/pl_reg_mw.v:28$10 in module $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.
-Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/internship/src/tgrp_switcher.v:13$8 in module $paramod\tgrp_switcher\NUM_THREADS=s32'00000000000000000000000000000100.
-Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/internship/src/mux3.v:9$460 in module $paramod\mux3\DATA_WIDTH=s32'00000000000000000000000000100000.
-Removed 1 dead cases from process $proc$/home/bala/git_stuff/internship/src/data_memory.v:69$243 in module $paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.
-Marked 4 switch rules as full_case in process $proc$/home/bala/git_stuff/internship/src/data_memory.v:69$243 in module $paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.
-Removed 2 dead cases from process $proc$/home/bala/git_stuff/internship/src/data_memory.v:30$240 in module $paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.
-Marked 3 switch rules as full_case in process $proc$/home/bala/git_stuff/internship/src/data_memory.v:30$240 in module $paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.
-Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/internship/src/alu.v:9$153 in module $paramod\alu\DATA_WIDTH=s32'00000000000000000000000000100000.
-Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/internship/src/branch_unit.v:9$146 in module $paramod\branch_unit\DATA_WIDTH=s32'00000000000000000000000000100000.
-Removed 1 dead cases from process $proc$/home/bala/git_stuff/internship/src/control_unit.v:49$142 in module control_unit.
-Marked 2 switch rules as full_case in process $proc$/home/bala/git_stuff/internship/src/control_unit.v:49$142 in module control_unit.
-Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/internship/src/control_unit.v:23$141 in module control_unit.
+Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/summer_internship/src/imm_ext.v:29$118 in module imm_ext.
+Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/summer_internship/src/thread_sel.v:9$116 in module $paramod\thread_sel\NUM_THREADS=s32'00000000000000000000000000000100.
+Marked 3 switch rules as full_case in process $proc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:32$40 in module $paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.
+Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/summer_internship/src/pl_reg_fd.v:19$20 in module $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.
+Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/summer_internship/src/pl_reg_de.v:37$18 in module $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.
+Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/summer_internship/src/pl_reg_em.v:32$12 in module $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.
+Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/summer_internship/src/pl_reg_mw.v:28$10 in module $paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.
+Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/summer_internship/src/tgrp_switcher.v:13$8 in module $paramod\tgrp_switcher\NUM_THREADS=s32'00000000000000000000000000000100.
+Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/summer_internship/src/mux3.v:9$460 in module $paramod\mux3\DATA_WIDTH=s32'00000000000000000000000000100000.
+Removed 1 dead cases from process $proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:69$243 in module $paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.
+Marked 4 switch rules as full_case in process $proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:69$243 in module $paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.
+Removed 2 dead cases from process $proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:30$240 in module $paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.
+Marked 3 switch rules as full_case in process $proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:30$240 in module $paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.
+Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/summer_internship/src/alu.v:9$153 in module $paramod\alu\DATA_WIDTH=s32'00000000000000000000000000100000.
+Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/summer_internship/src/branch_unit.v:9$146 in module $paramod\branch_unit\DATA_WIDTH=s32'00000000000000000000000000100000.
+Removed 1 dead cases from process $proc$/home/bala/git_stuff/summer_internship/src/control_unit.v:49$142 in module control_unit.
+Marked 2 switch rules as full_case in process $proc$/home/bala/git_stuff/summer_internship/src/control_unit.v:49$142 in module control_unit.
+Marked 1 switch rules as full_case in process $proc$/home/bala/git_stuff/summer_internship/src/control_unit.v:23$141 in module control_unit.
 Removed a total of 4 dead cases.
 
 31.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
@@ -876,60 +876,60 @@ Converted 0 switches.
 <suppressed ~28 debug messages>
 
 31.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
-Creating decoders for process `\imm_ext.$proc$/home/bala/git_stuff/internship/src/imm_ext.v:29$118'.
+Creating decoders for process `\imm_ext.$proc$/home/bala/git_stuff/summer_internship/src/imm_ext.v:29$118'.
      1/1: $1\imm_val[31:0]
-Creating decoders for process `$paramod\thread_sel\NUM_THREADS=s32'00000000000000000000000000000100.$proc$/home/bala/git_stuff/internship/src/thread_sel.v:9$116'.
+Creating decoders for process `$paramod\thread_sel\NUM_THREADS=s32'00000000000000000000000000000100.$proc$/home/bala/git_stuff/summer_internship/src/thread_sel.v:9$116'.
      1/1: $0\tid[1:0]
-Creating decoders for process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/src/mt_pc.v:32$40'.
-     1/42: $3$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:56$37_EN[31:0]$114
-     2/42: $3$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:56$37_DATA[31:0]$113
-     3/42: $3$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:56$37_ADDR[2:0]$112
-     4/42: $2$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:49$35_EN[31:0]$95
-     5/42: $2$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:49$35_DATA[31:0]$94
-     6/42: $2$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:49$35_ADDR[2:0]$93
-     7/42: $2$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:48$34_EN[31:0]$92
-     8/42: $2$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:48$34_DATA[31:0]$91
-     9/42: $2$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:48$34_ADDR[2:0]$90
-    10/42: $2$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:47$33_EN[31:0]$89
-    11/42: $2$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:47$33_DATA[31:0]$88
-    12/42: $2$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:47$33_ADDR[2:0]$87
-    13/42: $2$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:56$37_EN[31:0]$101
-    14/42: $2$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:56$37_DATA[31:0]$100
-    15/42: $2$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:56$37_ADDR[2:0]$99
-    16/42: $2$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:53$36_EN[31:0]$98
-    17/42: $2$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:53$36_DATA[31:0]$97
-    18/42: $2$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:53$36_ADDR[2:0]$96
+Creating decoders for process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:32$40'.
+     1/42: $3$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:56$37_EN[31:0]$114
+     2/42: $3$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:56$37_DATA[31:0]$113
+     3/42: $3$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:56$37_ADDR[2:0]$112
+     4/42: $2$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:49$35_EN[31:0]$95
+     5/42: $2$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:49$35_DATA[31:0]$94
+     6/42: $2$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:49$35_ADDR[2:0]$93
+     7/42: $2$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:48$34_EN[31:0]$92
+     8/42: $2$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:48$34_DATA[31:0]$91
+     9/42: $2$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:48$34_ADDR[2:0]$90
+    10/42: $2$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:47$33_EN[31:0]$89
+    11/42: $2$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:47$33_DATA[31:0]$88
+    12/42: $2$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:47$33_ADDR[2:0]$87
+    13/42: $2$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:56$37_EN[31:0]$101
+    14/42: $2$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:56$37_DATA[31:0]$100
+    15/42: $2$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:56$37_ADDR[2:0]$99
+    16/42: $2$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:53$36_EN[31:0]$98
+    17/42: $2$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:53$36_DATA[31:0]$97
+    18/42: $2$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:53$36_ADDR[2:0]$96
     19/42: $1\i[31:0]
-    20/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:37$32_EN[31:0]$71
-    21/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:37$31_EN[31:0]$70
-    22/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:37$30_EN[31:0]$69
-    23/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:37$29_EN[31:0]$68
-    24/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:37$28_EN[31:0]$67
-    25/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:37$27_EN[31:0]$66
-    26/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:37$26_EN[31:0]$65
-    27/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:37$25_EN[31:0]$64
-    28/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:56$37_EN[31:0]$86
-    29/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:56$37_DATA[31:0]$85
-    30/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:56$37_ADDR[2:0]$84
-    31/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:53$36_EN[31:0]$83
-    32/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:53$36_DATA[31:0]$82
-    33/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:53$36_ADDR[2:0]$81
-    34/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:49$35_EN[31:0]$80
-    35/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:49$35_DATA[31:0]$79
-    36/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:49$35_ADDR[2:0]$78
-    37/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:48$34_EN[31:0]$77
-    38/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:48$34_DATA[31:0]$76
-    39/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:48$34_ADDR[2:0]$75
-    40/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:47$33_EN[31:0]$74
-    41/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:47$33_DATA[31:0]$73
-    42/42: $1$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:47$33_ADDR[2:0]$72
-Creating decoders for process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/src/mt_pc.v:27$38'.
-Creating decoders for process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.$proc$/home/bala/git_stuff/internship/src/pl_reg_fd.v:19$20'.
+    20/42: $1$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:37$32_EN[31:0]$71
+    21/42: $1$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:37$31_EN[31:0]$70
+    22/42: $1$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:37$30_EN[31:0]$69
+    23/42: $1$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:37$29_EN[31:0]$68
+    24/42: $1$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:37$28_EN[31:0]$67
+    25/42: $1$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:37$27_EN[31:0]$66
+    26/42: $1$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:37$26_EN[31:0]$65
+    27/42: $1$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:37$25_EN[31:0]$64
+    28/42: $1$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:56$37_EN[31:0]$86
+    29/42: $1$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:56$37_DATA[31:0]$85
+    30/42: $1$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:56$37_ADDR[2:0]$84
+    31/42: $1$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:53$36_EN[31:0]$83
+    32/42: $1$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:53$36_DATA[31:0]$82
+    33/42: $1$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:53$36_ADDR[2:0]$81
+    34/42: $1$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:49$35_EN[31:0]$80
+    35/42: $1$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:49$35_DATA[31:0]$79
+    36/42: $1$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:49$35_ADDR[2:0]$78
+    37/42: $1$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:48$34_EN[31:0]$77
+    38/42: $1$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:48$34_DATA[31:0]$76
+    39/42: $1$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:48$34_ADDR[2:0]$75
+    40/42: $1$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:47$33_EN[31:0]$74
+    41/42: $1$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:47$33_DATA[31:0]$73
+    42/42: $1$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:47$33_ADDR[2:0]$72
+Creating decoders for process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:27$38'.
+Creating decoders for process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_fd.v:19$20'.
      1/4: $0\tid_d[1:0]
      2/4: $0\instr_d[31:0]
      3/4: $0\pc_plus4_d[31:0]
      4/4: $0\pc_d[31:0]
-Creating decoders for process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/src/pl_reg_de.v:37$18'.
+Creating decoders for process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_de.v:37$18'.
      1/16: $0\pc_plus4_e[31:0]
      2/16: $0\imm_val_e[31:0]
      3/16: $0\rd_e[4:0]
@@ -946,7 +946,7 @@ Creating decoders for process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98
     14/16: $0\res_src_e[1:0]
     15/16: $0\reg_write_e[0:0]
     16/16: $0\tid_e[1:0]
-Creating decoders for process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/internship/src/pl_reg_em.v:32$12'.
+Creating decoders for process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_em.v:32$12'.
      1/9: $0\tid_m[1:0]
      2/9: $0\pc_plus4_m[31:0]
      3/9: $0\rd_m[4:0]
@@ -956,7 +956,7 @@ Creating decoders for process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98
      7/9: $0\result_src_m[1:0]
      8/9: $0\mem_write_m[0:0]
      9/9: $0\reg_write_m[0:0]
-Creating decoders for process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.$proc$/home/bala/git_stuff/internship/src/pl_reg_mw.v:28$10'.
+Creating decoders for process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_mw.v:28$10'.
      1/7: $0\pc_plus4_w[31:0]
      2/7: $0\read_data_w[31:0]
      3/7: $0\alu_result_w[31:0]
@@ -964,372 +964,372 @@ Creating decoders for process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98
      5/7: $0\tid_w[1:0]
      6/7: $0\rd_w[4:0]
      7/7: $0\reg_write_w[0:0]
-Creating decoders for process `$paramod\tgrp_switcher\NUM_THREADS=s32'00000000000000000000000000000100.$proc$/home/bala/git_stuff/internship/src/tgrp_switcher.v:13$8'.
+Creating decoders for process `$paramod\tgrp_switcher\NUM_THREADS=s32'00000000000000000000000000000100.$proc$/home/bala/git_stuff/summer_internship/src/tgrp_switcher.v:13$8'.
      1/1: $0\tgrp_reg[0:0]
-Creating decoders for process `$paramod\mux3\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/internship/src/mux3.v:9$460'.
+Creating decoders for process `$paramod\mux3\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/summer_internship/src/mux3.v:9$460'.
      1/1: $1\out[31:0]
-Creating decoders for process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-Creating decoders for process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:69$243'.
-     1/64: $3$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:84$234_EN[31:0]$327
-     2/64: $3$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:84$234_DATA[31:0]$326
-     3/64: $3$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:84$234_ADDR[31:0]$325
-     4/64: $3$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:85$235_EN[31:0]$330
-     5/64: $3$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:85$235_DATA[31:0]$329
-     6/64: $3$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:85$235_ADDR[31:0]$328
-     7/64: $3$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:75$230_EN[31:0]$315
-     8/64: $3$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:75$230_DATA[31:0]$314
-     9/64: $3$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:75$230_ADDR[31:0]$313
-    10/64: $3$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:78$233_EN[31:0]$324
-    11/64: $3$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:78$233_DATA[31:0]$323
-    12/64: $3$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:78$233_ADDR[31:0]$322
-    13/64: $3$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:77$232_EN[31:0]$321
-    14/64: $3$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:77$232_DATA[31:0]$320
-    15/64: $3$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:77$232_ADDR[31:0]$319
-    16/64: $3$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:76$231_EN[31:0]$318
-    17/64: $3$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:76$231_DATA[31:0]$317
-    18/64: $3$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:76$231_ADDR[31:0]$316
-    19/64: $2$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:78$233_EN[31:0]$301
-    20/64: $2$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:78$233_DATA[31:0]$300
-    21/64: $2$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:78$233_ADDR[31:0]$299
-    22/64: $2$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:77$232_EN[31:0]$298
-    23/64: $2$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:77$232_DATA[31:0]$297
-    24/64: $2$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:77$232_ADDR[31:0]$296
-    25/64: $2$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:76$231_EN[31:0]$295
-    26/64: $2$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:76$231_DATA[31:0]$294
-    27/64: $2$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:76$231_ADDR[31:0]$293
-    28/64: $2$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:75$230_EN[31:0]$292
-    29/64: $2$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:75$230_DATA[31:0]$291
-    30/64: $2$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:75$230_ADDR[31:0]$290
-    31/64: $2$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:93$237_EN[31:0]$312
-    32/64: $2$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:93$237_ADDR[31:0]$311
-    33/64: $2$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:89$236_EN[31:0]$310
-    34/64: $2$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:89$236_DATA[31:0]$309
-    35/64: $2$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:89$236_ADDR[31:0]$308
-    36/64: $2$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:85$235_EN[31:0]$307
-    37/64: $2$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:85$235_DATA[31:0]$306
-    38/64: $2$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:85$235_ADDR[31:0]$305
-    39/64: $2$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:84$234_EN[31:0]$304
-    40/64: $2$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:84$234_DATA[31:0]$303
-    41/64: $2$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:84$234_ADDR[31:0]$302
-    42/64: $1$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:93$237_EN[31:0]$289
-    43/64: $1$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:93$237_ADDR[31:0]$288
-    44/64: $1$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:89$236_EN[31:0]$287
-    45/64: $1$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:89$236_DATA[31:0]$286
-    46/64: $1$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:89$236_ADDR[31:0]$285
-    47/64: $1$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:85$235_EN[31:0]$284
-    48/64: $1$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:85$235_DATA[31:0]$283
-    49/64: $1$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:85$235_ADDR[31:0]$282
-    50/64: $1$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:84$234_EN[31:0]$281
-    51/64: $1$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:84$234_DATA[31:0]$280
-    52/64: $1$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:84$234_ADDR[31:0]$279
-    53/64: $1$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:78$233_EN[31:0]$278
-    54/64: $1$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:78$233_DATA[31:0]$277
-    55/64: $1$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:78$233_ADDR[31:0]$276
-    56/64: $1$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:77$232_EN[31:0]$275
-    57/64: $1$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:77$232_DATA[31:0]$274
-    58/64: $1$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:77$232_ADDR[31:0]$273
-    59/64: $1$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:76$231_EN[31:0]$272
-    60/64: $1$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:76$231_DATA[31:0]$271
-    61/64: $1$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:76$231_ADDR[31:0]$270
-    62/64: $1$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:75$230_EN[31:0]$269
-    63/64: $1$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:75$230_DATA[31:0]$268
-    64/64: $1$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:75$230_ADDR[31:0]$267
-Creating decoders for process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:30$240'.
+Creating decoders for process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+Creating decoders for process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:69$243'.
+     1/64: $3$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:84$234_EN[31:0]$327
+     2/64: $3$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:84$234_DATA[31:0]$326
+     3/64: $3$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:84$234_ADDR[31:0]$325
+     4/64: $3$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:85$235_EN[31:0]$330
+     5/64: $3$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:85$235_DATA[31:0]$329
+     6/64: $3$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:85$235_ADDR[31:0]$328
+     7/64: $3$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:75$230_EN[31:0]$315
+     8/64: $3$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:75$230_DATA[31:0]$314
+     9/64: $3$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:75$230_ADDR[31:0]$313
+    10/64: $3$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:78$233_EN[31:0]$324
+    11/64: $3$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:78$233_DATA[31:0]$323
+    12/64: $3$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:78$233_ADDR[31:0]$322
+    13/64: $3$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:77$232_EN[31:0]$321
+    14/64: $3$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:77$232_DATA[31:0]$320
+    15/64: $3$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:77$232_ADDR[31:0]$319
+    16/64: $3$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:76$231_EN[31:0]$318
+    17/64: $3$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:76$231_DATA[31:0]$317
+    18/64: $3$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:76$231_ADDR[31:0]$316
+    19/64: $2$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:78$233_EN[31:0]$301
+    20/64: $2$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:78$233_DATA[31:0]$300
+    21/64: $2$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:78$233_ADDR[31:0]$299
+    22/64: $2$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:77$232_EN[31:0]$298
+    23/64: $2$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:77$232_DATA[31:0]$297
+    24/64: $2$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:77$232_ADDR[31:0]$296
+    25/64: $2$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:76$231_EN[31:0]$295
+    26/64: $2$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:76$231_DATA[31:0]$294
+    27/64: $2$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:76$231_ADDR[31:0]$293
+    28/64: $2$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:75$230_EN[31:0]$292
+    29/64: $2$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:75$230_DATA[31:0]$291
+    30/64: $2$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:75$230_ADDR[31:0]$290
+    31/64: $2$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:93$237_EN[31:0]$312
+    32/64: $2$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:93$237_ADDR[31:0]$311
+    33/64: $2$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:89$236_EN[31:0]$310
+    34/64: $2$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:89$236_DATA[31:0]$309
+    35/64: $2$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:89$236_ADDR[31:0]$308
+    36/64: $2$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:85$235_EN[31:0]$307
+    37/64: $2$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:85$235_DATA[31:0]$306
+    38/64: $2$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:85$235_ADDR[31:0]$305
+    39/64: $2$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:84$234_EN[31:0]$304
+    40/64: $2$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:84$234_DATA[31:0]$303
+    41/64: $2$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:84$234_ADDR[31:0]$302
+    42/64: $1$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:93$237_EN[31:0]$289
+    43/64: $1$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:93$237_ADDR[31:0]$288
+    44/64: $1$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:89$236_EN[31:0]$287
+    45/64: $1$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:89$236_DATA[31:0]$286
+    46/64: $1$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:89$236_ADDR[31:0]$285
+    47/64: $1$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:85$235_EN[31:0]$284
+    48/64: $1$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:85$235_DATA[31:0]$283
+    49/64: $1$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:85$235_ADDR[31:0]$282
+    50/64: $1$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:84$234_EN[31:0]$281
+    51/64: $1$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:84$234_DATA[31:0]$280
+    52/64: $1$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:84$234_ADDR[31:0]$279
+    53/64: $1$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:78$233_EN[31:0]$278
+    54/64: $1$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:78$233_DATA[31:0]$277
+    55/64: $1$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:78$233_ADDR[31:0]$276
+    56/64: $1$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:77$232_EN[31:0]$275
+    57/64: $1$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:77$232_DATA[31:0]$274
+    58/64: $1$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:77$232_ADDR[31:0]$273
+    59/64: $1$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:76$231_EN[31:0]$272
+    60/64: $1$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:76$231_DATA[31:0]$271
+    61/64: $1$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:76$231_ADDR[31:0]$270
+    62/64: $1$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:75$230_EN[31:0]$269
+    63/64: $1$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:75$230_DATA[31:0]$268
+    64/64: $1$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:75$230_ADDR[31:0]$267
+Creating decoders for process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:30$240'.
      1/3: $3\read_data_m[31:0]
      2/3: $2\read_data_m[31:0]
      3/3: $1\read_data_m[31:0]
-Creating decoders for process `$paramod\alu\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/internship/src/alu.v:9$153'.
+Creating decoders for process `$paramod\alu\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/summer_internship/src/alu.v:9$153'.
      1/1: $1\res[31:0]
-Creating decoders for process `$paramod\branch_unit\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/internship/src/branch_unit.v:9$146'.
+Creating decoders for process `$paramod\branch_unit\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/summer_internship/src/branch_unit.v:9$146'.
      1/1: $1\branch_result[0:0]
-Creating decoders for process `\control_unit.$proc$/home/bala/git_stuff/internship/src/control_unit.v:49$142'.
+Creating decoders for process `\control_unit.$proc$/home/bala/git_stuff/summer_internship/src/control_unit.v:49$142'.
      1/2: $2\alu_controls[3:0]
      2/2: $1\alu_controls[3:0]
-Creating decoders for process `\control_unit.$proc$/home/bala/git_stuff/internship/src/control_unit.v:23$141'.
+Creating decoders for process `\control_unit.$proc$/home/bala/git_stuff/summer_internship/src/control_unit.v:23$141'.
      1/1: $1\controls[10:0]
 
 31.8. Executing PROC_DLATCH pass (convert process syncs to latches).
-No latch inferred for signal `\imm_ext.\imm_val' from process `\imm_ext.$proc$/home/bala/git_stuff/internship/src/imm_ext.v:29$118'.
-No latch inferred for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.\pc' from process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/src/mt_pc.v:27$38'.
-No latch inferred for signal `$paramod\mux3\DATA_WIDTH=s32'00000000000000000000000000100000.\out' from process `$paramod\mux3\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/internship/src/mux3.v:9$460'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.\i' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$166_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$167_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$168_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$169_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$170_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$171_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$172_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$173_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$174_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$175_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$176_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$177_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$178_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$179_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$180_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$181_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$182_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$183_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$184_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$185_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$186_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$187_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$188_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$189_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$190_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$191_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$192_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$193_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$194_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$195_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$196_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$197_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$198_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$199_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$200_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$201_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$202_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$203_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$204_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$205_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$206_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$207_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$208_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$209_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$210_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$211_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$212_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$213_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$214_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$215_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$216_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$217_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$218_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$219_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$220_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$221_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$222_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$223_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$224_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$225_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$226_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$227_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$228_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:25$229_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.\read_data_m' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:30$240'.
-No latch inferred for signal `$paramod\alu\DATA_WIDTH=s32'00000000000000000000000000100000.\res' from process `$paramod\alu\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/internship/src/alu.v:9$153'.
-No latch inferred for signal `$paramod\branch_unit\DATA_WIDTH=s32'00000000000000000000000000100000.\branch_result' from process `$paramod\branch_unit\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/internship/src/branch_unit.v:9$146'.
-No latch inferred for signal `\control_unit.\alu_controls' from process `\control_unit.$proc$/home/bala/git_stuff/internship/src/control_unit.v:49$142'.
-No latch inferred for signal `\control_unit.\controls' from process `\control_unit.$proc$/home/bala/git_stuff/internship/src/control_unit.v:23$141'.
+No latch inferred for signal `\imm_ext.\imm_val' from process `\imm_ext.$proc$/home/bala/git_stuff/summer_internship/src/imm_ext.v:29$118'.
+No latch inferred for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.\pc' from process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:27$38'.
+No latch inferred for signal `$paramod\mux3\DATA_WIDTH=s32'00000000000000000000000000100000.\out' from process `$paramod\mux3\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/summer_internship/src/mux3.v:9$460'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.\i' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$166_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$167_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$168_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$169_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$170_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$171_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$172_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$173_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$174_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$175_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$176_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$177_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$178_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$179_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$180_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$181_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$182_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$183_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$184_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$185_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$186_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$187_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$188_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$189_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$190_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$191_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$192_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$193_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$194_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$195_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$196_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$197_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$198_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$199_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$200_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$201_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$202_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$203_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$204_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$205_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$206_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$207_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$208_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$209_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$210_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$211_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$212_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$213_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$214_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$215_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$216_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$217_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$218_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$219_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$220_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$221_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$222_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$223_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$224_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$225_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$226_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$227_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$228_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:25$229_EN' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+No latch inferred for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.\read_data_m' from process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:30$240'.
+No latch inferred for signal `$paramod\alu\DATA_WIDTH=s32'00000000000000000000000000100000.\res' from process `$paramod\alu\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/summer_internship/src/alu.v:9$153'.
+No latch inferred for signal `$paramod\branch_unit\DATA_WIDTH=s32'00000000000000000000000000100000.\branch_result' from process `$paramod\branch_unit\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/summer_internship/src/branch_unit.v:9$146'.
+No latch inferred for signal `\control_unit.\alu_controls' from process `\control_unit.$proc$/home/bala/git_stuff/summer_internship/src/control_unit.v:49$142'.
+No latch inferred for signal `\control_unit.\controls' from process `\control_unit.$proc$/home/bala/git_stuff/summer_internship/src/control_unit.v:23$141'.
 
 31.9. Executing PROC_DFF pass (convert process syncs to FFs).
-Creating register for signal `$paramod\thread_sel\NUM_THREADS=s32'00000000000000000000000000000100.\tid' using process `$paramod\thread_sel\NUM_THREADS=s32'00000000000000000000000000000100.$proc$/home/bala/git_stuff/internship/src/thread_sel.v:9$116'.
+Creating register for signal `$paramod\thread_sel\NUM_THREADS=s32'00000000000000000000000000000100.\tid' using process `$paramod\thread_sel\NUM_THREADS=s32'00000000000000000000000000000100.$proc$/home/bala/git_stuff/summer_internship/src/thread_sel.v:9$116'.
   created $dff cell `$procdff$1380' with positive edge clock.
-Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.\i' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/src/mt_pc.v:32$40'.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.\i' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:32$40'.
   created $dff cell `$procdff$1381' with positive edge clock.
-Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:37$25_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/src/mt_pc.v:32$40'.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:37$25_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:32$40'.
   created $dff cell `$procdff$1382' with positive edge clock.
-Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:37$26_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/src/mt_pc.v:32$40'.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:37$26_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:32$40'.
   created $dff cell `$procdff$1383' with positive edge clock.
-Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:37$27_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/src/mt_pc.v:32$40'.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:37$27_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:32$40'.
   created $dff cell `$procdff$1384' with positive edge clock.
-Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:37$28_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/src/mt_pc.v:32$40'.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:37$28_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:32$40'.
   created $dff cell `$procdff$1385' with positive edge clock.
-Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:37$29_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/src/mt_pc.v:32$40'.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:37$29_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:32$40'.
   created $dff cell `$procdff$1386' with positive edge clock.
-Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:37$30_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/src/mt_pc.v:32$40'.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:37$30_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:32$40'.
   created $dff cell `$procdff$1387' with positive edge clock.
-Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:37$31_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/src/mt_pc.v:32$40'.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:37$31_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:32$40'.
   created $dff cell `$procdff$1388' with positive edge clock.
-Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:37$32_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/src/mt_pc.v:32$40'.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:37$32_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:32$40'.
   created $dff cell `$procdff$1389' with positive edge clock.
-Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:47$33_ADDR' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/src/mt_pc.v:32$40'.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:47$33_ADDR' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:32$40'.
   created $dff cell `$procdff$1390' with positive edge clock.
-Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:47$33_DATA' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/src/mt_pc.v:32$40'.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:47$33_DATA' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:32$40'.
   created $dff cell `$procdff$1391' with positive edge clock.
-Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:47$33_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/src/mt_pc.v:32$40'.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:47$33_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:32$40'.
   created $dff cell `$procdff$1392' with positive edge clock.
-Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:48$34_ADDR' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/src/mt_pc.v:32$40'.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:48$34_ADDR' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:32$40'.
   created $dff cell `$procdff$1393' with positive edge clock.
-Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:48$34_DATA' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/src/mt_pc.v:32$40'.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:48$34_DATA' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:32$40'.
   created $dff cell `$procdff$1394' with positive edge clock.
-Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:48$34_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/src/mt_pc.v:32$40'.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:48$34_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:32$40'.
   created $dff cell `$procdff$1395' with positive edge clock.
-Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:49$35_ADDR' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/src/mt_pc.v:32$40'.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:49$35_ADDR' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:32$40'.
   created $dff cell `$procdff$1396' with positive edge clock.
-Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:49$35_DATA' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/src/mt_pc.v:32$40'.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:49$35_DATA' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:32$40'.
   created $dff cell `$procdff$1397' with positive edge clock.
-Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:49$35_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/src/mt_pc.v:32$40'.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:49$35_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:32$40'.
   created $dff cell `$procdff$1398' with positive edge clock.
-Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:53$36_ADDR' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/src/mt_pc.v:32$40'.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:53$36_ADDR' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:32$40'.
   created $dff cell `$procdff$1399' with positive edge clock.
-Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:53$36_DATA' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/src/mt_pc.v:32$40'.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:53$36_DATA' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:32$40'.
   created $dff cell `$procdff$1400' with positive edge clock.
-Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:53$36_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/src/mt_pc.v:32$40'.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:53$36_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:32$40'.
   created $dff cell `$procdff$1401' with positive edge clock.
-Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:56$37_ADDR' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/src/mt_pc.v:32$40'.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:56$37_ADDR' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:32$40'.
   created $dff cell `$procdff$1402' with positive edge clock.
-Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:56$37_DATA' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/src/mt_pc.v:32$40'.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:56$37_DATA' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:32$40'.
   created $dff cell `$procdff$1403' with positive edge clock.
-Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/internship/src/mt_pc.v:56$37_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/src/mt_pc.v:32$40'.
+Creating register for signal `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$memwr$\t_pc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:56$37_EN' using process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:32$40'.
   created $dff cell `$procdff$1404' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.\pc_d' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.$proc$/home/bala/git_stuff/internship/src/pl_reg_fd.v:19$20'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.\pc_d' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_fd.v:19$20'.
   created $dff cell `$procdff$1405' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.\pc_plus4_d' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.$proc$/home/bala/git_stuff/internship/src/pl_reg_fd.v:19$20'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.\pc_plus4_d' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_fd.v:19$20'.
   created $dff cell `$procdff$1406' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.\instr_d' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.$proc$/home/bala/git_stuff/internship/src/pl_reg_fd.v:19$20'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.\instr_d' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_fd.v:19$20'.
   created $dff cell `$procdff$1407' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.\tid_d' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.$proc$/home/bala/git_stuff/internship/src/pl_reg_fd.v:19$20'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.\tid_d' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_fd.v:19$20'.
   created $dff cell `$procdff$1408' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\tid_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/src/pl_reg_de.v:37$18'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\tid_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_de.v:37$18'.
   created $dff cell `$procdff$1409' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\reg_write_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/src/pl_reg_de.v:37$18'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\reg_write_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_de.v:37$18'.
   created $dff cell `$procdff$1410' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\res_src_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/src/pl_reg_de.v:37$18'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\res_src_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_de.v:37$18'.
   created $dff cell `$procdff$1411' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\mem_write_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/src/pl_reg_de.v:37$18'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\mem_write_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_de.v:37$18'.
   created $dff cell `$procdff$1412' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\jump_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/src/pl_reg_de.v:37$18'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\jump_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_de.v:37$18'.
   created $dff cell `$procdff$1413' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\branch_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/src/pl_reg_de.v:37$18'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\branch_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_de.v:37$18'.
   created $dff cell `$procdff$1414' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\alu_control_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/src/pl_reg_de.v:37$18'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\alu_control_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_de.v:37$18'.
   created $dff cell `$procdff$1415' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\funct3_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/src/pl_reg_de.v:37$18'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\funct3_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_de.v:37$18'.
   created $dff cell `$procdff$1416' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\alu_src_b_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/src/pl_reg_de.v:37$18'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\alu_src_b_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_de.v:37$18'.
   created $dff cell `$procdff$1417' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\alu_src_a_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/src/pl_reg_de.v:37$18'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\alu_src_a_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_de.v:37$18'.
   created $dff cell `$procdff$1418' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\rd1_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/src/pl_reg_de.v:37$18'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\rd1_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_de.v:37$18'.
   created $dff cell `$procdff$1419' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\rd2_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/src/pl_reg_de.v:37$18'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\rd2_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_de.v:37$18'.
   created $dff cell `$procdff$1420' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\pc_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/src/pl_reg_de.v:37$18'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\pc_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_de.v:37$18'.
   created $dff cell `$procdff$1421' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\rd_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/src/pl_reg_de.v:37$18'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\rd_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_de.v:37$18'.
   created $dff cell `$procdff$1422' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\imm_val_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/src/pl_reg_de.v:37$18'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\imm_val_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_de.v:37$18'.
   created $dff cell `$procdff$1423' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\pc_plus4_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/src/pl_reg_de.v:37$18'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.\pc_plus4_e' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_de.v:37$18'.
   created $dff cell `$procdff$1424' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.\reg_write_m' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/internship/src/pl_reg_em.v:32$12'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.\reg_write_m' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_em.v:32$12'.
   created $dff cell `$procdff$1425' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.\mem_write_m' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/internship/src/pl_reg_em.v:32$12'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.\mem_write_m' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_em.v:32$12'.
   created $dff cell `$procdff$1426' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.\result_src_m' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/internship/src/pl_reg_em.v:32$12'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.\result_src_m' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_em.v:32$12'.
   created $dff cell `$procdff$1427' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.\funct3_m' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/internship/src/pl_reg_em.v:32$12'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.\funct3_m' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_em.v:32$12'.
   created $dff cell `$procdff$1428' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.\alu_result_m' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/internship/src/pl_reg_em.v:32$12'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.\alu_result_m' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_em.v:32$12'.
   created $dff cell `$procdff$1429' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.\write_data_m' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/internship/src/pl_reg_em.v:32$12'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.\write_data_m' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_em.v:32$12'.
   created $dff cell `$procdff$1430' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.\rd_m' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/internship/src/pl_reg_em.v:32$12'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.\rd_m' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_em.v:32$12'.
   created $dff cell `$procdff$1431' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.\pc_plus4_m' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/internship/src/pl_reg_em.v:32$12'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.\pc_plus4_m' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_em.v:32$12'.
   created $dff cell `$procdff$1432' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.\tid_m' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/internship/src/pl_reg_em.v:32$12'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.\tid_m' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_em.v:32$12'.
   created $dff cell `$procdff$1433' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.\reg_write_w' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.$proc$/home/bala/git_stuff/internship/src/pl_reg_mw.v:28$10'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.\reg_write_w' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_mw.v:28$10'.
   created $dff cell `$procdff$1434' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.\rd_w' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.$proc$/home/bala/git_stuff/internship/src/pl_reg_mw.v:28$10'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.\rd_w' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_mw.v:28$10'.
   created $dff cell `$procdff$1435' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.\tid_w' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.$proc$/home/bala/git_stuff/internship/src/pl_reg_mw.v:28$10'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.\tid_w' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_mw.v:28$10'.
   created $dff cell `$procdff$1436' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.\result_src_w' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.$proc$/home/bala/git_stuff/internship/src/pl_reg_mw.v:28$10'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.\result_src_w' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_mw.v:28$10'.
   created $dff cell `$procdff$1437' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.\alu_result_w' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.$proc$/home/bala/git_stuff/internship/src/pl_reg_mw.v:28$10'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.\alu_result_w' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_mw.v:28$10'.
   created $dff cell `$procdff$1438' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.\read_data_w' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.$proc$/home/bala/git_stuff/internship/src/pl_reg_mw.v:28$10'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.\read_data_w' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_mw.v:28$10'.
   created $dff cell `$procdff$1439' with positive edge clock.
-Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.\pc_plus4_w' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.$proc$/home/bala/git_stuff/internship/src/pl_reg_mw.v:28$10'.
+Creating register for signal `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.\pc_plus4_w' using process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_mw.v:28$10'.
   created $dff cell `$procdff$1440' with positive edge clock.
-Creating register for signal `$paramod\tgrp_switcher\NUM_THREADS=s32'00000000000000000000000000000100.\tgrp_reg' using process `$paramod\tgrp_switcher\NUM_THREADS=s32'00000000000000000000000000000100.$proc$/home/bala/git_stuff/internship/src/tgrp_switcher.v:13$8'.
+Creating register for signal `$paramod\tgrp_switcher\NUM_THREADS=s32'00000000000000000000000000000100.\tgrp_reg' using process `$paramod\tgrp_switcher\NUM_THREADS=s32'00000000000000000000000000000100.$proc$/home/bala/git_stuff/summer_internship/src/tgrp_switcher.v:13$8'.
   created $dff cell `$procdff$1441' with positive edge clock.
-Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:75$230_ADDR' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:69$243'.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:75$230_ADDR' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:69$243'.
   created $dff cell `$procdff$1442' with positive edge clock.
-Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:75$230_DATA' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:69$243'.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:75$230_DATA' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:69$243'.
   created $dff cell `$procdff$1443' with positive edge clock.
-Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:75$230_EN' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:69$243'.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:75$230_EN' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:69$243'.
   created $dff cell `$procdff$1444' with positive edge clock.
-Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:76$231_ADDR' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:69$243'.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:76$231_ADDR' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:69$243'.
   created $dff cell `$procdff$1445' with positive edge clock.
-Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:76$231_DATA' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:69$243'.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:76$231_DATA' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:69$243'.
   created $dff cell `$procdff$1446' with positive edge clock.
-Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:76$231_EN' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:69$243'.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:76$231_EN' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:69$243'.
   created $dff cell `$procdff$1447' with positive edge clock.
-Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:77$232_ADDR' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:69$243'.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:77$232_ADDR' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:69$243'.
   created $dff cell `$procdff$1448' with positive edge clock.
-Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:77$232_DATA' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:69$243'.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:77$232_DATA' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:69$243'.
   created $dff cell `$procdff$1449' with positive edge clock.
-Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:77$232_EN' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:69$243'.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:77$232_EN' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:69$243'.
   created $dff cell `$procdff$1450' with positive edge clock.
-Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:78$233_ADDR' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:69$243'.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:78$233_ADDR' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:69$243'.
   created $dff cell `$procdff$1451' with positive edge clock.
-Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:78$233_DATA' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:69$243'.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:78$233_DATA' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:69$243'.
   created $dff cell `$procdff$1452' with positive edge clock.
-Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:78$233_EN' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:69$243'.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:78$233_EN' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:69$243'.
   created $dff cell `$procdff$1453' with positive edge clock.
-Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:84$234_ADDR' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:69$243'.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:84$234_ADDR' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:69$243'.
   created $dff cell `$procdff$1454' with positive edge clock.
-Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:84$234_DATA' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:69$243'.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:84$234_DATA' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:69$243'.
   created $dff cell `$procdff$1455' with positive edge clock.
-Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:84$234_EN' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:69$243'.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:84$234_EN' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:69$243'.
   created $dff cell `$procdff$1456' with positive edge clock.
-Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:85$235_ADDR' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:69$243'.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:85$235_ADDR' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:69$243'.
   created $dff cell `$procdff$1457' with positive edge clock.
-Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:85$235_DATA' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:69$243'.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:85$235_DATA' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:69$243'.
   created $dff cell `$procdff$1458' with positive edge clock.
-Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:85$235_EN' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:69$243'.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:85$235_EN' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:69$243'.
   created $dff cell `$procdff$1459' with positive edge clock.
-Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:89$236_ADDR' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:69$243'.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:89$236_ADDR' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:69$243'.
   created $dff cell `$procdff$1460' with positive edge clock.
-Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:89$236_DATA' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:69$243'.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:89$236_DATA' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:69$243'.
   created $dff cell `$procdff$1461' with positive edge clock.
-Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:89$236_EN' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:69$243'.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:89$236_EN' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:69$243'.
   created $dff cell `$procdff$1462' with positive edge clock.
-Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:93$237_ADDR' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:69$243'.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:93$237_ADDR' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:69$243'.
   created $dff cell `$procdff$1463' with positive edge clock.
-Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/internship/src/data_memory.v:93$237_EN' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:69$243'.
+Creating register for signal `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$memwr$\ram$/home/bala/git_stuff/summer_internship/src/data_memory.v:93$237_EN' using process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:69$243'.
   created $dff cell `$procdff$1464' with positive edge clock.
 
 31.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
 
 31.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
-Found and cleaned up 1 empty switch in `\imm_ext.$proc$/home/bala/git_stuff/internship/src/imm_ext.v:29$118'.
-Removing empty process `imm_ext.$proc$/home/bala/git_stuff/internship/src/imm_ext.v:29$118'.
-Found and cleaned up 1 empty switch in `$paramod\thread_sel\NUM_THREADS=s32'00000000000000000000000000000100.$proc$/home/bala/git_stuff/internship/src/thread_sel.v:9$116'.
-Removing empty process `$paramod\thread_sel\NUM_THREADS=s32'00000000000000000000000000000100.$proc$/home/bala/git_stuff/internship/src/thread_sel.v:9$116'.
-Found and cleaned up 3 empty switches in `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/src/mt_pc.v:32$40'.
-Removing empty process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/src/mt_pc.v:32$40'.
-Removing empty process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/internship/src/mt_pc.v:27$38'.
-Found and cleaned up 2 empty switches in `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.$proc$/home/bala/git_stuff/internship/src/pl_reg_fd.v:19$20'.
-Removing empty process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.$proc$/home/bala/git_stuff/internship/src/pl_reg_fd.v:19$20'.
-Found and cleaned up 2 empty switches in `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/src/pl_reg_de.v:37$18'.
-Removing empty process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/internship/src/pl_reg_de.v:37$18'.
-Found and cleaned up 2 empty switches in `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/internship/src/pl_reg_em.v:32$12'.
-Removing empty process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/internship/src/pl_reg_em.v:32$12'.
-Found and cleaned up 2 empty switches in `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.$proc$/home/bala/git_stuff/internship/src/pl_reg_mw.v:28$10'.
-Removing empty process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.$proc$/home/bala/git_stuff/internship/src/pl_reg_mw.v:28$10'.
-Found and cleaned up 2 empty switches in `$paramod\tgrp_switcher\NUM_THREADS=s32'00000000000000000000000000000100.$proc$/home/bala/git_stuff/internship/src/tgrp_switcher.v:13$8'.
-Removing empty process `$paramod\tgrp_switcher\NUM_THREADS=s32'00000000000000000000000000000100.$proc$/home/bala/git_stuff/internship/src/tgrp_switcher.v:13$8'.
-Found and cleaned up 1 empty switch in `$paramod\mux3\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/internship/src/mux3.v:9$460'.
-Removing empty process `$paramod\mux3\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/internship/src/mux3.v:9$460'.
-Removing empty process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:0$395'.
-Found and cleaned up 4 empty switches in `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:69$243'.
-Removing empty process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:69$243'.
-Found and cleaned up 3 empty switches in `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:30$240'.
-Removing empty process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/internship/src/data_memory.v:30$240'.
-Found and cleaned up 1 empty switch in `$paramod\alu\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/internship/src/alu.v:9$153'.
-Removing empty process `$paramod\alu\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/internship/src/alu.v:9$153'.
-Found and cleaned up 1 empty switch in `$paramod\branch_unit\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/internship/src/branch_unit.v:9$146'.
-Removing empty process `$paramod\branch_unit\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/internship/src/branch_unit.v:9$146'.
-Found and cleaned up 2 empty switches in `\control_unit.$proc$/home/bala/git_stuff/internship/src/control_unit.v:49$142'.
-Removing empty process `control_unit.$proc$/home/bala/git_stuff/internship/src/control_unit.v:49$142'.
-Found and cleaned up 1 empty switch in `\control_unit.$proc$/home/bala/git_stuff/internship/src/control_unit.v:23$141'.
-Removing empty process `control_unit.$proc$/home/bala/git_stuff/internship/src/control_unit.v:23$141'.
+Found and cleaned up 1 empty switch in `\imm_ext.$proc$/home/bala/git_stuff/summer_internship/src/imm_ext.v:29$118'.
+Removing empty process `imm_ext.$proc$/home/bala/git_stuff/summer_internship/src/imm_ext.v:29$118'.
+Found and cleaned up 1 empty switch in `$paramod\thread_sel\NUM_THREADS=s32'00000000000000000000000000000100.$proc$/home/bala/git_stuff/summer_internship/src/thread_sel.v:9$116'.
+Removing empty process `$paramod\thread_sel\NUM_THREADS=s32'00000000000000000000000000000100.$proc$/home/bala/git_stuff/summer_internship/src/thread_sel.v:9$116'.
+Found and cleaned up 3 empty switches in `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:32$40'.
+Removing empty process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:32$40'.
+Removing empty process `$paramod$044900e1b4fa5b9559e7811e39900d4884c9d23c\mt_pc.$proc$/home/bala/git_stuff/summer_internship/src/mt_pc.v:27$38'.
+Found and cleaned up 2 empty switches in `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_fd.v:19$20'.
+Removing empty process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_fd.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_fd.v:19$20'.
+Found and cleaned up 2 empty switches in `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_de.v:37$18'.
+Removing empty process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_de.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_de.v:37$18'.
+Found and cleaned up 2 empty switches in `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_em.v:32$12'.
+Removing empty process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_em.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_em.v:32$12'.
+Found and cleaned up 2 empty switches in `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_mw.v:28$10'.
+Removing empty process `$paramod$cced891c4e5a23031637ced90bfcadfa97fb8a98\pl_reg_mw.$proc$/home/bala/git_stuff/summer_internship/src/pl_reg_mw.v:28$10'.
+Found and cleaned up 2 empty switches in `$paramod\tgrp_switcher\NUM_THREADS=s32'00000000000000000000000000000100.$proc$/home/bala/git_stuff/summer_internship/src/tgrp_switcher.v:13$8'.
+Removing empty process `$paramod\tgrp_switcher\NUM_THREADS=s32'00000000000000000000000000000100.$proc$/home/bala/git_stuff/summer_internship/src/tgrp_switcher.v:13$8'.
+Found and cleaned up 1 empty switch in `$paramod\mux3\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/summer_internship/src/mux3.v:9$460'.
+Removing empty process `$paramod\mux3\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/summer_internship/src/mux3.v:9$460'.
+Removing empty process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:0$395'.
+Found and cleaned up 4 empty switches in `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:69$243'.
+Removing empty process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:69$243'.
+Found and cleaned up 3 empty switches in `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:30$240'.
+Removing empty process `$paramod$8f8ad6f66fc1eaece2158e220bf0932247e58fe2\data_memory.$proc$/home/bala/git_stuff/summer_internship/src/data_memory.v:30$240'.
+Found and cleaned up 1 empty switch in `$paramod\alu\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/summer_internship/src/alu.v:9$153'.
+Removing empty process `$paramod\alu\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/summer_internship/src/alu.v:9$153'.
+Found and cleaned up 1 empty switch in `$paramod\branch_unit\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/summer_internship/src/branch_unit.v:9$146'.
+Removing empty process `$paramod\branch_unit\DATA_WIDTH=s32'00000000000000000000000000100000.$proc$/home/bala/git_stuff/summer_internship/src/branch_unit.v:9$146'.
+Found and cleaned up 2 empty switches in `\control_unit.$proc$/home/bala/git_stuff/summer_internship/src/control_unit.v:49$142'.
+Removing empty process `control_unit.$proc$/home/bala/git_stuff/summer_internship/src/control_unit.v:49$142'.
+Found and cleaned up 1 empty switch in `\control_unit.$proc$/home/bala/git_stuff/summer_internship/src/control_unit.v:23$141'.
+Removing empty process `control_unit.$proc$/home/bala/git_stuff/summer_internship/src/control_unit.v:23$141'.
 Cleaned up 28 empty switches.
 
 31.12. Executing OPT_EXPR pass (perform const folding).
